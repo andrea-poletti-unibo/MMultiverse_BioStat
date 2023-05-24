@@ -1,0 +1,1738 @@
+Package	LibPath	Version	Priority	Depends	Imports	LinkingTo	Suggests	Enhances	License	License_is_FOSS	License_restricts_use	OS_type	MD5sum	NeedsCompilation	Built
+abind	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.4-5	NA	R (>= 1.5.0)	methods, utils	NA	NA	NA	LGPL (>= 2)	NA	NA	NA	NA	no	4.2.0
+ade4	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.7-19	NA	R (>= 2.10)	graphics, grDevices, methods, stats, utils, MASS, pixmap, sp	NA	ade4TkGUI, adegraphics, adephylo, ape, CircStats, deldir,
+lattice, spdep, splancs, waveslim, progress, foreach, parallel,
+doParallel, iterators	NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.1
+AER	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.2-10	NA	R (>= 3.0.0), car (>= 2.0-19), lmtest, sandwich (>= 2.4-0),
+survival (>= 2.37-5), zoo	stats, Formula (>= 0.2-0)	NA	boot, dynlm, effects, fGarch, forecast, foreign, ineq,
+KernSmooth, lattice, longmemo, MASS, mlogit, nlme, nnet, np,
+plm, pscl, quantreg, rgl, ROCR, rugarch, sampleSelection,
+scatterplot3d, strucchange, systemfit (>= 1.1-20), truncreg,
+tseries, urca, vars	NA	GPL-2 | GPL-3	NA	NA	NA	NA	no	4.2.2
+affy	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.74.0	NA	R (>= 2.8.0), BiocGenerics (>= 0.1.12), Biobase (>= 2.5.5)	affyio (>= 1.13.3), BiocManager, graphics, grDevices, methods,
+preprocessCore, stats, utils, zlibbioc	preprocessCore	tkWidgets (>= 1.19.0), affydata, widgetTools	NA	LGPL (>= 2.0)	NA	NA	NA	NA	yes	4.2.0
+affyio	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.66.0	NA	R (>= 2.6.0)	zlibbioc, methods	NA	NA	NA	LGPL (>= 2)	NA	NA	NA	NA	yes	4.2.0
+airway	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.16.0	NA	R (>= 3.5.0), SummarizedExperiment	NA	NA	knitr, GEOquery, markdown	NA	LGPL	NA	NA	NA	NA	no	4.2.0
+annotate	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.74.0	NA	R (>= 2.10), AnnotationDbi (>= 1.27.5), XML	Biobase, DBI, xtable, graphics, utils, stats, methods,
+BiocGenerics (>= 0.13.8), httr	NA	hgu95av2.db, genefilter, Biostrings (>= 2.25.10), IRanges,
+rae230a.db, rae230aprobe, tkWidgets, GO.db, org.Hs.eg.db,
+org.Mm.eg.db, humanCHRLOC, Rgraphviz, RUnit,	NA	Artistic-2.0	NA	NA	NA	NA	no	4.2.0
+AnnotationDbi	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.58.0	NA	R (>= 2.7.0), methods, utils, stats4, BiocGenerics (>=
+0.29.2), Biobase (>= 1.17.0), IRanges	DBI, RSQLite, S4Vectors (>= 0.9.25), stats, KEGGREST	NA	hgu95av2.db, GO.db, org.Sc.sgd.db, org.At.tair.db, RUnit,
+TxDb.Hsapiens.UCSC.hg19.knownGene, org.Hs.eg.db, reactome.db,
+AnnotationForge, graph, EnsDb.Hsapiens.v75, BiocStyle, knitr	NA	Artistic-2.0	NA	NA	NA	NA	no	4.2.0
+AnnotationFilter	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.20.0	NA	R (>= 3.4.0)	utils, methods, GenomicRanges, lazyeval	NA	BiocStyle, knitr, testthat, RSQLite, org.Hs.eg.db, rmarkdown	NA	Artistic-2.0	NA	NA	NA	NA	no	4.2.0
+AnnotationHub	C:/Users/ajsik/AppData/Local/R/win-library/4.2	3.4.0	NA	BiocGenerics (>= 0.15.10), BiocFileCache (>= 1.5.1)	utils, methods, grDevices, RSQLite, BiocManager, BiocVersion,
+curl, rappdirs, AnnotationDbi (>= 1.31.19), S4Vectors,
+interactiveDisplayBase, httr, yaml, dplyr	NA	IRanges, GenomicRanges, GenomeInfoDb, VariantAnnotation,
+Rsamtools, rtracklayer, BiocStyle, knitr, AnnotationForge,
+rBiopaxParser, RUnit, GenomicFeatures, MSnbase, mzR,
+Biostrings, SummarizedExperiment, ExperimentHub, gdsfmt,
+rmarkdown, HubPub	AnnotationHubData	Artistic-2.0	NA	NA	NA	NA	yes	4.2.0
+ape	C:/Users/ajsik/AppData/Local/R/win-library/4.2	5.6-2	NA	R (>= 3.2.0)	nlme, lattice, graphics, methods, stats, tools, utils,
+parallel, Rcpp (>= 0.12.0)	Rcpp	gee, expm, igraph, phangorn	NA	GPL-2 | GPL-3	NA	NA	NA	NA	yes	4.2.1
+apeglm	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.18.0	NA	NA	emdbook, SummarizedExperiment, GenomicRanges, methods, stats,
+utils, Rcpp	Rcpp, RcppEigen, RcppNumerical	DESeq2, airway, knitr, rmarkdown, testthat	NA	GPL-2	NA	NA	NA	NA	yes	4.2.0
+aplot	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.1.6	NA	NA	ggfun (>= 0.0.6), ggplot2, ggplotify, patchwork, magrittr,
+methods, utils	NA	ggtree	NA	Artistic-2.0	NA	NA	NA	NA	no	4.2.1
+askpass	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.1	NA	NA	sys (>= 2.1)	NA	testthat	NA	MIT + file LICENSE	NA	NA	NA	NA	yes	4.2.0
+assertive	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.3-6	NA	R (>= 3.0.0)	assertive.base (>= 0.0-4), assertive.properties (>= 0.0-2),
+assertive.types (>= 0.0-2), assertive.numbers,
+assertive.strings, assertive.datetimes, assertive.files,
+assertive.sets (>= 0.0-2), assertive.matrices,
+assertive.models, assertive.data, assertive.data.uk,
+assertive.data.us, assertive.reflection (>= 0.0-2),
+assertive.code, knitr	NA	testthat, markdown	NA	GPL (>= 3)	NA	NA	NA	NA	no	4.2.2
+assertive.base	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.0-9	NA	R (>= 3.5.0)	methods, utils	NA	testthat	NA	GPL (>= 3)	NA	NA	NA	NA	no	4.2.2
+assertive.code	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.0-3	NA	R (>= 3.0.0)	assertive.base (>= 0.0-2), assertive.properties,
+assertive.types, methods	NA	testthat	NA	GPL (>= 3)	NA	NA	NA	NA	no	4.2.2
+assertive.data	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.0-3	NA	R (>= 3.0.0)	assertive.base (>= 0.0-2), assertive.strings	NA	testthat	NA	GPL (>= 3)	NA	NA	NA	NA	no	4.2.2
+assertive.data.uk	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.0-2	NA	R (>= 3.0.0)	assertive.base (>= 0.0-2), assertive.strings	NA	testthat	NA	GPL (>= 3)	NA	NA	NA	NA	no	4.2.2
+assertive.data.us	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.0-2	NA	R (>= 3.0.0)	assertive.base (>= 0.0-2), assertive.strings	NA	testthat, devtools	NA	GPL (>= 3)	NA	NA	NA	NA	no	4.2.2
+assertive.datetimes	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.0-3	NA	R (>= 3.0.0)	assertive.base (>= 0.0-7), assertive.types	NA	testthat	NA	GPL (>= 3)	NA	NA	NA	NA	no	4.2.2
+assertive.files	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.0-2	NA	R (>= 3.0.0)	assertive.base (>= 0.0-2), assertive.numbers	NA	testthat	NA	GPL (>= 3)	NA	NA	NA	NA	no	4.2.2
+assertive.matrices	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.0-2	NA	R (>= 3.0.0)	assertive.base (>= 0.0-2)	NA	testthat	NA	GPL (>= 3)	NA	NA	NA	NA	no	4.2.2
+assertive.models	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.0-2	NA	R (>= 3.0.0)	assertive.base (>= 0.0-2), stats	NA	testthat	NA	GPL (>= 3)	NA	NA	NA	NA	no	4.2.2
+assertive.numbers	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.0-2	NA	R (>= 3.0.0)	assertive.base (>= 0.0-2)	NA	testthat	NA	GPL (>= 3)	NA	NA	NA	NA	no	4.2.2
+assertive.properties	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.0-5	NA	R (>= 3.0.0)	assertive.base (>= 0.0-7), methods	NA	testthat	NA	GPL (>= 3)	NA	NA	NA	NA	no	4.2.2
+assertive.reflection	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.0-5	NA	R (>= 3.0.0)	assertive.base (>= 0.0-7), utils	NA	testthat	NA	GPL (>= 3)	NA	NA	NA	NA	no	4.2.2
+assertive.sets	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.0-3	NA	R (>= 3.0.0)	assertive.base (>= 0.0-7)	NA	testthat	NA	GPL (>= 3)	NA	NA	NA	NA	no	4.2.2
+assertive.strings	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.0-3	NA	R (>= 3.0.0)	assertive.base (>= 0.0-2), assertive.types, stringi	NA	testthat	NA	GPL (>= 3)	NA	NA	NA	NA	no	4.2.2
+assertive.types	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.0-3	NA	R (>= 3.0.0)	assertive.base (>= 0.0-7), assertive.properties, codetools,
+methods, stats	NA	testthat, data.table, dplyr, xml2	NA	GPL (>= 3)	NA	NA	NA	NA	no	4.2.2
+assertthat	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.2.1	NA	NA	tools	NA	testthat, covr	NA	GPL-3	NA	NA	NA	NA	no	4.2.0
+aws.s3	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.3.21	NA	NA	utils, tools, curl, httr, xml2 (> 1.0.0), base64enc, digest,
+aws.signature (>= 0.3.7)	NA	testthat, datasets	NA	GPL (>= 2)	NA	NA	NA	NA	no	4.2.1
+aws.signature	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.6.0	NA	NA	digest, base64enc	NA	testthat (>= 2.1.0), aws.ec2metadata (>= 0.1.6)	NA	GPL (>= 2)	NA	NA	NA	NA	no	4.2.1
+backports	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.4.1	NA	R (>= 3.0.0)	NA	NA	NA	NA	GPL-2 | GPL-3	NA	NA	NA	NA	yes	4.2.0
+base64enc	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.1-3	NA	R (>= 2.9.0)	NA	NA	NA	png	GPL-2 | GPL-3	NA	NA	NA	NA	yes	4.2.0
+BayesFactor	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.9.12-4.4	NA	R (>= 3.2.0), coda, Matrix (>= 1.1-1)	pbapply, mvtnorm, stringr, utils, graphics, MatrixModels, Rcpp
+(>= 0.11.2), methods, hypergeo	Rcpp (>= 0.11.2), RcppEigen (>= 0.3.2.2.0)	doMC, foreach, testthat, knitr, markdown, arm, lme4, xtable,
+languageR	NA	GPL-2	NA	NA	NA	NA	yes	4.2.1
+bayesplot	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.10.0	NA	R (>= 3.1.0)	dplyr (>= 0.8.0), ggplot2 (>= 3.0.0), ggridges, glue,
+posterior, reshape2, rlang (>= 0.3.0), stats, tibble (>=
+2.0.0), tidyselect, utils	NA	ggfortify, gridExtra (>= 2.2.1), hexbin, knitr (>= 1.16), loo
+(>= 2.0.0), RColorBrewer, rmarkdown (>= 1.0.0), rstan (>=
+2.17.1), rstanarm (>= 2.17.4), rstantools (>= 1.5.0), scales,
+shinystan (>= 2.3.0), survival, testthat (>= 2.0.0), vdiffr (>=
+1.0.2)	NA	GPL (>= 3)	NA	NA	NA	NA	no	4.2.3
+bayestestR	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.12.1	NA	R (>= 3.4)	insight (>= 0.17.0), datawizard (>= 0.4.0), graphics, methods,
+stats, utils	NA	BayesFactor, bayesQR, blavaan, bridgesampling, brms, dplyr,
+effectsize, emmeans, gamm4, GGally, ggdist, ggplot2, ggridges,
+glmmTMB, httr, KernSmooth, knitr, lavaan, lme4, logspline,
+MASS, mclust, mediation, modelbased, parameters, patchwork,
+performance, poorman, quadprog, posterior, rmarkdown, rstan,
+rstanarm, see, spelling, stringr, testthat, tidyr, tweedie	NA	GPL-3	NA	NA	NA	NA	no	4.2.0
+bbmle	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.0.25	NA	R (>= 3.0.0), stats4	stats, numDeriv, lattice, MASS, methods, bdsmatrix, Matrix,
+mvtnorm	NA	emdbook, rms, ggplot2, RUnit, MuMIn, AICcmodavg, Hmisc,
+optimx (>= 2013.8.6), knitr, testthat	NA	GPL	NA	NA	NA	NA	no	4.2.1
+bdsmatrix	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.3-6	NA	methods, R (>= 2.0.0)	NA	NA	NA	NA	LGPL-2	NA	NA	NA	NA	yes	4.2.0
+beachmat	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.12.0	NA	NA	methods, DelayedArray (>= 0.15.14), BiocGenerics, Matrix, Rcpp	Rcpp	testthat, BiocStyle, knitr, rmarkdown, rcmdcheck,
+BiocParallel, HDF5Array	NA	GPL-3	NA	NA	NA	NA	yes	4.2.0
+beeswarm	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.4.0	NA	NA	stats, graphics, grDevices, utils	NA	NA	NA	Artistic-2.0	NA	NA	NA	NA	yes	4.2.0
+benchmarkme	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.0.8	NA	R (>= 3.5.0)	benchmarkmeData (>= 1.0.4), compiler, doParallel, dplyr,
+foreach, graphics, httr, Matrix, methods, parallel, stringr,
+tibble, utils	NA	covr, DT, ggplot2, knitr, RcppZiggurat, rmarkdown, testthat	NA	GPL-2 | GPL-3	NA	NA	NA	NA	no	4.2.1
+benchmarkmeData	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.0.4	NA	R (>= 3.5.0)	dplyr, graphics, tibble, utils	NA	benchmarkme, covr, DT, testthat	NA	GPL-2 | GPL-3	NA	NA	NA	NA	no	4.2.1
+berryFunctions	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.21.14	NA	NA	grDevices, graphics, stats, utils, abind	NA	RColorBrewer, pbapply, knitr, rmarkdown, gstat, RCurl,
+colorspace, vioplot, spatstat.geom, TeachingDemos, ade4,
+nortest, rstudioapi	NA	GPL (>= 2)	NA	NA	NA	NA	no	4.2.2
+BH	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.78.0-0	NA	NA	NA	NA	NA	NA	BSL-1.0	NA	NA	NA	NA	no	4.2.0
+Biobase	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.56.0	NA	R (>= 2.10), BiocGenerics (>= 0.27.1), utils	methods	NA	tools, tkWidgets, ALL, RUnit, golubEsets	NA	Artistic-2.0	NA	NA	NA	NA	yes	4.2.0
+BiocFileCache	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.4.0	NA	R (>= 3.4.0), dbplyr (>= 1.0.0)	methods, stats, utils, dplyr, RSQLite, DBI, rappdirs,
+filelock, curl, httr	NA	testthat, knitr, BiocStyle, rmarkdown, rtracklayer	NA	Artistic-2.0	NA	NA	NA	NA	no	4.2.0
+BiocGenerics	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.42.0	NA	R (>= 4.0.0), methods, utils, graphics, stats	methods, utils, graphics, stats	NA	Biobase, S4Vectors, IRanges, GenomicRanges, DelayedArray,
+Biostrings, Rsamtools, AnnotationDbi, affy, affyPLM, DESeq2,
+flowClust, MSnbase, annotate, RUnit	NA	Artistic-2.0	NA	NA	NA	NA	no	4.2.0
+BiocIO	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.6.0	NA	R (>= 4.0)	BiocGenerics, S4Vectors, methods, tools	NA	testthat, knitr, rmarkdown, BiocStyle	NA	Artistic-2.0	NA	NA	NA	NA	no	4.2.0
+BiocManager	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.30.18	NA	NA	utils	NA	BiocVersion, remotes, rmarkdown, testthat, withr, curl, knitr	NA	Artistic-2.0	NA	NA	NA	NA	no	4.2.1
+BiocParallel	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.30.3	NA	methods, R (>= 3.5.0)	stats, utils, futile.logger, parallel, snow, codetools	BH	BiocGenerics, tools, foreach, BatchJobs, BBmisc, doParallel,
+Rmpi, GenomicRanges, RNAseqData.HNRNPC.bam.chr14,
+TxDb.Hsapiens.UCSC.hg19.knownGene, VariantAnnotation,
+Rsamtools, GenomicAlignments, ShortRead, RUnit, BiocStyle,
+knitr, batchtools, data.table	NA	GPL-2 | GPL-3	NA	NA	NA	NA	yes	4.2.0
+BiocSingular	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.12.0	NA	NA	BiocGenerics, S4Vectors, Matrix, methods, utils, DelayedArray,
+BiocParallel, ScaledMatrix, irlba, rsvd, Rcpp, beachmat	Rcpp, beachmat	testthat, BiocStyle, knitr, rmarkdown, ResidualMatrix	NA	GPL-3	NA	NA	NA	NA	yes	4.2.0
+BiocVersion	C:/Users/ajsik/AppData/Local/R/win-library/4.2	3.15.2	NA	R (>= 4.2.0)	NA	NA	NA	NA	Artistic-2.0	NA	NA	NA	NA	no	4.2.0
+biocViews	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.64.0	NA	R (>= 3.6.0)	Biobase, graph (>= 1.9.26), methods, RBGL (>= 1.13.5), tools,
+utils, XML, RCurl, RUnit, BiocManager	NA	BiocGenerics, knitr, commonmark	NA	Artistic-2.0	NA	NA	NA	NA	no	4.2.0
+biomaRt	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.52.0	NA	methods	utils, XML (>= 3.99-0.7), AnnotationDbi, progress, stringr,
+httr, digest, BiocFileCache, rappdirs, xml2	NA	BiocStyle, knitr, rmarkdown, testthat, mockery	NA	Artistic-2.0	NA	NA	NA	NA	no	4.2.0
+biomformat	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.24.0	NA	R (>= 3.2), methods	plyr (>= 1.8), jsonlite (>= 0.9.16), Matrix (>= 1.2), rhdf5	NA	testthat (>= 0.10), knitr (>= 1.10), BiocStyle (>= 1.6),
+rmarkdown (>= 0.7)	NA	GPL-2	NA	NA	NA	NA	no	4.2.0
+BioNet	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.56.0	NA	R (>= 2.10.0), graph, RBGL	igraph (>= 1.0.1), AnnotationDbi, Biobase	NA	rgl, impute, DLBCL, genefilter, xtable, ALL, limma,
+hgu95av2.db, XML	NA	GPL (>= 2)	NA	NA	NA	NA	no	4.2.0
+biostat3	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.1.8	NA	survival, R (>= 3.5), MASS, methods	muhaz, graphics, stats	NA	car, bshazard, rstpm2, Epi, dplyr	NA	GPL (>= 2)	NA	NA	NA	NA	no	4.2.3
+Biostrings	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.64.0	NA	R (>= 4.0.0), methods, BiocGenerics (>= 0.37.0), S4Vectors (>=
+0.27.12), IRanges (>= 2.23.9), XVector (>= 0.29.2),
+GenomeInfoDb	methods, utils, grDevices, graphics, stats, crayon	S4Vectors, IRanges, XVector	BSgenome (>= 1.13.14), BSgenome.Celegans.UCSC.ce2 (>=
+1.3.11), BSgenome.Dmelanogaster.UCSC.dm3 (>= 1.3.11),
+BSgenome.Hsapiens.UCSC.hg18, drosophila2probe, hgu95av2probe,
+hgu133aprobe, GenomicFeatures (>= 1.3.14), hgu95av2cdf, affy
+(>= 1.41.3), affydata (>= 1.11.5), RUnit	Rmpi	Artistic-2.0	NA	NA	NA	NA	yes	4.2.0
+biovizBase	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.44.0	NA	R (>= 3.5.0), methods	grDevices, stats, scales, Hmisc, RColorBrewer, dichromat,
+BiocGenerics, S4Vectors (>= 0.23.19), IRanges (>= 1.99.28),
+GenomeInfoDb (>= 1.5.14), GenomicRanges (>= 1.23.21),
+SummarizedExperiment, Biostrings (>= 2.33.11), Rsamtools (>=
+1.17.28), GenomicAlignments (>= 1.1.16), GenomicFeatures (>=
+1.21.19), AnnotationDbi, VariantAnnotation (>= 1.11.4),
+ensembldb (>= 1.99.13), AnnotationFilter (>= 0.99.8), rlang	NA	BSgenome.Hsapiens.UCSC.hg19,
+TxDb.Hsapiens.UCSC.hg19.knownGene, BSgenome, rtracklayer,
+EnsDb.Hsapiens.v75, RUnit	NA	Artistic-2.0	NA	NA	NA	NA	yes	4.2.0
+bit	C:/Users/ajsik/AppData/Local/R/win-library/4.2	4.0.4	NA	R (>= 2.9.2)	NA	NA	testthat (>= 0.11.0), roxygen2, knitr, rmarkdown,
+microbenchmark, bit64 (>= 4.0.0), ff (>= 4.0.0)	NA	GPL-2 | GPL-3	NA	NA	NA	NA	yes	4.2.0
+bit64	C:/Users/ajsik/AppData/Local/R/win-library/4.2	4.0.5	NA	R (>= 3.0.1), bit (>= 4.0.0), utils, methods, stats	NA	NA	NA	NA	GPL-2 | GPL-3	NA	NA	NA	NA	yes	4.2.0
+bitops	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.0-7	NA	NA	NA	NA	NA	NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.0
+blob	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.2.3	NA	NA	methods, rlang, vctrs (>= 0.2.1)	NA	covr, crayon, pillar (>= 1.2.1), testthat	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.0
+bookdown	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.33	NA	R (>= 3.5.0)	htmltools (>= 0.3.6), knitr (>= 1.38), rmarkdown (>= 2.14),
+jquerylib, xfun (>= 0.29), tinytex (>= 0.12), yaml (>= 2.1.19)	NA	bslib (>= 0.2.4), downlit (>= 0.4.0), htmlwidgets, jsonlite,
+rstudioapi, miniUI, rsconnect (>= 0.4.3), servr (>= 0.13),
+shiny, tibble, testit (>= 0.9), tufte, xml2, webshot, testthat
+(>= 3.1.0), withr (>= 2.3.0)	NA	GPL-3	NA	NA	NA	NA	no	4.2.3
+bootstrap	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2019.6	NA	stats, R (>= 2.10.0)	NA	NA	NA	NA	BSD_3_clause + file LICENSE	NA	NA	NA	NA	yes	4.2.0
+brew	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.0-8	NA	NA	NA	NA	testthat (>= 3.0.0)	NA	GPL-2	NA	NA	NA	NA	no	4.2.2
+brio	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.1.3	NA	NA	NA	NA	covr, testthat (>= 2.1.0)	NA	MIT + file LICENSE	NA	NA	NA	NA	yes	4.2.0
+broom	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.0.0	NA	R (>= 3.1)	backports, dplyr (>= 1.0.0), ellipsis, generics (>= 0.0.2),
+glue, methods, purrr, rlang, stringr, tibble (>= 3.0.0), tidyr
+(>= 1.0.0), ggplot2	NA	AER, AUC, bbmle, betareg, biglm, binGroup, boot, btergm (>=
+1.10.6), car, caret, cluster, cmprsk, coda, covr, drc, e1071,
+emmeans, epiR, ergm (>= 3.10.4), fixest (>= 0.9.0), gam (>=
+1.15), gee, geepack, glmnet, glmnetUtils, gmm, Hmisc, irlba,
+interp, joineRML, Kendall, knitr, ks, Lahman, lavaan, leaps,
+lfe, lm.beta, lme4, lmodel2, lmtest (>= 0.9.38), lsmeans, maps,
+maptools, margins, MASS, Matrix, mclust, mediation, metafor,
+mfx, mgcv, mlogit, modeldata, modeltests, muhaz, multcomp,
+network, nnet, orcutt (>= 2.2), ordinal, plm, poLCA, psych,
+quantreg, rgeos, rmarkdown, robust, robustbase, rsample,
+sandwich, sp, spdep (>= 1.1), spatialreg, speedglm, spelling,
+survey, survival, systemfit, testthat (>= 2.1.0), tseries,
+vars, zoo	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.1
+broom.helpers	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.8.0	NA	R (>= 3.4)	broom, cli, dplyr, labelled, lifecycle, purrr, rlang (>=
+1.0.1), stats, stringr, tibble, tidyr	NA	biglm, biglmm, brms (>= 2.13.0), broom.mixed, cmprsk, covr,
+datasets, emmeans, fixest (>= 0.10.0), forcats, gam, gee,
+geepack, ggplot2, glmmTMB, glue, gt, gtsummary, knitr, lavaan,
+lfe, lme4 (>= 1.1.28), MASS, mgcv, mice, nnet, ordinal,
+parameters, parsnip, plm, rmarkdown, rstanarm, spelling,
+survey, survival, testthat, tidycmprsk, VGAM	NA	GPL-3	NA	NA	NA	NA	no	4.2.1
+broom.mixed	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.2.9.4	NA	NA	broom, coda, dplyr, forcats, methods, nlme, purrr, stringr,
+tibble, tidyr, furrr	NA	brms, dotwhisker, knitr, testthat, gamlss, gamlss.data,
+ggplot2, GLMMadaptive, glmmADMB, glmmTMB, lmerTest, lme4,
+Matrix, MCMCglmm, mgcv, pander, pbkrtest, rstan, rstanarm,
+rstantools, R2jags, TMB, rmarkdown	NA	GPL-3	NA	NA	NA	NA	no	4.2.1
+BSDA	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.2.1	NA	lattice, R (>= 2.10)	e1071	NA	ggplot2 (>= 2.1.0), dplyr, tidyr	NA	GPL-3	NA	NA	NA	NA	no	4.2.1
+BSgenome	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.64.0	NA	R (>= 2.8.0), methods, BiocGenerics (>= 0.13.8), S4Vectors (>=
+0.17.28), IRanges (>= 2.13.16), GenomeInfoDb (>= 1.25.6),
+GenomicRanges (>= 1.31.10), Biostrings (>= 2.47.6), rtracklayer
+(>= 1.39.7)	methods, utils, stats, matrixStats, BiocGenerics, S4Vectors,
+IRanges, XVector (>= 0.29.3), GenomeInfoDb, GenomicRanges,
+Biostrings, Rsamtools, rtracklayer	NA	BiocManager, Biobase, BSgenome.Celegans.UCSC.ce2,
+BSgenome.Hsapiens.UCSC.hg38,
+BSgenome.Hsapiens.UCSC.hg38.masked,
+BSgenome.Mmusculus.UCSC.mm10, BSgenome.Rnorvegicus.UCSC.rn5,
+BSgenome.Scerevisiae.UCSC.sacCer1,
+BSgenome.Hsapiens.NCBI.GRCh38,
+TxDb.Hsapiens.UCSC.hg38.knownGene,
+TxDb.Mmusculus.UCSC.mm10.knownGene,
+SNPlocs.Hsapiens.dbSNP144.GRCh38,
+XtraSNPlocs.Hsapiens.dbSNP144.GRCh38, hgu95av2probe, RUnit	NA	Artistic-2.0	NA	NA	NA	NA	no	4.2.0
+BSgenome.Celegans.UCSC.ce2	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.4.0	NA	BSgenome (>= 1.33.5)	BSgenome	NA	GenomicFeatures	NA	Artistic-2.0	NA	NA	NA	NA	NA	4.2.0
+BSgenome.Ecoli.NCBI.20080805	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.3.1000	NA	BSgenome (>= 1.33.5)	BSgenome	NA		NA	Artistic-2.0	NA	NA	NA	NA	NA	4.2.0
+BSgenome.Hsapiens.UCSC.hg19	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.4.3	NA	BSgenome (>= 1.54.0)	BSgenome	NA		NA	Artistic-2.0	NA	NA	NA	NA	no	4.2.0
+bslib	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.4.0	NA	R (>= 2.10)	grDevices, htmltools (>= 0.5.2), jsonlite, sass (>= 0.4.0),
+jquerylib (>= 0.1.3), rlang, cachem, memoise	NA	shiny (>= 1.6.0), rmarkdown (>= 2.7), thematic, knitr,
+testthat, withr, rappdirs, curl, magrittr	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.1
+BWStest	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.2.2	NA	NA	memoise, Rcpp (>= 0.12.3)	Rcpp	testthat	NA	LGPL-3	NA	NA	NA	NA	yes	4.2.0
+ca	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.71.1	NA	R (>= 3.0.0)	NA	NA	rgl (>= 0.64-10), vcd	NA	GPL	NA	NA	NA	NA	no	4.2.1
+cachem	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.0.6	NA	NA	rlang, fastmap	NA	testthat	NA	MIT + file LICENSE	NA	NA	NA	NA	yes	4.2.0
+callr	C:/Users/ajsik/AppData/Local/R/win-library/4.2	3.7.2	NA	R (>= 3.4)	processx (>= 3.6.1), R6, utils	NA	cli (>= 1.1.0), covr, mockery, ps, rprojroot, spelling,
+testthat (>= 3.0.0), withr (>= 2.3.0)	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.1
+car	C:/Users/ajsik/AppData/Local/R/win-library/4.2	3.1-0	NA	R (>= 3.5.0), carData (>= 3.0-0)	abind, MASS, mgcv, nnet, pbkrtest (>= 0.4-4), quantreg,
+grDevices, utils, stats, graphics, maptools, lme4 (>=
+1.1-27.1), nlme	NA	alr4, boot, coxme, effects, knitr, leaps, lmtest, Matrix,
+MatrixModels, rgl (>= 0.93.960), rio, sandwich, SparseM,
+survival, survey	NA	GPL (>= 2)	NA	NA	NA	NA	no	4.2.1
+carData	C:/Users/ajsik/AppData/Local/R/win-library/4.2	3.0-5	NA	R (>= 3.5.0)	NA	NA	car (>= 3.0-0)	NA	GPL (>= 2)	NA	NA	NA	NA	no	4.2.0
+caret	C:/Users/ajsik/AppData/Local/R/win-library/4.2	6.0-93	NA	ggplot2, lattice (>= 0.20), R (>= 3.2.0)	e1071, foreach, grDevices, methods, ModelMetrics (>= 1.2.2.2),
+nlme, plyr, pROC, recipes (>= 0.1.10), reshape2, stats, stats4,
+utils, withr (>= 2.0.0)	NA	BradleyTerry2, covr, Cubist, dplyr, earth (>= 2.2-3),
+ellipse, fastICA, gam (>= 1.15), ipred, kernlab, klaR, knitr,
+MASS, Matrix, mda, mgcv, mlbench, MLmetrics, nnet, pamr, party
+(>= 0.9-99992), pls, proxy, randomForest, RANN, rmarkdown,
+rpart, spls, subselect, superpc, testthat (>= 0.9.1), themis
+(>= 0.1.3)	NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.1
+CASdatasets	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.0-11	NA	R (>= 3.5.0), xts, sp	lattice	NA	NA	NA	GPL (>= 2)	NA	NA	NA	NA	no	4.2.1
+caTools	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.18.2	NA	R (>= 3.6.0)	bitops	NA	MASS, rpart	NA	GPL-3	NA	NA	NA	NA	yes	4.2.0
+CBPS	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.23	NA	R (>= 3.4), MASS, MatchIt, nnet, numDeriv, glmnet		NA	testthat	NA	GPL (>= 2)	NA	NA	NA	NA	no	4.2.2
+cellranger	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.1.0	NA	R (>= 3.0.0)	rematch, tibble	NA	covr, testthat (>= 1.0.0), knitr, rmarkdown	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.0
+checkmate	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.1.0	NA	R (>= 3.0.0)	backports (>= 1.1.0), utils	NA	R6, fastmatch, data.table (>= 1.9.8), devtools, ggplot2,
+knitr, magrittr, microbenchmark, rmarkdown, testthat (>=
+3.0.4), tinytest (>= 1.1.0), tibble	NA	BSD_3_clause + file LICENSE	NA	NA	NA	NA	yes	4.2.0
+chron	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.3-59	NA	R (>= 2.12.0)	graphics, stats	NA	scales, ggplot2	zoo	GPL-2	NA	NA	NA	NA	yes	4.2.1
+classInt	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.4-7	NA	R (>= 2.2)	grDevices, stats, graphics, e1071, class, KernSmooth	NA	spData (>= 0.2.6.2), units, knitr, rmarkdown	NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.1
+cli	C:/Users/ajsik/AppData/Local/R/win-library/4.2	3.6.0	NA	R (>= 3.4)	utils	NA	callr, covr, crayon, digest, glue (>= 1.6.0), grDevices,
+htmltools, htmlwidgets, knitr, methods, mockery, processx, ps
+(>= 1.3.4.9000), rlang (>= 1.0.2.9003), rmarkdown, rprojroot,
+rstudioapi, testthat, tibble, whoami, withr	NA	MIT + file LICENSE	NA	NA	NA	NA	yes	4.2.2
+clinfun	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.1.1	NA	R (>= 3.0.0), graphics, stats	mvtnorm	NA	survival	NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.3
+clipr	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.8.0	NA	NA	utils	NA	covr, knitr, rmarkdown, rstudioapi (>= 0.5), testthat (>=
+2.0.0)	NA	GPL-3	NA	NA	NA	NA	no	4.2.0
+clue	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.3-61	NA	R (>= 3.2.0)	stats, cluster, graphics, methods	NA	e1071, lpSolve (>= 5.5.7), quadprog (>= 1.4-8), relations	RWeka, ape, cba, cclust, flexclust, flexmix, kernlab, mclust,
+movMF, modeltools	GPL-2	NA	NA	NA	NA	yes	4.2.1
+cluster	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.1.4	recommended	R (>= 3.5.0)	graphics, grDevices, stats, utils	NA	MASS, Matrix	NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.1
+clusterExperiment	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.16.0	NA	R (>= 3.6.0), SingleCellExperiment, SummarizedExperiment (>=
+1.15.4), BiocGenerics	methods, NMF, RColorBrewer, ape (>= 5.0), cluster, stats,
+limma, howmany, locfdr, matrixStats, graphics, parallel,
+BiocSingular, kernlab, stringr, S4Vectors, grDevices,
+DelayedArray (>= 0.7.48), HDF5Array (>= 1.7.10), Matrix, Rcpp,
+edgeR, scales, zinbwave, phylobase, pracma, mbkmeans	Rcpp	BiocStyle, knitr, testthat, MAST, Rtsne, scran, igraph,
+rmarkdown	NA	Artistic-2.0	NA	NA	NA	NA	yes	4.2.0
+ClusterR	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.2.6	NA	R(>= 3.2), gtools	Rcpp (>= 0.12.5), graphics, grDevices, utils, stats, gmp,
+ggplot2	Rcpp, RcppArmadillo (>= 0.9.1)	OpenImageR, FD, testthat, covr, knitr, rmarkdown	NA	GPL-3	NA	NA	NA	NA	yes	4.2.1
+CMatching	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.3.0	NA	R (>= 2.6.0), Matching	stats,lmtest,multiwayvcov,lme4	NA	MASS	NA	GPL-2	NA	NA	NA	NA	no	4.2.0
+cmprsk	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.2-11	NA	R (>= 3.0.0), survival	NA	NA	NA	NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.0
+cobalt	C:/Users/ajsik/AppData/Local/R/win-library/4.2	4.4.1	NA	R (>= 3.3.0)	ggplot2 (>= 3.3.0), grid, gtable (>= 0.3.0), gridExtra (>=
+2.3), rlang (>= 0.4.0), crayon, backports (>= 1.1.9)	NA	MatchIt (>= 4.0.0), WeightIt (>= 0.12.0), twang (>= 1.6),
+twangContinuous, Matching, optmatch, ebal, CBPS (>= 0.17),
+designmatch, optweight, mice (>= 3.8.0), MatchThem (>= 0.9.3),
+cem (>= 1.1.30), sbw (>= 1.1.5), knitr, rmarkdown, testthat (>=
+3.0.0)	NA	GPL (>= 2)	NA	NA	NA	NA	no	4.2.2
+coda	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.19-4	NA	R (>= 2.14.0)	lattice	NA	NA	NA	GPL (>= 2)	NA	NA	NA	NA	no	4.2.0
+coin	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.4-2	NA	R (>= 3.6.0), survival	methods, parallel, stats, stats4, utils, libcoin (>= 1.0-9),
+matrixStats (>= 0.54.0), modeltools (>= 0.2-9), mvtnorm (>=
+1.0-5), multcomp	libcoin (>= 1.0-9)	xtable, e1071, vcd, TH.data (>= 1.0-7)	NA	GPL-2	NA	NA	NA	NA	yes	4.2.1
+colorspace	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.0-3	NA	R (>= 3.0.0), methods	graphics, grDevices, stats	NA	datasets, utils, KernSmooth, MASS, kernlab, mvtnorm, vcd,
+tcltk, shiny, shinyjs, ggplot2, dplyr, scales, grid, png, jpeg,
+knitr, rmarkdown, RColorBrewer, rcartocolor, scico, viridis,
+wesanderson	NA	BSD_3_clause + file LICENSE	NA	NA	NA	NA	yes	4.2.0
+colourpicker	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.2.0	NA	R (>= 3.1.0)	ggplot2, htmltools, htmlwidgets (>= 0.7), jsonlite, miniUI (>=
+0.1.1), shiny (>= 0.11.1), shinyjs (>= 2.0.0), utils	NA	knitr (>= 1.7), rmarkdown, rstudioapi (>= 0.5),
+shinydisconnect	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.3
+combinat	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.0-8	NA	NA	NA	NA	NA	NA	GPL-2	NA	NA	NA	NA	NA	4.2.0
+commonmark	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.8.0	NA	NA	NA	NA	curl, testthat, xml2	NA	BSD_2_clause + file LICENSE	NA	NA	NA	NA	yes	4.2.1
+contfrac	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.1-12	NA	NA	NA	NA	NA	NA	GPL-2	NA	NA	NA	NA	yes	4.2.0
+correlation	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.8.2	NA	R (>= 3.5)	bayestestR (>= 0.12.1), datasets, datawizard (>= 0.5.0),
+insight (>= 0.18.0), parameters (>= 0.18.1), stats	NA	BayesFactor, poorman, energy, ggplot2, ggraph, gt, Hmisc,
+knitr, lme4, mbend, polycor, ppcor, psych, rmarkdown, rmcorr,
+rstanarm, see, testthat (>= 3.1.0), tidygraph, wdm, WRS2	NA	GPL-3	NA	NA	NA	NA	no	4.2.1
+corrgram	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.14	NA	NA	graphics, grDevices, stats	NA	gridBase, knitr, Matrix, psych, rmarkdown, seriation,
+sfsmisc, testthat	NA	GPL-3	NA	NA	NA	NA	no	4.2.1
+corrplot	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.92	NA	NA	NA	NA	seriation, knitr, RColorBrewer, rmarkdown, magrittr,
+prettydoc, testthat	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.0
+corrr	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.4.4	NA	R (>= 3.4)	dplyr (>= 1.0.0), ggplot2 (>= 2.2.0), ggrepel (>= 0.6.5), glue
+(>= 1.4.2), purrr (>= 0.2.2), rlang (>= 0.4.0), seriation (>=
+1.2-0), tibble (>= 2.0)	NA	covr, DBI, dbplyr (>= 1.2.1), knitr (>= 1.13), rmarkdown (>=
+0.9.6), RSQLite, sparklyr (>= 0.9), testthat (>= 3.0.0)	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.1
+cowplot	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.1.1	NA	R (>= 3.5.0)	ggplot2 (> 2.2.1), grid, gtable, grDevices, methods, rlang,
+scales	NA	Cairo, covr, dplyr, forcats, gridGraphics (>= 0.4-0), knitr,
+lattice, magick, maps, PASWR, patchwork, rmarkdown, ragg,
+testthat (>= 1.0.0), tidyr, vdiffr (>= 0.3.0), VennDiagram	NA	GPL-2	NA	NA	NA	NA	no	4.2.0
+cpp11	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.4.2	NA	NA	NA	NA	bench, brio, callr, cli, covr, decor, desc, ggplot2, glue,
+knitr, lobstr, mockery, progress, rmarkdown, scales, Rcpp,
+testthat, tibble, utils, vctrs, withr	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.0
+crayon	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.5.1	NA	NA	grDevices, methods, utils	NA	mockery, rstudioapi, testthat, withr	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.0
+credentials	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.3.2	NA	NA	openssl (>= 1.3), sys (>= 2.1), curl, jsonlite, askpass	NA	testthat, knitr, rmarkdown	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.2
+creditmodel	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.3.1	NA	R (>= 2.10)	data.table,dplyr,ggplot2,foreach,doParallel,glmnet,rpart,cli,xgboost	NA	pdp,pmml,XML,knitr,gbm,randomForest,rmarkdown	NA	AGPL-3	NA	NA	NA	NA	no	4.2.1
+crosstalk	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.2.0	NA	NA	htmltools (>= 0.3.6), jsonlite, lazyeval, R6	NA	shiny, ggplot2, testthat (>= 2.1.0), sass, bslib	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.0
+CRTSize	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.2	NA	R (>= 2.01)	NA	NA	NA	NA	GPL (>= 2)	NA	NA	NA	NA	no	4.2.2
+curl	C:/Users/ajsik/AppData/Local/R/win-library/4.2	4.3.2	NA	R (>= 3.0.0)	NA	NA	spelling, testthat (>= 1.0.0), knitr, jsonlite, rmarkdown,
+magrittr, httpuv (>= 1.4.4), webutils	NA	MIT + file LICENSE	NA	NA	NA	NA	yes	4.2.0
+cutpointr	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.1.2	NA	R (>= 3.5.0)	gridExtra (>= 2.2.1), foreach (>= 1.4.3), dplyr (>= 0.8.0),
+tidyselect (>= 1.1.0), tidyr (>= 1.0.0), purrr (>= 0.3.0),
+tibble (>= 3.0.0), ggplot2 (>= 3.0.0), Rcpp (>= 0.12.12),
+stats, utils, rlang (>= 0.4.0)	Rcpp	KernSmooth (>= 2.23-15), fANCOVA (>= 0.5-1), testthat (>=
+1.0.2), doRNG (>= 1.6), doParallel (>= 1.0.11), knitr,
+rmarkdown, mgcv (>= 1.8), crayon (>= 1.3.4), registry (>=
+0.5-1), pkgmaker(>= 0.31.1), vctrs (>= 0.2.4)	NA	GPL-3	NA	NA	NA	NA	yes	4.2.0
+cytolib	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.8.0	NA	R (>= 3.4)	RcppParallel, RProtoBufLib	Rcpp, BH(>= 1.75.0.0), RProtoBufLib(>= 2.3.5),Rhdf5lib,
+RcppArmadillo, RcppParallel(>= 4.4.2-1)	knitr, rmarkdown	NA	file LICENSE	NA	yes	NA	NA	yes	4.2.0
+dada2	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.24.0	NA	R (>= 3.4.0), Rcpp (>= 0.12.0), methods (>= 3.4.0)	Biostrings (>= 2.42.1), ggplot2 (>= 2.1.0), reshape2 (>=
+1.4.1), ShortRead (>= 1.32.0), RcppParallel (>= 4.3.0),
+parallel (>= 3.2.0), IRanges (>= 2.6.0), XVector (>= 0.16.0),
+BiocGenerics (>= 0.22.0)	Rcpp, RcppParallel	BiocStyle, knitr, rmarkdown	NA	LGPL-2	NA	NA	NA	NA	yes	4.2.0
+data.table	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.14.2	NA	R (>= 3.1.0)	methods	NA	bit64 (>= 4.0.0), bit (>= 4.0.4), curl, R.utils, xts,
+nanotime, zoo (>= 1.8-1), yaml, knitr, rmarkdown	NA	MPL-2.0 | file LICENSE	NA	NA	NA	NA	yes	4.2.0
+datawizard	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.6.3	NA	R (>= 3.6)	insight (>= 0.18.5), stats, utils	NA	bayestestR, boot, brms, data.table, dplyr (>= 1.0),
+effectsize, gamm4, ggplot2, haven, htmltools, httr, knitr,
+lme4, mediation, parameters, poorman (>= 0.2.6), psych, readxl,
+readr, rio, rmarkdown, rstanarm, see, testthat (>= 3.1.0),
+tidyr, withr	NA	GPL (>= 3)	NA	NA	NA	NA	no	4.2.0
+DBI	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.1.3	NA	methods, R (>= 3.0.0)	NA	NA	blob, covr, DBItest, dbplyr, downlit, dplyr, glue, hms,
+knitr, magrittr, RMariaDB, rmarkdown, rprojroot, RSQLite (>=
+1.1-2), testthat, xml2	NA	LGPL (>= 2.1)	NA	NA	NA	NA	no	4.2.1
+dbplyr	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.2.1	NA	R (>= 3.1)	assertthat (>= 0.2.0), blob (>= 1.2.0), cli (>= 3.3.0), DBI
+(>= 1.0.0), dplyr (>= 1.0.9), glue (>= 1.2.0), lifecycle (>=
+1.0.0), magrittr, methods, pillar (>= 1.5.0), purrr (>= 0.2.5),
+R6 (>= 2.2.2), rlang (>= 1.0.0), tibble (>= 1.4.2), tidyselect
+(>= 0.2.4), utils, vctrs (>= 0.4.1), withr	NA	bit64, covr, knitr, Lahman, nycflights13, odbc, RMariaDB (>=
+1.0.2), rmarkdown, RPostgres (>= 1.1.3), RPostgreSQL, RSQLite
+(>= 2.1.0), testthat (>= 3.0.2), tidyr (>= 1.2.0)	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.1
+dbscan	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.1-10	NA	NA	Rcpp (>= 1.0.0), graphics, stats	Rcpp	fpc, microbenchmark, testthat, dendextend, igraph, knitr,
+rmarkdown	NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.0
+DDRTree	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.1.5	NA	irlba	Rcpp	Rcpp, RcppEigen, BH	NA	NA	Artistic License 2.0	NA	NA	NA	NA	yes	4.2.1
+DECIPHER	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.24.0	NA	R (>= 3.5.0), Biostrings (>= 2.59.1), RSQLite (>= 1.1), stats,
+parallel	methods, DBI, S4Vectors, IRanges, XVector	Biostrings, S4Vectors, IRanges, XVector	NA	NA	GPL-3	NA	NA	NA	NA	yes	4.2.0
+DelayedArray	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.22.0	NA	R (>= 4.0.0), methods, stats4, Matrix, BiocGenerics (>=
+0.37.0), MatrixGenerics (>= 1.1.3), S4Vectors (>= 0.27.2),
+IRanges (>= 2.17.3)	stats	S4Vectors	BiocParallel, HDF5Array (>= 1.17.12), genefilter,
+SummarizedExperiment, airway, lobstr, DelayedMatrixStats,
+knitr, rmarkdown, BiocStyle, RUnit	NA	Artistic-2.0	NA	NA	NA	NA	yes	4.2.0
+deldir	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.0-6	NA	R (>= 3.5.0)	graphics, grDevices	NA	polyclip	NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.0
+dendextend	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.16.0	NA	R (>= 3.0.0)	utils, stats, datasets, magrittr (>= 1.0.1), ggplot2, viridis	NA	knitr, rmarkdown, testthat, seriation, colorspace, ape,
+microbenchmark, gplots, heatmaply, dynamicTreeCut, pvclust,
+corrplot, DendSer, MASS, cluster, fpc, circlize (>= 0.2.5),
+covr	ggdendro, dendroextras, Hmisc, data.table, rpart, WGCNA,
+moduleColor, distory, phangorn, zoo	GPL-2 | GPL-3	NA	NA	NA	NA	no	4.2.1
+DEoptimR	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.0-11	NA	NA	stats	NA	NA	robustbase	GPL (>= 2)	NA	NA	NA	NA	no	4.2.0
+desc	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.4.1	NA	R (>= 3.4)	cli, R6, rprojroot, utils	NA	callr, covr, gh, spelling, testthat, whoami, withr	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.0
+descr	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.1.5	NA	NA	xtable, utils, grDevices, graphics, stats	NA	NA	NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.2
+DescTools	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.99.45	NA	base, stats, R (>= 3.6.0)	graphics, grDevices, methods, MASS, utils, boot, mvtnorm,
+expm, Rcpp (>= 0.12.10), rstudioapi, Exact, gld, data.table,
+readxl, httr	Rcpp, BH	RDCOMClient, tcltk, VGAM, R.rsp	NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.1
+DESeq2	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.36.0	NA	S4Vectors (>= 0.23.18), IRanges, GenomicRanges,
+SummarizedExperiment (>= 1.1.6)	BiocGenerics (>= 0.7.5), Biobase, BiocParallel, genefilter,
+methods, stats4, locfit, geneplotter, ggplot2, Rcpp (>= 0.11.0)	Rcpp, RcppArmadillo	testthat, knitr, rmarkdown, vsn, pheatmap, RColorBrewer,
+apeglm, ashr, tximport, tximeta, tximportData, readr, pbapply,
+airway, pasilla (>= 0.2.10), glmGamPoi, BiocManager	NA	LGPL (>= 3)	NA	NA	NA	NA	yes	4.2.0
+deSolve	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.33	NA	R (>= 3.3.0)	methods, graphics, grDevices, stats	NA	scatterplot3d, FME	NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.1
+devtools	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.4.5	NA	R (>= 3.0.2), usethis (>= 2.1.6)	cli (>= 3.3.0), desc (>= 1.4.1), ellipsis (>= 0.3.2), fs (>=
+1.5.2), lifecycle (>= 1.0.1), memoise (>= 2.0.1), miniUI (>=
+0.1.1.1), pkgbuild (>= 1.3.1), pkgdown (>= 2.0.6), pkgload (>=
+1.3.0), profvis (>= 0.3.7), rcmdcheck (>= 1.4.0), remotes (>=
+2.4.2), rlang (>= 1.0.4), roxygen2 (>= 7.2.1), rversions (>=
+2.1.1), sessioninfo (>= 1.2.2), stats, testthat (>= 3.1.5),
+tools, urlchecker (>= 1.0.1), utils, withr (>= 2.5.0)	NA	BiocManager (>= 1.30.18), callr (>= 3.7.1), covr (>= 3.5.1),
+curl (>= 4.3.2), digest (>= 0.6.29), DT (>= 0.23), foghorn (>=
+1.4.2), gh (>= 1.3.0), gmailr (>= 1.0.1), httr (>= 1.4.3),
+knitr (>= 1.39), lintr (>= 3.0.0), MASS, mockery (>= 0.4.3),
+pingr (>= 2.0.1), rhub (>= 1.1.1), rmarkdown (>= 2.14),
+rstudioapi (>= 0.13), spelling (>= 2.2)	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.2
+DEXSeq	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.42.0	NA	BiocParallel, Biobase, SummarizedExperiment, IRanges (>=
+2.5.17), GenomicRanges (>= 1.23.7), DESeq2 (>= 1.9.11),
+AnnotationDbi, RColorBrewer, S4Vectors (>= 0.23.18)	BiocGenerics, biomaRt, hwriter, methods, stringr, Rsamtools,
+statmod, geneplotter, genefilter	NA	GenomicFeatures (>= 1.13.29), pasilla (>= 0.2.22),
+parathyroidSE, BiocStyle, knitr, rmarkdown, testthat		GPL (>= 3)	NA	NA	NA	NA	no	4.2.0
+dichromat	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.0-0.1	NA	R (>= 2.10), stats	NA	NA	NA	NA	GPL-2	NA	NA	NA	NA	no	4.2.0
+diffobj	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.3.5	NA	R (>= 3.1.0)	crayon (>= 1.3.2), tools, methods, utils, stats	NA	knitr, rmarkdown	NA	GPL-2 | GPL-3	NA	NA	NA	NA	yes	4.2.0
+diffusionMap	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.2.0	NA	R (>= 2.10)	scatterplot3d, graphics, igraph, Matrix, stats	NA	NA	NA	GPL-3	NA	NA	NA	NA	no	4.2.1
+digest	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.6.29	NA	R (>= 3.3.0)	utils	NA	tinytest, simplermarkdown	NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.0
+diptest	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.76-0	NA	NA	graphics, stats	NA	NA	NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.0
+distributional	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.3.2	NA	NA	vctrs (>= 0.3.0), rlang (>= 0.4.5), generics, stats, numDeriv,
+ggplot2, scales, farver, digest, utils, lifecycle	NA	testthat (>= 2.1.0), covr, mvtnorm, actuar (>= 2.0.0), ggdist	NA	GPL-3	NA	NA	NA	NA	no	4.2.3
+DLBCL	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.36.0	NA	R(>= 2.11.0), Biobase	NA	NA	NA	NA	GPL (>=2)	NA	NA	NA	NA	no	4.2.0
+docopt	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.7.1	NA	NA	methods	NA	testthat	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.1
+doParallel	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.0.17	NA	R (>= 2.14.0), foreach (>= 1.2.0), iterators (>= 1.0.0),
+parallel, utils	NA	NA	caret, mlbench, rpart, RUnit	compiler	GPL-2	NA	NA	NA	NA	no	4.2.0
+dotCall64	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.0-1	NA	R (>= 3.1)	NA	NA	microbenchmark, OpenMPController, RColorBrewer, roxygen2,
+spam, testthat,	NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.1
+downlit	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.4.2	NA	R (>= 3.4.0)	brio, desc, digest, evaluate, fansi, memoise, rlang, vctrs,
+withr, yaml	NA	covr, htmltools, jsonlite, MASS, MassSpecWavelet, pkgload,
+rmarkdown, testthat (>= 3.0.0), xml2	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.2
+downloader	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.4	NA	NA	utils, digest	NA	testthat	NA	GPL-2	NA	NA	NA	NA	no	4.2.2
+dplyr	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.1.0	NA	R (>= 3.4.0)	cli (>= 3.4.0), generics, glue (>= 1.3.2), lifecycle (>=
+1.0.3), magrittr (>= 1.5), methods, pillar (>= 1.5.1), R6,
+rlang (>= 1.0.6), tibble (>= 2.1.3), tidyselect (>= 1.2.0),
+utils, vctrs (>= 0.5.2)	NA	bench, broom, callr, covr, DBI, dbplyr (>= 2.2.1), ggplot2,
+knitr, Lahman, lobstr, microbenchmark, nycflights13, purrr,
+rmarkdown, RMySQL, RPostgreSQL, RSQLite, stringi (>= 1.7.6),
+testthat (>= 3.1.5), tidyr (>= 1.3.0), withr	NA	MIT + file LICENSE	NA	NA	NA	NA	yes	4.2.2
+DT	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.24	NA	NA	htmltools (>= 0.3.6), htmlwidgets (>= 1.3), jsonlite (>=
+0.9.16), magrittr, crosstalk, jquerylib, promises	NA	knitr (>= 1.8), rmarkdown, shiny (>= 1.6), bslib, testit	NA	GPL-3 | file LICENSE	NA	NA	NA	NA	no	4.2.1
+dtplyr	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.2.2	NA	R (>= 3.3)	crayon, data.table (>= 1.13.0), dplyr (>= 1.0.3), ellipsis,
+glue, lifecycle, rlang, tibble, tidyselect, vctrs	NA	bench, covr, knitr, rmarkdown, testthat (>= 3.0.0), tidyr (>=
+1.1.0)	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.1
+dygraphs	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.1.1.6	NA	R (>= 3.0)	magrittr, htmlwidgets (>= 0.6), htmltools (>= 0.3.5), zoo (>=
+1.7-10), xts (>= 0.9-7)	NA	testthat	rmarkdown (>= 0.3.3), shiny (>= 0.10.2.1)	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.3
+e1071	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.7-11	NA	NA	graphics, grDevices, class, stats, methods, utils, proxy	NA	cluster, mlbench, nnet, randomForest, rpart, SparseM, xtable,
+Matrix, MASS, slam	NA	GPL-2 | GPL-3	NA	NA	NA	NA	yes	4.2.0
+EBImage	C:/Users/ajsik/AppData/Local/R/win-library/4.2	4.38.0	NA	methods	BiocGenerics (>= 0.7.1), graphics, grDevices, stats, abind,
+tiff, jpeg, png, locfit, fftwtools (>= 0.9-7), utils,
+htmltools, htmlwidgets, RCurl	NA	BiocStyle, digest, knitr, rmarkdown, shiny	NA	LGPL	NA	NA	NA	NA	yes	4.2.0
+edgeR	C:/Users/ajsik/AppData/Local/R/win-library/4.2	3.38.1	NA	R (>= 3.6.0), limma (>= 3.41.5)	methods, graphics, stats, utils, locfit, Rcpp	Rcpp	jsonlite, readr, rhdf5, splines, Biobase, AnnotationDbi,
+SummarizedExperiment, org.Hs.eg.db	NA	GPL (>=2)	NA	NA	NA	NA	yes	4.2.0
+effectsize	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.7.0.5	NA	R (>= 3.5)	bayestestR (>= 0.12.1), insight (>= 0.18.0), parameters (>=
+0.18.1), performance (>= 0.9.1), datawizard (>= 0.5.0), stats,
+utils	NA	correlation (>= 0.8.1), see (>= 0.7.1), afex, BayesFactor,
+boot, brms, car, emmeans, knitr, lavaan, lme4, lmerTest, MASS,
+mgcv, parsnip, rmarkdown, rms, rstanarm, rstantools, testthat
+(>= 3.1.0)	NA	GPL-3	NA	NA	NA	NA	no	4.2.1
+ellipse	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.4.3	NA	R (>= 2.0.0),graphics,stats	NA	NA	MASS	NA	GPL (>= 2)	NA	NA	NA	NA	no	4.2.2
+ellipsis	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.3.2	NA	R (>= 3.2)	rlang (>= 0.3.0)	NA	covr, testthat	NA	MIT + file LICENSE	NA	NA	NA	NA	yes	4.2.0
+elliptic	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.4-0	NA	R (>= 2.5.0)	MASS	NA	emulator, calibrator (>= 1.2-8)	NA	GPL-2	NA	NA	NA	NA	no	4.2.0
+emdbook	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.3.12	NA	NA	MASS, lattice, plyr, coda, bbmle	NA	R2jags, ellipse, SuppDists, numDeriv, testthat, rgl	NA	GPL	NA	NA	NA	NA	no	4.2.1
+emmeans	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.8.0	NA	R (>= 4.1.0)	estimability (>= 1.4.1), graphics, methods, numDeriv, stats,
+utils, mvtnorm, xtable (>= 1.8-2)	NA	bayesplot, bayestestR, biglm, brms, car, coda (>= 0.17),
+ggplot2, lattice, logspline, mediation, mgcv, multcomp,
+multcompView, nlme, ordinal (>= 2014.11-12), pbkrtest (>=
+0.4-1), lme4, lmerTest (>= 2.0.32), MASS, MuMIn, rsm, knitr,
+rmarkdown, scales, splines, testthat	CARBayes, coxme, gee, geepack, MCMCglmm, MCMCpack, mice,
+nnet, pscl, rstanarm, sommer, survival	GPL-2 | GPL-3	NA	NA	NA	NA	no	4.2.1
+ensembldb	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.20.2	NA	R (>= 3.5.0), BiocGenerics (>= 0.15.10), GenomicRanges (>=
+1.31.18), GenomicFeatures (>= 1.29.10), AnnotationFilter (>=
+1.5.2)	methods, RSQLite (>= 1.1), DBI, Biobase, GenomeInfoDb,
+AnnotationDbi (>= 1.31.19), rtracklayer, S4Vectors (>=
+0.23.10), Rsamtools, IRanges (>= 2.13.24), ProtGenerics,
+Biostrings (>= 2.47.9), curl	NA	BiocStyle, knitr, EnsDb.Hsapiens.v86 (>= 0.99.8), testthat,
+BSgenome.Hsapiens.NCBI.GRCh38, ggbio (>= 1.24.0), Gviz (>=
+1.20.0), magrittr, rmarkdown, AnnotationHub	RMariaDB, shiny	LGPL	NA	NA	NA	NA	no	4.2.0
+Epi	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.47	NA	R (>= 3.5.0), utils	cmprsk, etm, splines, MASS, survival, plyr, dplyr, Matrix,
+numDeriv, data.table, zoo, mgcv, magrittr	NA	mstate, nlme, lme4, demography, popEpi, tidyr	NA	GPL-2	NA	NA	NA	NA	yes	4.2.1
+epitools	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.5-10.1	NA	R (>= 2.10)	NA	NA	NA	NA	GPL (>= 2)	NA	NA	NA	NA	no	4.2.0
+estimability	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.4.1	NA	stats	NA	NA	NA	NA	GPL (>= 3)	NA	NA	NA	NA	no	4.2.1
+etm	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.1.1	NA	R (>= 3.0.0)	survival, lattice, data.table, Rcpp (>= 0.11.4)	Rcpp, RcppArmadillo	ggplot2, kmi, geepack	NA	MIT + file LICENSE	NA	NA	NA	NA	yes	4.2.1
+evaluate	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.16	NA	R (>= 3.0.2)	methods	NA	covr, ggplot2, lattice, testthat	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.1
+evd	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.3-6.1	NA	NA	stats, grDevices, graphics	NA	interp	NA	GPL-3	NA	NA	NA	NA	yes	4.2.1
+eventTrack	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.0.2	NA	survival, muhaz, R (>= 3.5.0)	NA	NA	knitr, rmarkdown, rpact (>= 3.3.1), fitdistrplus, gestate	NA	GPL (>= 2)	NA	NA	NA	NA	no	4.2.3
+Exact	C:/Users/ajsik/AppData/Local/R/win-library/4.2	3.1	NA	R (>= 3.5.0)	graphics, stats, utils, rootSolve	NA	ExactData	NA	GPL-2	NA	NA	NA	NA	no	4.2.0
+exactci	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.4-2	NA	stats, ssanv, testthat	NA	NA	rmarkdown, BlakerCI, knitr	NA	GPL-3	NA	NA	NA	NA	no	4.2.3
+exactRankTests	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.8-35	NA	R (>= 2.4.0), stats, utils	NA	NA	survival	NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.0
+ExperimentHub	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.4.0	NA	methods, BiocGenerics (>= 0.15.10), AnnotationHub (>= 3.3.6),
+BiocFileCache (>= 1.5.1)	utils, S4Vectors, BiocManager, curl, rappdirs	NA	knitr, BiocStyle, rmarkdown, HubPub	ExperimentHubData	Artistic-2.0	NA	NA	NA	NA	no	4.2.0
+expm	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.999-6	NA	Matrix	methods	NA	RColorBrewer, sfsmisc, Rmpfr	NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.1
+extrafont	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.18	NA	R (>= 2.15)	extrafontdb, grDevices, utils, Rttf2pt1	NA	fontcm	NA	GPL-2	NA	NA	NA	NA	no	4.2.0
+extrafontdb	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.0	NA	R (>= 2.14)	NA	NA	NA	NA	GPL-2	NA	NA	NA	NA	NA	4.2.0
+factoextra	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.0.7	NA	R (>= 3.1.2), ggplot2 (>= 2.2.0)	abind, cluster, dendextend, FactoMineR, ggpubr(>= 0.1.5),
+grid, stats, reshape2, ggrepel, tidyr	NA	ade4, ca, igraph, MASS, knitr, mclust	NA	GPL-2	NA	NA	NA	NA	no	4.2.1
+FactoMineR	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.6	NA	R (>= 4.0)	car,cluster,DT,ellipse,emmeans,flashClust,graphics,grDevices,lattice,leaps,MASS,multcompView,scatterplot3d,stats,utils,ggplot2,ggrepel	NA	missMDA,knitr,Factoshiny,markdown	NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.1
+fansi	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.0.3	NA	R (>= 3.1.0)	grDevices, utils	NA	unitizer, knitr, rmarkdown	NA	GPL-2 | GPL-3	NA	NA	NA	NA	yes	4.2.0
+farver	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.1.1	NA	NA	NA	NA	covr, testthat (>= 3.0.0)	NA	MIT + file LICENSE	NA	NA	NA	NA	yes	4.2.1
+fastcluster	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.2.3	NA	R (>= 3.0.0)	NA	NA	NA	stats, flashClust	FreeBSD | GPL-2 | file LICENSE	NA	NA	NA	NA	yes	4.2.0
+fastGHQuad	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.0.1	NA	Rcpp (>= 0.11.0)	NA	Rcpp	NA	NA	MIT + file LICENSE	NA	NA	NA	NA	yes	4.2.3
+fastICA	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.2-3	NA	R (>= 4.0.0)	NA	NA	MASS	NA	GPL-2 | GPL-3	NA	NA	NA	NA	yes	4.2.1
+fastmap	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.1.0	NA	NA	NA	NA	testthat (>= 2.1.1)	NA	MIT + file LICENSE	NA	NA	NA	NA	yes	4.2.0
+fastmatch	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.1-3	NA	R (>= 2.3.0)	NA	NA	NA	NA	GPL-2	NA	NA	NA	NA	yes	4.2.0
+fdrtool	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.2.17	NA	R (>= 3.0.2)	graphics, grDevices, stats	NA		NA	GPL (>= 3)	NA	NA	NA	NA	yes	4.2.0
+fftwtools	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.9-11	NA	R (>= 3.0)	NA	NA	fftw	NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.0
+fields	C:/Users/ajsik/AppData/Local/R/win-library/4.2	14.1	NA	R (>= 3.5.0), methods, spam, viridis	maps	NA	NA	NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.1
+filelock	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.0.2	NA	NA	NA	NA	callr (>= 2.0.0), covr, testthat	NA	MIT + file LICENSE	NA	NA	NA	NA	yes	4.2.1
+finalfit	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.0.5	NA	NA	bdsmatrix, boot, broom, dplyr, forcats, GGally, ggplot2, grid,
+gridExtra, lme4, magrittr, mice, pillar, pROC, purrr, scales,
+stats, stringr, survival, tidyr (>= 1.0.0), tidyselect	NA	cmprsk, coxme, knitr, lmtest, readr, rlang, rmarkdown, rstan,
+sandwich, survey, survminer, testthat, tibble	NA	MIT + file LICENCE	NA	NA	NA	NA	no	4.2.2
+fitdistrplus	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.1-11	NA	R (>= 3.5.0), MASS, grDevices, survival, methods	stats	NA	actuar, rgenoud, mc2d, gamlss.dist, knitr, ggplot2,
+GeneralizedHyperbolic, rmarkdown, Hmisc, bookdown	NA	GPL (>= 2)	NA	NA	NA	NA	no	4.2.3
+flashClust	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.01-2	NA	R (>= 2.3.0)	NA	NA	NA	NA	GPL (>= 2)	NA	NA	NA	NA	NA	4.2.0
+flexmix	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.3-18	NA	R (>= 2.15.0), lattice	graphics, grid, grDevices, methods, modeltools (>= 0.2-16),
+nnet, stats, stats4, utils	NA	actuar, codetools, diptest, Ecdat, ellipse, gclus, glmnet,
+lme4 (>= 1.1), MASS, mgcv (>= 1.8-0), mlbench, multcomp,
+mvtnorm, SuppDists, survival	NA	GPL (>= 2)	NA	NA	NA	NA	no	4.2.1
+flexsurv	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.2.2	NA	survival, R (>= 2.15.0)	assertthat, deSolve, generics, magrittr, mstate (>= 0.2.10),
+Matrix, muhaz, mvtnorm, numDeriv, quadprog, Rcpp (>= 0.11.5),
+rlang, rstpm2, purrr, statmod, tibble, tidyr, dplyr,
+tidyselect, ggplot2	Rcpp	flexsurvcure, survminer, lubridate, rmarkdown, colorspace,
+eha, knitr, msm, testthat, TH.data	NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.3
+flowCore	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.8.0	NA	R (>= 3.5.0)	Biobase, BiocGenerics (>= 0.29.2), grDevices, graphics,
+methods, stats, utils, stats4, Rcpp, matrixStats, cytolib (>=
+2.3.4), S4Vectors	Rcpp, RcppArmadillo, BH(>= 1.65.0.1), cytolib, RProtoBufLib	Rgraphviz, flowViz, flowStats (>= 3.43.4), testthat,
+flowWorkspace, flowWorkspaceData, openCyto, knitr, ggcyto,
+gridExtra	NA	Artistic-2.0	NA	NA	NA	NA	yes	4.2.0
+flowViz	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.60.2	NA	R (>= 2.7.0), flowCore(>= 1.41.9), lattice	stats4, Biobase, flowCore, graphics, grDevices, grid,
+KernSmooth, lattice, latticeExtra, MASS, methods, RColorBrewer,
+stats, utils, hexbin,IDPmisc	NA	colorspace, flowStats, knitr, rmarkdown, markdown, testthat	NA	Artistic-2.0	NA	NA	NA	NA	no	4.2.0
+flowWorkspace	C:/Users/ajsik/AppData/Local/R/win-library/4.2	4.8.0	NA	R (>= 3.5.0)	Biobase, BiocGenerics, cytolib (>= 2.3.9), lattice,
+latticeExtra, XML, ggplot2, graph, graphics, grDevices,
+methods, stats, stats4, utils, RBGL, tools, Rgraphviz,
+data.table, dplyr, Rcpp, scales, matrixStats, RcppParallel,
+RProtoBufLib, digest, aws.s3, aws.signature, flowCore(>=
+2.1.1), ncdfFlow(>= 2.25.4), DelayedArray, S4Vectors	Rcpp, BH(>= 1.62.0-1), RProtoBufLib(>= 1.99.4), cytolib (>=
+2.3.7),Rhdf5lib, RcppArmadillo, RcppParallel(>= 4.4.2-1)	testthat, flowWorkspaceData (>= 2.23.2), knitr, rmarkdown,
+ggcyto, parallel, CytoML, openCyto	NA	file LICENSE	NA	yes	NA	NA	yes	4.2.0
+fmsb	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.7.3	NA	R (>= 2.2.0)	NA	NA	Epi, vcd	NA	GPL (>= 2)	NA	NA	NA	NA	no	4.2.0
+FNN	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.1.3.1	NA	R (>= 3.0.0)	NA	NA	chemometrics, mvtnorm	NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.0
+fontawesome	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.3.0	NA	R (>= 3.3.0)	rlang (>= 0.4.10), htmltools (>= 0.5.1.1)	NA	covr, dplyr (>= 1.0.8), knitr (>= 1.31), testthat (>= 3.0.0),
+rsvg	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.1
+forcats	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.5.2	NA	R (>= 3.4)	cli, ellipsis, glue, lifecycle, magrittr, rlang (>= 1.0.0),
+tibble, withr	NA	covr, dplyr, ggplot2, knitr, readr, rmarkdown, testthat (>=
+3.0.0)	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.1
+foreach	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.5.2	NA	R (>= 2.5.0)	codetools, utils, iterators	NA	randomForest, doMC, doParallel, testthat, knitr, rmarkdown	NA	Apache License (== 2.0)	NA	NA	NA	NA	no	4.2.0
+forecast	C:/Users/ajsik/AppData/Local/R/win-library/4.2	8.20	NA	R (>= 3.5.0),	colorspace, fracdiff, generics (>= 0.1.2), ggplot2 (>= 2.2.1),
+graphics, lmtest, magrittr, nnet, parallel, Rcpp (>= 0.11.0),
+stats, timeDate, tseries, urca, zoo	Rcpp (>= 0.11.0), RcppArmadillo (>= 0.2.35)	forecTheta, knitr, methods, rmarkdown, rticles, seasonal,
+testthat (>= 3.0.0), uroot	NA	GPL-3	NA	NA	NA	NA	yes	4.2.2
+forestplot	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.0.1	NA	R (>= 3.5.0), grid, magrittr, checkmate	NA	NA	testthat, abind, knitr, rmarkdown, rmeta, dplyr, tidyr, rlang	NA	GPL-2	NA	NA	NA	NA	no	4.2.1
+formatR	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.12	NA	R (>= 3.2.3)	NA	NA	rstudioapi, shiny, testit, rmarkdown, knitr	NA	GPL	NA	NA	NA	NA	no	4.2.1
+Formula	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.2-4	NA	R (>= 2.0.0), stats	NA	NA	NA	NA	GPL-2 | GPL-3	NA	NA	NA	NA	no	4.2.0
+fossil	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.4.0	NA	sp, maps, shapefiles	NA	NA	NA	NA	GPL (>= 2)	NA	NA	NA	NA	no	4.2.2
+fpc	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.2-9	NA	R (>= 2.0)	MASS, cluster, mclust, flexmix, prabclus, class, diptest,
+robustbase, kernlab, grDevices, graphics, methods, stats,
+utils, parallel	NA	tclust, pdfCluster, mvtnorm	NA	GPL	NA	NA	NA	NA	no	4.2.1
+fracdiff	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.5-2	NA	NA	stats	NA	longmemo, forecast, urca	NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.2
+fs	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.5.2	NA	R (>= 3.1)	methods	NA	testthat, covr, pillar (>= 1.0.0), tibble (>= 1.1.0), crayon,
+rmarkdown, knitr, withr, spelling, vctrs (>= 0.3.0)	NA	MIT + file LICENSE	NA	NA	NA	NA	yes	4.2.0
+furrr	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.3.1	NA	future (>= 1.25.0), R (>= 3.4.0)	globals (>= 0.14.0), lifecycle (>= 1.0.1), purrr (>= 0.3.4),
+rlang (>= 1.0.2), vctrs (>= 0.4.1)	NA	carrier, covr, dplyr (>= 0.7.4), knitr, listenv (>= 0.6.0),
+magrittr, rmarkdown, testthat (>= 3.0.0), tidyselect, withr	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.1
+futile.logger	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.4.3	NA	R (>= 3.0.0)	utils, lambda.r (>= 1.1.0), futile.options	NA	testthat, jsonlite	NA	LGPL-3	NA	NA	NA	NA	no	4.2.1
+futile.options	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.0.1	NA	R (>= 2.8.0)	NA	NA	NA	NA	LGPL-3	NA	NA	NA	NA	no	4.2.0
+future	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.27.0	NA	NA	digest, globals (>= 0.15.0), listenv (>= 0.8.0), parallel,
+parallelly (>= 1.31.1), tools, utils	NA	methods, RhpcBLASctl, R.rsp, markdown	NA	LGPL (>= 2.1)	NA	NA	NA	NA	no	4.2.1
+future.apply	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.9.0	NA	R (>= 3.2.0), future (>= 1.22.1)	globals (>= 0.14.0), parallel, utils	NA	datasets, stats, tools, listenv (>= 0.8.0), R.rsp, markdown	NA	GPL (>= 2)	NA	NA	NA	NA	no	4.2.0
+gargle	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.2.0	NA	R (>= 3.3)	cli (>= 3.0.0), fs (>= 1.3.1), glue (>= 1.3.0), httr (>=
+1.4.0), jsonlite, rappdirs, rlang (>= 0.4.9), rstudioapi,
+stats, utils, withr	NA	aws.ec2metadata, aws.signature, covr, httpuv, knitr, mockr,
+rmarkdown, sodium, spelling, testthat (>= 3.0.0)	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.0
+gbm	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.1.8.1	NA	R (>= 2.9.0)	lattice, parallel, survival	NA	covr, gridExtra, knitr, pdp, RUnit, splines, tinytest, vip,
+viridis	NA	GPL (>= 2) | file LICENSE	NA	NA	NA	NA	yes	4.2.2
+gclus	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.3.2	NA	R (>= 2.10), cluster	NA	NA	knitr, rmarkdown	NA	GPL (>= 2)	NA	NA	NA	NA	no	4.2.1
+gdata	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.18.0.1	NA	R (>= 2.3.0)	gtools, stats, methods, utils	NA	RUnit	NA	GPL-2	NA	NA	NA	NA	no	4.2.0
+geepack	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.3.9	NA	R (>= 3.5.0), methods	MASS, broom, magrittr	NA	NA	NA	GPL (>= 3)	NA	NA	NA	NA	yes	4.2.1
+genefilter	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.78.0	NA	NA	BiocGenerics, AnnotationDbi, annotate, Biobase, graphics,
+methods, stats, survival, grDevices	NA	class, hgu95av2.db, tkWidgets, ALL, ROC, RColorBrewer,
+BiocStyle, knitr	NA	Artistic-2.0	NA	NA	NA	NA	yes	4.2.0
+geneplotter	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.74.0	NA	R (>= 2.10), methods, Biobase, BiocGenerics, lattice, annotate	AnnotationDbi, graphics, grDevices, grid, RColorBrewer, stats,
+utils	NA	Rgraphviz, fibroEset, hgu95av2.db, hu6800.db, hgu133a.db	NA	Artistic-2.0	NA	NA	NA	NA	no	4.2.0
+generics	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.1.3	NA	R (>= 3.2)	methods	NA	covr, pkgload, testthat (>= 3.0.0), tibble, withr	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.1
+GenomeInfoDb	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.32.2	NA	R (>= 4.0.0), methods, BiocGenerics (>= 0.37.0), S4Vectors (>=
+0.25.12), IRanges (>= 2.13.12)	stats, stats4, utils, RCurl, GenomeInfoDbData	NA	GenomicRanges, Rsamtools, GenomicAlignments, GenomicFeatures,
+TxDb.Dmelanogaster.UCSC.dm3.ensGene, BSgenome,
+BSgenome.Scerevisiae.UCSC.sacCer2, BSgenome.Celegans.UCSC.ce2,
+BSgenome.Hsapiens.NCBI.GRCh38, RUnit, BiocStyle, knitr	NA	Artistic-2.0	NA	NA	NA	NA	no	4.2.0
+GenomeInfoDbData	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.2.8	NA	R (>= 3.5.0)	NA	NA	NA	NA	Artistic-2.0	NA	NA	NA	NA	no	4.2.0
+GenomicAlignments	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.32.0	NA	R (>= 4.0.0), methods, BiocGenerics (>= 0.37.0), S4Vectors (>=
+0.27.12), IRanges (>= 2.23.9), GenomeInfoDb (>= 1.13.1),
+GenomicRanges (>= 1.41.5), SummarizedExperiment (>= 1.9.13),
+Biostrings (>= 2.55.7), Rsamtools (>= 1.31.2)	methods, utils, stats, BiocGenerics, S4Vectors, IRanges,
+GenomicRanges, Biostrings, Rsamtools, BiocParallel	S4Vectors, IRanges	ShortRead, rtracklayer, BSgenome, GenomicFeatures,
+RNAseqData.HNRNPC.bam.chr14, pasillaBamSubset,
+TxDb.Hsapiens.UCSC.hg19.knownGene,
+TxDb.Dmelanogaster.UCSC.dm3.ensGene,
+BSgenome.Dmelanogaster.UCSC.dm3, BSgenome.Hsapiens.UCSC.hg19,
+DESeq2, edgeR, RUnit, BiocStyle	NA	Artistic-2.0	NA	NA	NA	NA	yes	4.2.0
+GenomicFeatures	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.48.3	NA	R (>= 3.5.0), BiocGenerics (>= 0.1.0), S4Vectors (>= 0.17.29),
+IRanges (>= 2.13.23), GenomeInfoDb (>= 1.25.7), GenomicRanges
+(>= 1.31.17), AnnotationDbi (>= 1.41.4)	methods, utils, stats, tools, DBI, RSQLite (>= 2.0), RCurl,
+XVector (>= 0.19.7), Biostrings (>= 2.47.6), BiocIO,
+rtracklayer (>= 1.51.5), biomaRt (>= 2.17.1), Biobase (>=
+2.15.1)	NA	RMariaDB, org.Mm.eg.db, org.Hs.eg.db, BSgenome,
+BSgenome.Hsapiens.UCSC.hg19 (>= 1.3.17),
+BSgenome.Celegans.UCSC.ce11, BSgenome.Dmelanogaster.UCSC.dm3
+(>= 1.3.17), mirbase.db, FDb.UCSC.tRNAs,
+TxDb.Hsapiens.UCSC.hg19.knownGene,
+TxDb.Celegans.UCSC.ce11.ensGene,
+TxDb.Dmelanogaster.UCSC.dm3.ensGene (>= 2.7.1),
+TxDb.Mmusculus.UCSC.mm10.knownGene (>= 3.4.7),
+TxDb.Hsapiens.UCSC.hg19.lincRNAsTranscripts,
+TxDb.Hsapiens.UCSC.hg38.knownGene (>= 3.4.6),
+SNPlocs.Hsapiens.dbSNP144.GRCh38, Rsamtools, pasillaBamSubset
+(>= 0.0.5), GenomicAlignments (>= 1.15.7), ensembldb,
+AnnotationFilter, RUnit, BiocStyle, knitr	NA	Artistic-2.0	NA	NA	NA	NA	no	4.2.0
+GenomicRanges	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.48.0	NA	R (>= 4.0.0), methods, stats4, BiocGenerics (>= 0.37.0),
+S4Vectors (>= 0.27.12), IRanges (>= 2.23.9), GenomeInfoDb (>=
+1.15.2)	utils, stats, XVector (>= 0.29.2)	S4Vectors, IRanges	Matrix, Biobase, AnnotationDbi, annotate, Biostrings (>=
+2.25.3), SummarizedExperiment (>= 0.1.5), Rsamtools (>=
+1.13.53), GenomicAlignments, rtracklayer, BSgenome,
+GenomicFeatures, Gviz, VariantAnnotation, AnnotationHub,
+DESeq2, DEXSeq, edgeR, KEGGgraph, RNAseqData.HNRNPC.bam.chr14,
+pasillaBamSubset, KEGGREST, hgu95av2.db, hgu95av2probe,
+BSgenome.Scerevisiae.UCSC.sacCer2, BSgenome.Hsapiens.UCSC.hg19,
+BSgenome.Mmusculus.UCSC.mm10,
+TxDb.Athaliana.BioMart.plantsmart22,
+TxDb.Dmelanogaster.UCSC.dm3.ensGene,
+TxDb.Hsapiens.UCSC.hg19.knownGene,
+TxDb.Mmusculus.UCSC.mm10.knownGene, RUnit, digest, knitr,
+rmarkdown, BiocStyle	NA	Artistic-2.0	NA	NA	NA	NA	yes	4.2.0
+geometry	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.4.6.1	NA	R (>= 3.0.0)	magic, Rcpp, lpSolve, linprog	Rcpp, RcppProgress	spelling, testthat, rgl, R.matlab, interp	NA	GPL (>= 3)	NA	NA	NA	NA	yes	4.2.1
+gert	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.9.1	NA	NA	askpass, credentials (>= 1.2.1), openssl (>= 2.0.3),
+rstudioapi (>= 0.11), sys, zip (>= 2.1.0)	NA	spelling, knitr, rmarkdown, testthat	NA	MIT + file LICENSE	NA	NA	NA	NA	yes	4.2.2
+gets	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.37	NA	R (>= 3.3.0), zoo, parallel	methods	NA	lgarch, xtable, Matrix, microbenchmark	NA	GPL (>= 2)	NA	NA	NA	NA	no	4.2.3
+GGally	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.1.2	NA	R (>= 3.1), ggplot2 (>= 3.3.4)	dplyr (>= 1.0.0), forcats, grDevices, grid, gtable (>= 0.2.0),
+lifecycle, plyr (>= 1.8.3), progress, RColorBrewer, reshape (>=
+0.8.5), rlang, scales (>= 1.1.0), tidyr, utils	NA	broom (>= 0.7.0), broom.helpers (>= 1.1.0), chemometrics,
+geosphere (>= 1.5-1), ggforce, Hmisc, igraph (>= 1.0.1),
+intergraph (>= 2.0-2), labelled, maps (>= 3.1.0), mapproj,
+nnet, network (>= 1.17.1), scagnostics, sna (>= 2.3-2),
+survival, rmarkdown, roxygen2, testthat, crosstalk, knitr,
+spelling, emmeans	NA	GPL (>= 2.0)	NA	NA	NA	NA	no	4.2.1
+ggbeeswarm	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.6.0	NA	R (>= 3.0.0), ggplot2 (>= 2.0)	beeswarm, vipor	NA	gridExtra	NA	GPL (>= 2)	NA	NA	NA	NA	no	4.2.1
+ggbio	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.44.1	NA	methods, BiocGenerics, ggplot2 (>= 1.0.0)	grid, grDevices, graphics, stats, utils, gridExtra, scales,
+reshape2, gtable, Hmisc, biovizBase (>= 1.29.2), Biobase,
+S4Vectors (>= 0.13.13), IRanges (>= 2.11.16), GenomeInfoDb (>=
+1.1.3), GenomicRanges (>= 1.29.14), SummarizedExperiment,
+Biostrings, Rsamtools (>= 1.17.28), GenomicAlignments (>=
+1.1.16), BSgenome, VariantAnnotation (>= 1.11.4), rtracklayer
+(>= 1.25.16), GenomicFeatures (>= 1.29.11), OrganismDbi,
+GGally, ensembldb (>= 1.99.13), AnnotationDbi,
+AnnotationFilter, rlang	NA	vsn, BSgenome.Hsapiens.UCSC.hg19, Homo.sapiens,
+TxDb.Hsapiens.UCSC.hg19.knownGene,
+TxDb.Mmusculus.UCSC.mm9.knownGene, knitr, BiocStyle, testthat,
+EnsDb.Hsapiens.v75, tinytex	NA	Artistic-2.0	NA	NA	NA	NA	no	4.2.0
+ggcorrplot	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.1.3	NA	ggplot2	reshape2, stats	NA	knitr, spelling	NA	GPL-2	NA	NA	NA	NA	no	4.2.1
+ggcyto	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.24.1	NA	methods, ggplot2(>= 3.3.0), flowCore(>= 1.41.5), ncdfFlow(>=
+2.17.1), flowWorkspace(>= 3.33.1)	plyr, scales, hexbin, data.table, RColorBrewer, gridExtra,
+rlang	NA	testthat, flowWorkspaceData, knitr, rmarkdown, flowStats,
+openCyto, flowViz, ggridges, vdiffr	NA	Artistic-2.0	NA	NA	NA	NA	no	4.2.0
+ggdendro	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.1.23	NA	NA	MASS, ggplot2(>= 0.9.2)	NA	rpart (>= 4.0-0), tree, testthat, knitr, cluster, scales,
+spelling, rmarkdown, covr	NA	GPL-2 | GPL-3	NA	NA	NA	NA	no	4.2.1
+ggeffects	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.1.3	NA	R (>= 3.4)	graphics, insight (>= 0.17.0), MASS, sjlabelled (>= 1.1.2),
+stats	NA	AER, aod, betareg, brms, clubSandwich, effects (>= 4.1-2),
+emmeans (>= 1.4.1), gam, gamlss, gamm4, gee, geepack, ggplot2,
+GLMMadaptive, glmmTMB (>= 1.0.0), gridExtra, haven, httr,
+knitr, lme4, logistf, magrittr, margins, Matrix, mice,
+MCMCglmm, mgcv, nlme, ordinal, parameters, patchwork,
+prediction, pscl, quantreg, rmarkdown, rms, robustbase,
+rstanarm, rstantools, sandwich, see, sjstats, sjmisc (>=
+2.8.2), survey, survival, testthat, VGAM	NA	GPL-3	NA	NA	NA	NA	no	4.2.1
+ggforce	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.4.1	NA	ggplot2 (>= 3.3.6), R (>= 3.3.0)	Rcpp (>= 0.12.2), grid, scales, MASS, tweenr (>= 0.1.5),
+gtable, rlang, polyclip, stats, grDevices, tidyselect, withr,
+utils, lifecycle, cli, vctrs, systemfonts	Rcpp, RcppEigen	sessioninfo, concaveman, deldir, latex2exp, reshape2, units
+(>= 0.4-6), covr	NA	MIT + file LICENSE	NA	NA	NA	NA	yes	4.2.3
+ggfun	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.0.6	NA	NA	ggplot2, grid, rlang, utils	NA	ggplotify, knitr, rmarkdown, prettydoc	NA	Artistic-2.0	NA	NA	NA	NA	no	4.2.1
+ggnetwork	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.5.10	NA	R (>= 3.5), ggplot2 (>= 2.0.0)	ggrepel (>= 0.5), network, igraph, sna, utils	NA	knitr, rmarkdown, testthat	NA	GPL-3	NA	NA	NA	NA	no	4.2.1
+ggplot2	C:/Users/ajsik/AppData/Local/R/win-library/4.2	3.3.6	NA	R (>= 3.3)	digest, glue, grDevices, grid, gtable (>= 0.1.1), isoband,
+MASS, mgcv, rlang (>= 0.4.10), scales (>= 0.5.0), stats,
+tibble, withr (>= 2.0.0)	NA	covr, ragg, dplyr, ggplot2movies, hexbin, Hmisc, interp,
+knitr, lattice, mapproj, maps, maptools, multcomp, munsell,
+nlme, profvis, quantreg, RColorBrewer, rgeos, rmarkdown, rpart,
+sf (>= 0.7-3), svglite (>= 1.2.0.9001), testthat (>= 2.1.0),
+vdiffr (>= 1.0.0), xml2	sp	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.0
+ggplotify	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.1.0	NA	R (>= 3.4.0)	ggplot2, graphics, grDevices, grid, gridGraphics, yulab.utils	NA	aplot, colorspace, cowplot, ggimage, knitr, rmarkdown,
+lattice, prettydoc, vcd, utils	NA	Artistic-2.0	NA	NA	NA	NA	no	4.2.1
+ggpubr	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.4.0	NA	R (>= 3.1.0), ggplot2	ggrepel, grid, ggsci, stats, utils, tidyr, purrr, dplyr (>=
+0.7.1), cowplot, ggsignif, scales, gridExtra, glue, polynom,
+rlang, rstatix (>= 0.6.0), tibble, magrittr	NA	grDevices, knitr, RColorBrewer, gtable	NA	GPL-2	NA	NA	NA	NA	no	4.2.0
+ggrepel	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.9.1	NA	R (>= 3.0.0), ggplot2 (>= 2.2.0)	grid, Rcpp, rlang (>= 0.3.0), scales (>= 0.5.0)	Rcpp	knitr, rmarkdown, testthat, gridExtra, devtools, prettydoc,
+ggbeeswarm, dplyr, magrittr, readr, stringr	NA	GPL-3 | file LICENSE	NA	NA	NA	NA	yes	4.2.0
+ggridges	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.5.3	NA	R (>= 3.2)	ggplot2 (>= 3.0.0), grid (>= 3.0.0), plyr (>= 1.8.0), scales
+(>= 0.4.1), withr (>= 2.1.1)	NA	covr, dplyr, patchwork, ggplot2movies, forcats, knitr,
+rmarkdown, testthat, vdiffr	NA	GPL-2 | file LICENSE	NA	NA	NA	NA	no	4.2.0
+ggsci	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.9	NA	R (>= 3.0.2)	grDevices, scales, ggplot2 (>= 2.0.0)	NA	knitr, rmarkdown, gridExtra, reshape2	NA	GPL-3 | file LICENSE	NA	NA	NA	NA	no	4.2.0
+ggsignif	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.6.3	NA	NA	ggplot2 (>= 3.3.5)	NA	knitr, rmarkdown, spelling, testthat, vdiffr (>= 1.0.2)	NA	GPL-3 | file LICENSE	NA	NA	NA	NA	no	4.2.0
+ggstance	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.3.5	NA	R (>= 3.1.0)	ggplot2 (>= 3.2.0), plyr, rlang, withr (>= 2.0.0)	NA	covr, Hmisc, testthat, vdiffr (>= 0.3.0)	NA	GPL-3	NA	NA	NA	NA	no	4.2.1
+ggstatsplot	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.9.4	NA	R (>= 4.0.0)	correlation (>= 0.8.2), datawizard (>= 0.5.0), dplyr, ggplot2,
+ggrepel, ggsignif, glue, insight (>= 0.18.2), paletteer,
+parameters (>= 0.18.2), patchwork, performance (>= 0.9.2),
+purrr, rlang, stats, statsExpressions (>= 1.3.3), tidyr, utils	NA	afex, BayesFactor (>= 0.9.12-4.4), gapminder, ggcorrplot,
+ggside, knitr, lme4, MASS, metaBMA, metafor, metaplus,
+PMCMRplus, psych, rmarkdown, spelling, survival, testthat (>=
+3.1.4), tibble, vdiffr, WRS2	NA	GPL-3 | file LICENSE	NA	NA	NA	NA	no	4.2.1
+ggsurvfit	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.1.0	NA	R (>= 3.5)	broom (>= 1.0.0), cli (>= 3.0.0), dplyr (>= 1.0.0), ggplot2
+(>= 3.3.0), gtable, patchwork, rlang (>= 1.0.0), survival (>=
+3.4-0), tidyr (>= 1.0.0)	NA	covr, glue, knitr, rmarkdown, scales, spelling, testthat (>=
+3.0.0), tidycmprsk, vdiffr (>= 1.0.0)	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.1
+ggtext	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.1.1	NA	R (>= 3.5)	ggplot2 (>= 3.3.0), grid, gridtext, rlang, scales	NA	cowplot, dplyr, glue, knitr, rmarkdown, testthat, vdiffr	NA	GPL-2	NA	NA	NA	NA	no	4.2.0
+ggthemes	C:/Users/ajsik/AppData/Local/R/win-library/4.2	4.2.4	NA	R (>= 3.3.0)	ggplot2 (>= 3.0.0), graphics, grid, methods, purrr, scales,
+stringr, tibble	NA	dplyr, covr, extrafont, glue, knitr, lattice, lintr, maps,
+mapproj, pander, rlang, rmarkdown, spelling, testthat, tidyr,
+vdiffr, withr	NA	GPL-2	NA	NA	NA	NA	no	4.2.0
+ggtree	C:/Users/ajsik/AppData/Local/R/win-library/4.2	3.4.0	NA	R (>= 3.5.0)	ape, aplot, dplyr, ggplot2 (>= 3.0.0), grid, magrittr,
+methods, purrr, rlang, ggfun (>= 0.0.6), yulab.utils, tidyr,
+tidytree (>= 0.3.9), treeio (>= 1.8.0), utils, scales	NA	emojifont, ggimage, ggplotify, shadowtext, grDevices, knitr,
+prettydoc, rmarkdown, stats, testthat, tibble, glue	NA	Artistic-2.0	NA	NA	NA	NA	no	4.2.0
+gh	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.3.1	NA	R (>= 3.4)	cli (>= 3.0.1), gitcreds, httr (>= 1.2), ini, jsonlite	NA	covr, knitr, mockery, rmarkdown, rprojroot, spelling,
+testthat (>= 3.0.0), withr	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.2
+gitcreds	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.1.2	NA	R (>= 3.4)	NA	NA	codetools, covr, knitr, mockery, oskeyring, rmarkdown,
+testthat (>= 3.0.0), withr	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.2
+gld	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.6.5	NA	NA	stats, graphics, e1071, lmom	NA		NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.1
+glmnet	C:/Users/ajsik/AppData/Local/R/win-library/4.2	4.1-4	NA	R (>= 3.6.0), Matrix (>= 1.0-6)	methods, utils, foreach, shape, survival, Rcpp	RcppEigen, Rcpp	knitr, lars, testthat, xfun, rmarkdown	NA	GPL-2	NA	NA	NA	NA	yes	4.2.1
+globals	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.16.1	NA	R (>= 3.1.2)	codetools	NA	NA	NA	LGPL (>= 2.1)	NA	NA	NA	NA	no	4.2.0
+glue	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.6.2	NA	R (>= 3.4)	methods	NA	covr, crayon, DBI, dplyr, forcats, ggplot2, knitr, magrittr,
+microbenchmark, R.utils, rmarkdown, rprintf, RSQLite, stringr,
+testthat (>= 3.0.0), vctrs (>= 0.3.0), waldo (>= 0.3.0), withr	NA	MIT + file LICENSE	NA	NA	NA	NA	yes	4.2.0
+gmodels	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.18.1.1	NA	R (>= 1.9.0)	MASS, gdata	NA	gplots, gtools, Matrix, nlme, lme4 (>= 0.999999-0)	NA	GPL-2	NA	NA	NA	NA	no	4.2.0
+gmp	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.6-6	NA	R (>= 3.5.0)	methods	NA	Rmpfr, MASS, round	NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.1
+goftest	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.2-3	NA	R (>= 3.3)	stats	NA	NA	NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.0
+googledrive	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.0.0	NA	R (>= 3.3)	cli (>= 3.0.0), gargle (>= 1.2.0), glue (>= 1.4.2), httr,
+jsonlite, lifecycle, magrittr, pillar, purrr (>= 0.2.3), rlang
+(>= 0.4.9), tibble (>= 2.0.0), utils, uuid, vctrs (>= 0.3.0),
+withr	NA	covr, curl, downlit, dplyr (>= 1.0.0), knitr, mockr,
+rmarkdown, roxygen2, sodium, spelling, testthat (>= 3.0.0)	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.0
+googlesheets4	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.0.1	NA	R (>= 3.4)	cellranger, cli (>= 3.0.0), curl, gargle (>= 1.2.0), glue (>=
+1.3.0), googledrive (>= 2.0.0), httr, ids, magrittr, methods,
+purrr, rematch2, rlang (>= 1.0.2), tibble (>= 2.1.1), utils,
+vctrs (>= 0.2.3)	NA	covr, readr, rmarkdown, sodium, spelling, testthat (>=
+3.1.3), withr	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.1
+GOplot	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.0.2	NA	ggplot2 (>= 2.0.0), ggdendro (>= 0.1-17), gridExtra (>=
+2.0.0), RColorBrewer (>= 1.1.2), R (>= 3.2.3)	NA	NA	knitr, rmarkdown	NA	GPL-2	NA	NA	NA	NA	no	4.2.1
+gower	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.0.0	NA	NA	NA	NA	tinytest (>= 0.9.3),	NA	GPL-3	NA	NA	NA	NA	yes	4.2.0
+gplots	C:/Users/ajsik/AppData/Local/R/win-library/4.2	3.1.3	NA	R (>= 3.0)	gtools, stats, caTools, KernSmooth, methods	NA	grid, MASS, knitr, r2d2	NA	GPL-2	NA	NA	NA	NA	no	4.2.0
+graph	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.74.0	NA	R (>= 2.10), methods, BiocGenerics (>= 0.13.11)	stats, stats4, utils	NA	SparseM (>= 0.36), XML, RBGL, RUnit, cluster	Rgraphviz	Artistic-2.0	NA	NA	NA	NA	yes	4.2.0
+gridBase	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.4-7	NA	R (>= 2.3.0)	graphics, grid	NA	lattice	NA	GPL	NA	NA	NA	NA	no	4.2.1
+gridExtra	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.3	NA	NA	gtable, grid, grDevices, graphics, utils	NA	ggplot2, egg, lattice, knitr, testthat	NA	GPL (>= 2)	NA	NA	NA	NA	no	4.2.0
+gridGraphics	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.5-1	NA	grid, graphics	grDevices	NA	magick (>= 1.3), pdftools (>= 1.6)	NA	GPL (>= 2)	NA	NA	NA	NA	no	4.2.1
+gridtext	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.1.4	NA	R (>= 3.5)	grid, grDevices, markdown, rlang, Rcpp, RCurl, png, jpeg,
+stringr, xml2	Rcpp	covr, knitr, rmarkdown, testthat, vdiffr	NA	MIT + file LICENSE	NA	NA	NA	NA	yes	4.2.0
+gsDesign	C:/Users/ajsik/AppData/Local/R/win-library/4.2	3.4.0	NA	R (>= 3.5.0)	dplyr, ggplot2 (>= 0.9.2), graphics, magrittr, methods, rlang,
+stats, tidyr, tools, xtable	NA	covr, gridExtra, gt, kableExtra, knitr, mvtnorm, ragg,
+rmarkdown, scales, testthat, tibble, utils	NA	GPL (>= 3)	NA	NA	NA	NA	yes	4.2.3
+GSEABase	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.58.0	NA	R (>= 2.6.0), BiocGenerics (>= 0.13.8), Biobase (>= 2.17.8),
+annotate (>= 1.45.3), methods, graph (>= 1.37.2)	AnnotationDbi, XML	NA	hgu95av2.db, GO.db, org.Hs.eg.db, Rgraphviz, ReportingTools,
+testthat, BiocStyle, knitr	NA	Artistic-2.0	NA	NA	NA	NA	no	4.2.0
+gt	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.7.0	NA	R (>= 3.2.0)	base64enc (>= 0.1-3), bitops (>= 1.0-7), cli (>= 3.3.0),
+commonmark (>= 1.8), dplyr (>= 1.0.8), fs (>= 1.5.2), ggplot2
+(>= 3.3.5), glue (>= 1.6.1), htmltools (>= 0.5.2), magrittr (>=
+2.0.2), rlang (>= 1.0.2), sass (>= 0.4.1), scales (>= 1.2.0),
+stringr (>= 1.4.0), tibble (>= 3.1.6), tidyselect (>= 1.1.1)	NA	covr, digest (>= 0.6.29), knitr, paletteer, testthat (>=
+3.0.0), RColorBrewer, lubridate, rmarkdown, rvest, shiny,
+tidyr, webshot2, xml2	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.1
+gtable	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.3.0	NA	R (>= 3.0)	grid	NA	covr, testthat, knitr, rmarkdown, ggplot2, profvis	NA	GPL-2	NA	NA	NA	NA	no	4.2.0
+gtools	C:/Users/ajsik/AppData/Local/R/win-library/4.2	3.9.3	NA	methods, stats, utils	NA	NA	car, gplots, knitr, rstudioapi, SGP, taxize	NA	GPL-2	NA	NA	NA	NA	yes	4.2.1
+gtsummary	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.6.1	NA	R (>= 3.4)	broom (>= 0.8.0), broom.helpers (>= 1.7.0), cli (>= 3.1.1),
+dplyr (>= 1.0.7), forcats (>= 0.5.1), glue (>= 1.6.0), gt (>=
+0.6.0), knitr (>= 1.37), lifecycle (>= 1.0.1), purrr (>=
+0.3.4), rlang (>= 0.4.12), stringr (>= 1.4.0), tibble (>=
+3.1.6), tidyr (>= 1.1.4)	NA	aod (>= 1.3.1), broom.mixed (>= 0.2.7), car (>= 3.0-11),
+cmprsk, covr, effectsize (>= 0.6.0), emmeans (>= 1.7.3),
+flextable (>= 0.6.10), geepack, GGally (>= 2.1.0), Hmisc,
+huxtable (>= 5.4.0), insight (>= 0.15.0), kableExtra (>=
+1.3.4), lme4, mgcv, mice (>= 3.10.0), nnet, officer, openxlsx,
+parameters (>= 0.18.1), parsnip (>= 0.1.7), rmarkdown, sandwich
+(>= 3.0.1), scales, smd (>= 0.6.6), spelling (>= 2.2), survey,
+survival (>= 3.2-11), testthat (>= 3.0.4), tidycmprsk (>=
+0.1.2), workflows (>= 0.2.4)	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.1
+Gviz	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.40.1	NA	R (>= 4.2), methods, S4Vectors (>= 0.9.25), IRanges (>=
+1.99.18), GenomicRanges (>= 1.17.20), grid	XVector (>= 0.5.7), rtracklayer (>= 1.25.13), lattice,
+RColorBrewer, biomaRt (>= 2.11.0), AnnotationDbi (>= 1.27.5),
+Biobase (>= 2.15.3), GenomicFeatures (>= 1.17.22), ensembldb
+(>= 2.11.3), BSgenome (>= 1.33.1), Biostrings (>= 2.33.11),
+biovizBase (>= 1.13.8), Rsamtools (>= 1.17.28), latticeExtra
+(>= 0.6-26), matrixStats (>= 0.8.14), GenomicAlignments (>=
+1.1.16), GenomeInfoDb (>= 1.1.3), BiocGenerics (>= 0.11.3),
+digest(>= 0.6.8), graphics, grDevices, stats, utils	NA	BSgenome.Hsapiens.UCSC.hg19, xml2, BiocStyle, knitr,
+rmarkdown, testthat	NA	Artistic-2.0	NA	NA	NA	NA	no	4.2.0
+hardhat	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.2.0	NA	R (>= 3.4.0)	glue (>= 1.6.2), rlang (>= 1.0.3), tibble (>= 3.1.7), vctrs
+(>= 0.4.1)	NA	covr, crayon, devtools, knitr, Matrix, modeldata (>= 0.0.2),
+recipes (>= 0.1.8), rmarkdown (>= 2.3), roxygen2, testthat (>=
+3.0.0), usethis (>= 2.1.5)	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.1
+HardyWeinberg	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.7.5	NA	R (>= 1.8.0), mice, Rsolnp, nnet	Rcpp	Rcpp	NA	NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.1
+haven	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.5.1	NA	R (>= 3.4)	cli (>= 3.0.0), forcats (>= 0.2.0), hms, lifecycle, methods,
+readr (>= 0.1.0), rlang (>= 0.4.0), tibble, tidyselect, vctrs
+(>= 0.3.0)	cpp11	covr, crayon, fs, knitr, pillar (>= 1.4.0), rmarkdown,
+testthat (>= 3.0.0)	NA	MIT + file LICENSE	NA	NA	NA	NA	yes	4.2.1
+HDF5Array	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.24.1	NA	R (>= 3.4), methods, DelayedArray (>= 0.15.16), rhdf5 (>=
+2.31.6)	utils, stats, tools, Matrix, rhdf5filters, BiocGenerics (>=
+0.31.5), S4Vectors, IRanges	S4Vectors (>= 0.27.13), Rhdf5lib	BiocParallel, GenomicRanges, SummarizedExperiment (>=
+1.15.1), h5vcData, ExperimentHub, TENxBrainData, zellkonverter,
+GenomicFeatures, RUnit, SingleCellExperiment	NA	Artistic-2.0	NA	NA	NA	NA	yes	4.2.0
+here	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.0.1	NA	NA	rprojroot (>= 2.0.2)	NA	conflicted, covr, fs, knitr, palmerpenguins, plyr, readr,
+rlang, rmarkdown, testthat, uuid, withr	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.1
+hexbin	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.28.2	NA	R (>= 2.0.1), methods	lattice, grid, graphics, grDevices, stats, utils	NA	marray, affy, Biobase, limma, knitr	NA	GPL-2	NA	NA	NA	NA	yes	4.2.1
+highr	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.9	NA	R (>= 3.2.3)	xfun (>= 0.18)	NA	knitr, markdown, testit	NA	GPL	NA	NA	NA	NA	no	4.2.0
+Hiiragi2013	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.32.0	NA	R (>= 3.0.0), affy, Biobase, boot, clue, cluster, genefilter,
+geneplotter, gplots, gtools, KEGGREST, MASS, mouse4302.db,
+RColorBrewer, xtable	grid, lattice, latticeExtra	NA	ArrayExpress, BiocStyle	NA	Artistic-2.0	NA	NA	NA	NA	no	4.2.0
+HistData	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.8-7	NA	R (>= 3.5.0)	NA	NA	gtools, KernSmooth, maps, ggplot2, scales, proto, grid,
+reshape, plyr, lattice, jpeg, car, gplots, sp, heplots, knitr,
+rmarkdown, effects, lubridate, gridExtra, vcd, MASS	NA	GPL	NA	NA	NA	NA	no	4.2.1
+Hmisc	C:/Users/ajsik/AppData/Local/R/win-library/4.2	4.7-1	NA	lattice, survival (>= 3.1-6), Formula, ggplot2 (>= 2.2)	methods, latticeExtra, cluster, rpart, nnet, foreign, gtable,
+grid, gridExtra, data.table, htmlTable (>= 1.11.0), viridis,
+htmltools, base64enc	NA	acepack, chron, rms, mice, tables, knitr, plotly (>= 4.5.6),
+rlang, plyr, VGAM	NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.1
+hms	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.1.2	NA	NA	ellipsis (>= 0.3.2), lifecycle, methods, pkgconfig, rlang,
+vctrs (>= 0.3.8)	NA	crayon, lubridate, pillar (>= 1.1.0), testthat (>= 3.0.0)	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.1
+howmany	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.3-1	NA	NA	graphics, stats	NA	NA	NA	GPL	NA	NA	NA	NA	NA	4.2.0
+HSMMSingleCell	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.16.0	NA	R (>= 2.10)	NA	NA	NA	NA	Artistic-2.0	NA	NA	NA	NA	no	4.2.0
+htmlTable	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.4.1	NA	NA	stringr, knitr (>= 1.6), magrittr (>= 1.5), methods,
+checkmate, htmlwidgets, htmltools, rstudioapi (>= 0.6)	NA	testthat, XML, xml2, Hmisc, reshape, rmarkdown, chron,
+lubridate, tibble, purrr, tidyselect, glue, rlang, tidyr (>=
+0.7.2), dplyr (>= 0.7.4)	NA	GPL (>= 3)	NA	NA	NA	NA	no	4.2.1
+htmltools	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.5.3	NA	R (>= 2.14.1)	utils, digest, grDevices, base64enc, rlang (>= 0.4.10),
+fastmap (>= 1.1.0)	NA	markdown, testthat, withr, Cairo, ragg, shiny	knitr	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.1
+htmlwidgets	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.5.4	NA	NA	grDevices, htmltools (>= 0.3), jsonlite (>= 0.9.16), yaml	NA	knitr (>= 1.8), rmarkdown, testthat	shiny (>= 1.1)	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.0
+httpuv	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.6.5	NA	R (>= 2.15.1)	Rcpp (>= 1.0.7), utils, R6, promises, later (>= 0.8.0)	Rcpp, later	testthat, callr, curl, websocket	NA	GPL (>= 2) | file LICENSE	NA	NA	NA	NA	yes	4.2.1
+httr	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.4.4	NA	R (>= 3.2)	curl (>= 3.0.0), jsonlite, mime, openssl (>= 0.8), R6	NA	covr, httpuv, jpeg, knitr, png, readr, rmarkdown, testthat
+(>= 0.8.0), xml2	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.1
+huxtable	C:/Users/ajsik/AppData/Local/R/win-library/4.2	5.5.0	NA	R (>= 2.10)	assertthat, commonmark, fansi, generics, glue, htmltools,
+memoise, R6, rlang, stats, stringi, stringr (>= 1.2.0),
+tidyselect, utils, xml2	NA	AER, bookdown, broom (>= 0.5.1), broom.mixed, covr, crayon,
+devtools, dplyr (>= 0.7.0), flextable (>= 0.5.5), ftExtra (>=
+0.0.2), ggplot2, httr, knitr, lme4, lmtest, nlme, nnet,
+officer, openxlsx, psych, quarto, rmarkdown, sandwich, scales,
+testthat, tibble, tinytex	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.1
+hwriter	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.3.2.1	NA	R (>= 2.6.0)	NA	NA	NA	NA	LGPL-2.1	NA	NA	NA	NA	no	4.2.0
+hypergeo	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.2-13	NA	R (>= 3.1.0),	elliptic (>= 1.3-5), contfrac (>= 1.1-9), deSolve	NA	NA	NA	GPL-2	NA	NA	NA	NA	no	4.2.0
+IDPmisc	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.1.20	NA	R(>= 3.0.0)	methods, grid, lattice	NA	SwissAir(>= 1.1.3)	NA	GPL (>= 3)	NA	NA	NA	NA	yes	4.2.1
+ids	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.0.1	NA	NA	openssl, uuid	NA	knitr, rcorpora, rmarkdown, testthat	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.0
+igraph	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.3.4	NA	methods	graphics, grDevices, magrittr, Matrix, pkgconfig (>= 2.0.0),
+rlang, stats, utils	NA	ape, graph, igraphdata, rgl, scales, stats4, tcltk, testthat,
+withr, digest	NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.1
+IHW	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.24.0	NA	R (>= 3.3.0)	methods, slam, lpsymphony, fdrtool, BiocGenerics	NA	ggplot2, dplyr, gridExtra, scales, DESeq2, airway, testthat,
+Matrix, BiocStyle, knitr, rmarkdown, devtools	NA	Artistic-2.0	NA	NA	NA	NA	no	4.2.0
+impute	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.70.0	NA	R (>= 2.10)	NA	NA	NA	NA	GPL-2	NA	NA	NA	NA	yes	4.2.0
+ineq	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.2-13	NA	R (>= 2.10.0)	stats, graphics, grDevices	NA	NA	NA	GPL-2 | GPL-3	NA	NA	NA	NA	no	4.2.0
+ini	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.3.1	NA	NA	NA	NA	testthat	NA	GPL-3	NA	NA	NA	NA	no	4.2.2
+inline	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.3.19	NA	NA	methods	NA	Rcpp (>= 0.11.0), tinytest	NA	LGPL	NA	NA	NA	NA	no	4.2.2
+insight	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.18.6	NA	R (>= 3.5)	methods, stats, utils	NA	AER, afex, aod, BayesFactor, bayestestR, bbmle, bdsmatrix,
+betareg, bife, biglm, blavaan, blme, boot, brms, censReg, cgam,
+clubSandwich, coxme, cplm, crch, datawizard, effectsize,
+emmeans, epiR, estimatr, feisr, fixest, fungible, gam, gamlss,
+gamm4, gbm, gee, geepack, GLMMadaptive, glmmTMB, gmnl, gt,
+httr, ivreg, JM, knitr, lavaan, lavaSearch2, lfe, lme4,
+lmerTest, lmtest, logistf, logitr, MASS, marginaleffects,
+Matrix, mclogit, mclust, MCMCglmm, merTools, metaBMA, mgcv,
+mice, mlogit, mhurdle, multgee, nlme, nnet, nonnest2, ordinal,
+panelr, parameters, parsnip, pbkrtest, performance, plm,
+poorman, pscl, psych, quantreg, rmarkdown, rms, robustbase,
+robustlmm, rstanarm (>= 2.21.1), rstantools, rstudioapi,
+sandwich, speedglm, splines, statmod, survey, survival,
+testthat, truncreg, tweedie, VGAM	NA	GPL-3	NA	NA	NA	NA	no	4.2.0
+installr	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.23.2	NA	R (>= 2.14.0)	stringr, utils	NA	curl, XML, devtools, rjson, data.table, plyr, ggplot2, sp,
+tools, pkgbuild (>= 1.1.0), testthat (>= 2.1.0), mockery,
+R.utils	NA	GPL-2	NA	NA	NA	NA	no	4.2.1
+interactiveDisplayBase	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.34.0	NA	R (>= 2.10), methods, BiocGenerics	shiny, DT	NA	knitr, markdown	rstudioapi	Artistic-2.0	NA	NA	NA	NA	no	4.2.0
+intergraph	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.0-2	NA	NA	network (>= 1.4-1-1), igraph (>= 0.6-0), utils	NA	testthat, roxygen2, knitr	NA	GPL-3	NA	NA	NA	NA	no	4.2.1
+interp	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.1-3	NA	R (>= 3.5.0)	Rcpp (>= 0.12.9), deldir	Rcpp, RcppEigen	sp, Deriv, Ryacas, ggplot2, gridExtra, lattice, stringi,
+stringr	RcppEigen	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.1
+ipred	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.9-13	NA	R (>= 2.10)	rpart (>= 3.1-8), MASS, survival, nnet, class, prodlim	NA	mvtnorm, mlbench, TH.data, randomForest, party	NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.0
+IRanges	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.30.0	NA	R (>= 4.0.0), methods, utils, stats, BiocGenerics (>= 0.39.2),
+S4Vectors (>= 0.33.3)	stats4	S4Vectors	XVector, GenomicRanges, Rsamtools, GenomicAlignments,
+GenomicFeatures, BSgenome.Celegans.UCSC.ce2, pasillaBamSubset,
+RUnit, BiocStyle	NA	Artistic-2.0	NA	NA	NA	NA	yes	4.2.0
+irlba	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.3.5	NA	R (>= 3.6.2), Matrix	stats, methods	Matrix	NA	NA	GPL-3	NA	NA	NA	NA	yes	4.2.1
+isoband	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.2.5	NA	NA	grid, utils	NA	covr, ggplot2, knitr, magick, microbenchmark, rmarkdown, sf,
+testthat, xml2	NA	MIT + file LICENSE	NA	NA	NA	NA	yes	4.2.0
+iterators	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.0.14	NA	R (>= 2.5.0), utils	NA	NA	RUnit, foreach	NA	Apache License (== 2.0)	NA	NA	NA	NA	no	4.2.0
+jpeg	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.1-9	NA	R (>= 2.9.0)	NA	NA	NA	NA	GPL-2 | GPL-3	NA	NA	NA	NA	yes	4.2.0
+jquerylib	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.1.4	NA	NA	htmltools	NA	testthat	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.0
+jsonlite	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.8.0	NA	methods	NA	NA	httr, curl, vctrs, testthat, knitr, rmarkdown, R.rsp, sf	NA	MIT + file LICENSE	NA	NA	NA	NA	yes	4.2.0
+jtools	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.2.0	NA	R (>= 3.50)	crayon, generics, ggplot2 (>= 3.3.0), magrittr, pander,
+pkgconfig, rlang (>= 0.3.0), tibble	NA	boot, broom, broom.mixed, ggstance, huxtable (>= 3.0.0),
+kableExtra, lme4, lmerTest, MASS, methods, pbkrtest,
+RColorBrewer, sandwich, scales, survey, weights, knitr,
+rmarkdown, testthat, vdiffr	brms, quantreg, rstanarm	GPL (>= 3)	NA	NA	NA	NA	no	4.2.1
+kableExtra	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.3.4	NA	R (>= 3.1.0)	knitr (>= 1.16), magrittr, stringr (>= 1.0), xml2 (>= 1.1.1),
+rvest, rmarkdown (>= 1.6.0), scales, viridisLite, stats,
+grDevices, htmltools, rstudioapi, glue, tools, webshot, digest,
+graphics, svglite	NA	testthat, magick, formattable, sparkline	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.1
+KEGGREST	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.36.2	NA	R (>= 3.5.0)	methods, httr, png, Biostrings	NA	RUnit, BiocGenerics, knitr, markdown	NA	Artistic-2.0	NA	NA	NA	NA	no	4.2.0
+kernlab	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.9-31	NA	R (>= 2.10)	methods, stats, grDevices, graphics	NA	NA	NA	GPL-2	NA	NA	NA	NA	yes	4.2.0
+km.ci	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.5-6	NA	R (>= 3.5.0)	stats, survival	NA	NA	NA	GPL (>= 2)	NA	NA	NA	NA	no	4.2.0
+KMsurv	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.1-5	NA	NA	NA	NA	NA	NA	GPL (>= 3)	NA	NA	NA	NA	NA	4.2.0
+knitr	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.40	NA	R (>= 3.3.0)	evaluate (>= 0.15), highr, methods, stringr (>= 0.6), yaml (>=
+2.1.19), xfun (>= 0.29), tools	NA	markdown, formatR, testit, digest, rgl (>= 0.95.1201),
+codetools, rmarkdown, htmlwidgets (>= 0.7), webshot, tikzDevice
+(>= 0.10), tinytex, reticulate (>= 1.4), JuliaCall (>= 0.11.1),
+magick, png, jpeg, gifski, xml2 (>= 1.2.0), httr, DBI (>=
+0.4-1), showtext, tibble, sass, bslib, ragg, gridSVG, styler
+(>= 1.2.0), targets (>= 0.6.0)	NA	GPL	NA	NA	NA	NA	no	4.2.1
+ks	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.13.5	NA	R (>= 2.10.0)	FNN (>= 1.1), kernlab, KernSmooth (>= 2.22), Matrix, mclust,
+mgcv, multicool, mvtnorm (>= 1.0-0), plot3D, pracma	NA	geometry, MASS, misc3d (>= 0.4-0), oz, rgl (>= 0.66)	NA	GPL-2 | GPL-3	NA	NA	NA	NA	yes	4.2.0
+kSamples	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.2-9	NA	SuppDists	methods, graphics, stats	NA	NA	NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.0
+labdsv	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.0-1	NA	R (>= 2.10), mgcv	cluster, Rtsne, MASS	NA	optpart	vegan	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.0
+labeling	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.4.2	NA	NA	stats, graphics	NA	NA	NA	MIT + file LICENSE | Unlimited	NA	NA	NA	NA	no	4.2.0
+labelled	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.9.1	NA	R (>= 3.0)	haven (>= 2.4.1), dplyr (>= 1.0.0), lifecycle, rlang, vctrs,
+stringr, tidyr	NA	testthat, knitr, rmarkdown, questionr, snakecase, utf8, covr,
+spelling	memisc	GPL-3	NA	NA	NA	NA	no	4.2.1
+LabRS	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.1.0	NA	knitr	NA	NA	Rcmdr	NA	GPL (>= 3)	NA	NA	NA	NA	no	4.2.1
+lambda.r	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.2.4	NA	R (>= 3.0.0)	formatR	NA	testit	NA	LGPL-3	NA	NA	NA	NA	no	4.2.1
+later	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.3.0	NA	NA	Rcpp (>= 0.12.9), rlang	Rcpp	knitr, rmarkdown, testthat (>= 2.1.0)	NA	MIT + file LICENSE	NA	NA	NA	NA	yes	4.2.0
+latticeExtra	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.6-30	NA	R (>= 3.6.0), lattice	grid, stats, utils, grDevices, png, jpeg, RColorBrewer,
+interp, MASS	NA	maps, mapproj, deldir, quantreg, zoo, mgcv	NA	GPL (>= 2)	NA	NA	NA	NA	no	4.2.1
+lava	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.6.10	NA	R (>= 3.0)	future.apply, progressr, grDevices, graphics, methods,
+numDeriv, stats, survival, SQUAREM, utils	NA	KernSmooth, Matrix, Rgraphviz, data.table, ellipse, fields,
+geepack, gof (>= 0.9), graph, knitr, bookdown, rmarkdown,
+igraph (>= 0.6), lava.tobit (>= 0.4.7), lavaSearch2, lme4,
+magrittr, mets (>= 1.1), nlme, optimx, polycor, quantreg, rgl,
+R.rsp (>= 0.40), testthat (>= 0.11), visNetwork, zoo	NA	GPL-3	NA	NA	NA	NA	no	4.2.0
+lazyeval	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.2.2	NA	R (>= 3.1.0)	NA	NA	knitr, rmarkdown (>= 0.2.65), testthat, covr	NA	GPL-3	NA	NA	NA	NA	yes	4.2.0
+leaps	C:/Users/ajsik/AppData/Local/R/win-library/4.2	3.1	NA		NA	NA	biglm	NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.1
+leidenbase	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.1.11	NA	R (>= 3.5.0)	igraph (>= 0.8.2)	NA	rmarkdown, knitr, testthat (>= 3.1.0)	NA	GPL-3	NA	NA	NA	NA	yes	4.2.1
+libcoin	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.0-9	NA	R (>= 3.4.0)	stats, mvtnorm	mvtnorm	coin	NA	GPL-2	NA	NA	NA	NA	yes	4.2.1
+lifecycle	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.0.3	NA	R (>= 3.4)	cli (>= 3.4.0), glue, rlang (>= 1.0.6)	NA	covr, crayon, knitr, lintr, rmarkdown, testthat (>= 3.0.1),
+tibble, tidyverse, tools, vctrs, withr	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.2
+limma	C:/Users/ajsik/AppData/Local/R/win-library/4.2	3.52.2	NA	R (>= 3.6.0)	grDevices, graphics, stats, utils, methods	NA	affy, AnnotationDbi, BiasedUrn, Biobase, ellipse, GO.db,
+gplots, illuminaio, locfit, MASS, org.Hs.eg.db, splines,
+statmod (>= 1.2.2), vsn	NA	GPL (>=2)	NA	NA	NA	NA	yes	4.2.0
+linprog	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.9-4	NA	R (>= 2.4.0), lpSolve	NA	NA	NA	NA	GPL (>= 2)	NA	NA	NA	NA	no	4.2.0
+listenv	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.8.0	NA	R (>= 3.1.2)	NA	NA	R.utils, R.rsp, markdown	NA	LGPL (>= 2.1)	NA	NA	NA	NA	no	4.2.0
+lme4	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.1-30	NA	R (>= 3.2.0), Matrix (>= 1.2-1), methods, stats	graphics, grid, splines, utils, parallel, MASS, lattice, boot,
+nlme (>= 3.1-123), minqa (>= 1.1.15), nloptr (>= 1.0.4)	Rcpp (>= 0.10.5), RcppEigen	knitr, rmarkdown, MEMSS, testthat (>= 0.8.1), ggplot2,
+mlmRev, optimx (>= 2013.8.6), gamm4, pbkrtest, HSAUR3,
+numDeriv, car, dfoptim, mgcv, statmod, rr2, semEff, tibble,
+merDeriv	NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.1
+lmom	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.9	NA	R (>= 3.0.0)	stats, graphics	NA	NA	NA	Common Public License Version 1.0	NA	NA	NA	NA	yes	4.2.0
+lmtest	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.9-40	NA	R (>= 3.0.0), stats, zoo	graphics	NA	car, strucchange, sandwich, dynlm, stats4, survival, AER	NA	GPL-2 | GPL-3	NA	NA	NA	NA	yes	4.2.1
+locfdr	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.1-8	NA	NA	stats, splines, graphics	NA	NA	NA	GPL-2	NA	NA	NA	NA	no	4.2.0
+locfit	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.5-9.6	NA	R (>= 4.1.0)	lattice	NA	interp, gam	NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.1
+logisticPCA	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.2	NA	NA	ggplot2	NA	rARPACK (>= 0.10-0), testthat (>= 0.11.0), knitr, rmarkdown	NA	MIT + file LICENSE	NA	NA	NA	NA	yes	4.2.1
+loo	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.5.1	NA	R (>= 3.1.2)	checkmate, matrixStats (>= 0.52), parallel, stats	NA	bayesplot (>= 1.7.0), brms (>= 2.10.0), ggplot2, graphics,
+knitr, rmarkdown, rstan, rstanarm (>= 2.19.0), rstantools,
+spdep, testthat (>= 2.1.0)	NA	GPL (>= 3)	NA	NA	NA	NA	no	4.2.2
+LPCM	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.46-7	NA	R (>= 3.5.0)	NA	NA	scatterplot3d, lattice, dr	NA	GPL (>= 2)	NA	NA	NA	NA	no	4.2.1
+lpSolve	C:/Users/ajsik/AppData/Local/R/win-library/4.2	5.6.15	NA	NA	NA	NA	NA	NA	LGPL-2	NA	NA	NA	NA	yes	4.2.0
+lpsymphony	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.24.0	NA	R (>= 3.0.0)	NA	NA	BiocStyle, knitr, testthat	slam	EPL	NA	NA	NA	NA	yes	4.2.0
+lubridate	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.8.0	NA	methods, R (>= 3.2)	generics	cpp11 (>= 0.2.7)	covr, knitr, testthat (>= 2.1.0), vctrs (>= 0.3.0), rmarkdown	chron, timeDate, tis, zoo	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.0
+magic	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.6-0	NA	R (>= 2.10), abind	NA	NA	NA	NA	GPL-2	NA	NA	NA	NA	no	4.2.0
+magick	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.7.4	NA	NA	Rcpp (>= 0.12.12), magrittr, curl	Rcpp	av (>= 0.3), spelling, jsonlite, methods, knitr, rmarkdown,
+rsvg, webp, pdftools, ggplot2, gapminder, IRdisplay, tesseract
+(>= 2.0), gifski	NA	MIT + file LICENSE	NA	NA	NA	NA	yes	4.2.3
+magrittr	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.0.3	NA	R (>= 3.4.0)	NA	NA	covr, knitr, rlang, rmarkdown, testthat	NA	MIT + file LICENSE	NA	NA	NA	NA	yes	4.2.0
+MALDIquant	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.21	NA	R (>= 4.0.0), methods	parallel	NA	knitr, testthat (>= 0.8)	NA	GPL (>= 3)	NA	NA	NA	NA	yes	4.2.1
+maotai	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.2.4	NA	NA	Matrix, Rcpp, Rdpack, RSpectra, Rtsne, RANN, cluster, labdsv,
+shapes, stats, utils, fastcluster, dbscan	Rcpp, RcppArmadillo, RcppDist	igraph	NA	MIT + file LICENSE	NA	NA	NA	NA	yes	4.2.0
+maps	C:/Users/ajsik/AppData/Local/R/win-library/4.2	3.4.0	NA	R (>= 3.5.0)	graphics, utils	NA	mapproj (>= 1.2-0), mapdata (>= 2.3.0), sp, rnaturalearth	NA	GPL-2	NA	NA	NA	NA	yes	4.2.1
+maptools	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.1-4	NA	R (>= 2.10), sp (>= 1.0-11)	foreign (>= 0.8), methods, grid, lattice, stats, utils,
+grDevices	NA	rgeos (>= 0.1-8), spatstat.geom (>= 1.65-0), PBSmapping,
+maps, RColorBrewer, raster, polyclip, plotrix, spatstat.linnet
+(>= 1.65-3), spatstat.utils (>= 1.19.0), spatstat (>= 2.0-0)	gpclib	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.0
+markdown	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.1	NA	R (>= 2.11.1)	utils, xfun, mime (>= 0.3)	NA	knitr, RCurl	NA	GPL-2	NA	NA	NA	NA	yes	4.2.0
+markovchain	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.9.0	NA	R (>= 4.0.0), methods	igraph, Matrix, expm, stats4, parallel, Rcpp (>= 1.0.2),
+RcppParallel, utils, stats, grDevices	Rcpp, RcppParallel, RcppArmadillo (>= 0.9.600.4.0)	knitr, testthat, diagram, DiagrammeR, msm, Rsolnp, rmarkdown,
+ctmcd, bookdown, rticles	etm	GPL-2	NA	NA	NA	NA	yes	4.2.1
+MASS	C:/Users/ajsik/AppData/Local/R/win-library/4.2	7.3-58	recommended	R (>= 3.3.0), grDevices, graphics, stats, utils	methods	NA	lattice, nlme, nnet, survival, gamair	NA	GPL-2 | GPL-3	NA	NA	NA	NA	yes	4.2.1
+MassSpecWavelet	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.62.0	NA	NA	NA	NA	signal, waveslim, BiocStyle, knitr, rmarkdown	NA	LGPL (>= 2)	NA	NA	NA	NA	no	4.2.0
+Matching	C:/Users/ajsik/AppData/Local/R/win-library/4.2	4.10-8	NA	R (>= 2.6.0), MASS (>= 7.2-1), graphics, grDevices, stats	NA	NA	parallel, rgenoud (>= 2.12), testthat	NA	GPL-3	NA	NA	NA	NA	yes	4.2.2
+MatchIt	C:/Users/ajsik/AppData/Local/R/win-library/4.2	4.5.0	NA	R (>= 3.1.0)	backports (>= 1.1.9), Rcpp	Rcpp, RcppProgress	optmatch (>= 0.10.0), Matching, rgenoud, quickmatch (>=
+0.2.1), nnet, rpart, mgcv, CBPS (>= 0.17), dbarts, randomForest
+(>= 4.7-1), glmnet (>= 4.0), gbm (>= 2.1.7), cobalt (>= 4.2.3),
+boot, marginaleffects (>= 0.8.0), sandwich (>= 2.5-1),
+survival, RcppProgress (>= 0.4.2), Rglpk, Rsymphony, gurobi,
+knitr, rmarkdown	NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.2
+MatrixGenerics	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.8.1	NA	matrixStats (>= 0.60.1)	methods	NA	sparseMatrixStats, DelayedMatrixStats, SummarizedExperiment,
+testthat (>= 2.1.0), Matrix	NA	Artistic-2.0	NA	NA	NA	NA	no	4.2.0
+MatrixModels	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.5-0	NA	R (>= 3.0.1)	stats, methods, Matrix (>= 1.1-5)	NA	NA	NA	GPL (>= 2)	NA	NA	NA	NA	no	4.2.0
+matrixStats	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.62.0	NA	R (>= 2.12.0)	NA	NA	base64enc, ggplot2, knitr, markdown, microbenchmark,
+R.devices, R.rsp	NA	Artistic-2.0	NA	NA	NA	NA	yes	4.2.1
+maxstat	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.7-25	NA	R (>= 1.7.0)	exactRankTests(>= 0.8-23), mvtnorm(>= 0.5-10), stats, graphics	NA	TH.data, survival	NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.0
+mbkmeans	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.12.0	NA	R (>= 3.6)	methods, DelayedArray, Rcpp, S4Vectors, SingleCellExperiment,
+SummarizedExperiment, ClusterR, benchmarkme, Matrix,
+BiocParallel	Rcpp, RcppArmadillo (>= 0.7.2), Rhdf5lib, beachmat, ClusterR	beachmat, HDF5Array, Rhdf5lib, BiocStyle, TENxPBMCData,
+scater, DelayedMatrixStats, bluster, knitr, testthat, rmarkdown	NA	MIT + file LICENSE	NA	NA	NA	NA	yes	4.2.0
+mc2d	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.1-21	NA	R (>= 2.10.0), mvtnorm	stats, grDevices, graphics, utils	NA	fitdistrplus, survival, testthat (>= 3.0.0)	NA	GPL (>= 2)	NA	NA	NA	NA	no	4.2.0
+mclust	C:/Users/ajsik/AppData/Local/R/win-library/4.2	5.4.10	NA	R (>= 3.0)	stats, utils, graphics, grDevices	NA	knitr (>= 1.12), rmarkdown (>= 0.9), mix (>= 1.0), geometry
+(>= 0.3-6), MASS	NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.0
+memoise	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.0.1	NA	NA	rlang (>= 0.4.10), cachem	NA	digest, aws.s3, covr, googleAuthR, googleCloudStorageR, httr,
+testthat	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.0
+mets	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.2.9	NA	R (>= 3.5), timereg (>= 1.9.4), lava (>= 1.6.6)	mvtnorm, numDeriv, compiler, Rcpp, splines, survival (>=
+2.43-1),	Rcpp, RcppArmadillo, mvtnorm	optimx, prodlim, cmprsk, testthat (>= 0.11), ucminf, knitr,
+rmarkdown, ggplot2, cowplot, icenReg	NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.0
+mice	C:/Users/ajsik/AppData/Local/R/win-library/4.2	3.14.0	NA	R (>= 2.10.0)	broom, dplyr, generics, graphics, grDevices, lattice, methods,
+Rcpp, rlang, stats, tidyr, utils, withr	cpp11, Rcpp	broom.mixed, decor, glmnet, haven, knitr, lme4, lmtest, MASS,
+metafor, mitml, miceadds, nnet, pan, randomForest, ranger,
+rmarkdown, rpart, survival, testthat	NA	GPL-2 | GPL-3	NA	NA	NA	NA	yes	4.2.1
+miceadds	C:/Users/ajsik/AppData/Local/R/win-library/4.2	3.16-18	NA	R (>= 3.5.0), mice (>= 3.0.0)	graphics, methods, mitools, Rcpp, stats, utils	Rcpp, RcppArmadillo	BIFIEsurvey, blme, car, CDM, coda, foreign, inline, lme4,
+MASS, Matrix, MBESS, MCMCglmm, mdmb, pls, numDeriv, readxl,
+sandwich, sirt, sjlabelled, synthpop, TAM	Amelia, imputeR, jomo, micemd, mitml, pan, simputation	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.2
+mime	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.12	NA	NA	tools	NA	NA	NA	GPL	NA	NA	NA	NA	yes	4.2.0
+miniUI	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.1.1.1	NA	NA	shiny (>= 0.13), htmltools (>= 0.3), utils	NA	NA	NA	GPL-3	NA	NA	NA	NA	no	4.2.1
+minpack.lm	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.2-2	NA	NA	NA	NA	MASS	NA	GPL-3	NA	NA	NA	NA	yes	4.2.0
+minqa	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.2.4	NA	NA	Rcpp (>= 0.9.10)	Rcpp	NA	NA	GPL-2	NA	NA	NA	NA	yes	4.2.0
+misc3d	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.9-1	NA	NA	grDevices, graphics, stats, tcltk	NA	rgl, tkrplot, MASS	NA	GPL	NA	NA	NA	NA	no	4.2.0
+mitools	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.4	NA	NA	DBI, methods, stats	NA	RODBC, foreign	NA	GPL-2	NA	NA	NA	NA	no	4.2.1
+mixtools	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.2.0	NA	R (>= 3.5.0)	kernlab, MASS, segmented, stats, survival	NA	NA	NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.1
+mmrm	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.2.2	NA	R (>= 4.0)	checkmate (>= 2.0), lifecycle, methods, nlme, numDeriv,
+parallel, Rcpp, Rdpack, stats, stringr, TMB (>= 1.9.1), utils	Rcpp, RcppEigen, testthat, TMB (>= 1.9.1)	emmeans (>= 1.6), estimability, knitr, parallelly (>=
+1.32.0), rmarkdown, testthat (>= 3.0.0), xml2	NA	Apache License 2.0	NA	NA	NA	NA	yes	4.2.3
+mnormt	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.1.0	NA	R (>= 2.2.0)	NA	NA	NA	NA	GPL-2 | GPL-3	NA	NA	NA	NA	yes	4.2.0
+ModelMetrics	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.2.2.2	NA	R (>= 3.2.2)	Rcpp, data.table	Rcpp	testthat	NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.0
+modelr	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.1.9	NA	R (>= 3.2)	broom, magrittr, purrr (>= 0.2.2), rlang (>= 0.2.0), tibble,
+tidyr (>= 0.8.0), tidyselect, vctrs	NA	compiler, covr, ggplot2, testthat	NA	GPL-3	NA	NA	NA	NA	no	4.2.1
+modeltools	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.2-23	NA	stats, stats4	methods	NA	NA	NA	GPL-2	NA	NA	NA	NA	no	4.2.0
+moments	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.14.1	NA	NA	NA	NA	NA	NA	GPL (>= 2)	NA	NA	NA	NA	no	4.2.0
+monocle	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.24.1	NA	R (>= 2.10.0), methods, Matrix (>= 1.2-6), Biobase, ggplot2
+(>= 1.0.0), VGAM (>= 1.0-6), DDRTree (>= 0.1.4),	parallel, igraph (>= 1.0.1), BiocGenerics, HSMMSingleCell (>=
+0.101.5), plyr, cluster, combinat, fastICA, grid, irlba (>=
+2.0.0), matrixStats, Rtsne, MASS, reshape2, leidenbase (>=
+0.1.9), limma, tibble, dplyr, qlcMatrix, pheatmap, stringr,
+proxy, slam, viridis, stats, biocViews, RANN(>= 2.5), Rcpp (>=
+0.12.0)	Rcpp	destiny, Hmisc, knitr, Seurat, scater, testthat	NA	Artistic-2.0	NA	NA	NA	NA	yes	4.2.0
+mosaics	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.34.0	NA	R (>= 3.0.0), methods, graphics, Rcpp	MASS, splines, lattice, IRanges, GenomicRanges,
+GenomicAlignments, Rsamtools, GenomeInfoDb, S4Vectors	Rcpp	mosaicsExample	parallel	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.0
+mosaicsExample	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.34.0	NA	R (>= 2.11.1)	NA	NA	NA	NA	GPL (>= 2)	NA	NA	NA	NA	no	4.2.0
+mouse4302.db	C:/Users/ajsik/AppData/Local/R/win-library/4.2	3.13.0	NA	R (>= 2.7.0), methods, AnnotationDbi (>= 1.53.2), org.Mm.eg.db
+(>= 3.13.0)	methods, AnnotationDbi	NA	DBI, annotate, RUnit	NA	Artistic-2.0	NA	NA	NA	NA	no	4.2.0
+MsCoreUtils	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.8.0	NA	R (>= 3.6.0)	methods, S4Vectors, MASS, stats, clue	Rcpp	testthat, knitr, BiocStyle, rmarkdown, roxygen2, imputeLCMD,
+impute, norm, pcaMethods, vsn, Matrix, preprocessCore	NA	Artistic-2.0	NA	NA	NA	NA	yes	4.2.0
+MsFeatures	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.4.0	NA	R (>= 4.1)	methods, ProtGenerics (>= 1.23.5), MsCoreUtils,
+SummarizedExperiment, stats	NA	testthat, roxygen2, BiocStyle, pheatmap, knitr, rmarkdown	NA	Artistic-2.0	NA	NA	NA	NA	no	4.2.0
+MSMB	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.14.0	NA	R (>= 2.10)	NA	NA	knitr, BiocStyle	NA	LGPL	NA	NA	NA	NA	no	4.2.0
+MSnbase	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.22.0	NA	R (>= 3.5), methods, BiocGenerics (>= 0.7.1), Biobase (>=
+2.15.2), mzR (>= 2.29.3), S4Vectors, ProtGenerics (>= 1.27.2)	MsCoreUtils, BiocParallel, IRanges (>= 2.13.28), plyr, vsn,
+grid, stats4, affy, impute, pcaMethods, MALDIquant (>= 1.16),
+mzID (>= 1.5.2), digest, lattice, ggplot2, XML, scales, MASS,
+Rcpp	Rcpp	testthat, pryr, gridExtra, microbenchmark, zoo, knitr (>=
+1.1.0), rols, Rdisop, pRoloc, pRolocdata (>= 1.7.1), msdata (>=
+0.19.3), roxygen2, rgl, rpx, AnnotationHub, BiocStyle (>=
+2.5.19), rmarkdown, imputeLCMD, norm, gplots, shiny, magrittr,
+SummarizedExperiment	NA	Artistic-2.0	NA	NA	NA	NA	yes	4.2.0
+mstate	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.3.2	NA	survival (>= 3.1)	rlang, data.table, lattice, RColorBrewer, viridisLite	NA	cmprsk, ggplot2, knitr, rmarkdown, relsurv (>= 2.2-5)	NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.3
+muhaz	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.2.6.4	NA	R(>= 2.3)	survival	NA	NA	NA	GPL	NA	NA	NA	NA	yes	4.2.3
+multcomp	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.4-20	NA	stats, graphics, mvtnorm (>= 1.0-10), survival (>= 2.39-4),
+TH.data (>= 1.0-2)	sandwich (>= 2.3-0), codetools	NA	lme4 (>= 0.999375-16), nlme, robustbase, coin, MASS, foreign,
+xtable, lmtest, coxme (>= 2.2-1), SimComp, ISwR, tram (>=
+0.2-5), fixest (>= 0.10)	NA	GPL-2	NA	NA	NA	NA	no	4.2.1
+multcompView	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.1-8	NA	NA	grid	NA	multcomp, pgirmess, MASS	NA	GPL	NA	NA	NA	NA	no	4.2.0
+multicool	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.1-12	NA	methods, Rcpp (>= 0.11.2)	NA	Rcpp	NA	NA	GPL-2	NA	NA	NA	NA	yes	4.2.0
+multimode	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.5	NA	R (>= 2.10.0)	diptest, ks, rootSolve	NA	nor1mix	NA	GPL-3	NA	NA	NA	NA	yes	4.2.0
+multiwayvcov	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.2.3	NA	R (>= 3.0.0)	sandwich, boot, compiler, parallel, stats, utils	NA	lmtest	NA	BSD_2_clause + file LICENSE	NA	NA	NA	NA	no	4.2.2
+multtest	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.52.0	NA	R (>= 2.10), methods, BiocGenerics, Biobase	survival, MASS, stats4	NA	snow	NA	LGPL	NA	NA	NA	NA	yes	4.2.0
+munsell	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.5.0	NA	NA	colorspace, methods	NA	ggplot2, testthat	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.0
+mvtnorm	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.1-3	NA	R(>= 3.5.0)	stats, methods	NA	NA	NA	GPL-2	NA	NA	NA	NA	yes	4.2.0
+mzID	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.34.0	NA	methods	XML, plyr, parallel, doParallel, foreach, iterators,
+ProtGenerics	NA	knitr, testthat	NA	GPL (>= 2)	NA	NA	NA	NA	no	4.2.0
+mzR	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.30.0	NA	R (>= 4.0.0), Rcpp (>= 0.10.1), methods, utils	Biobase, BiocGenerics (>= 0.13.6), ProtGenerics (>= 1.17.3),
+ncdf4	Rcpp, Rhdf5lib (>= 1.1.4)	msdata (>= 0.15.1), RUnit, mzID, BiocStyle (>= 2.5.19),
+knitr, XML, rmarkdown	NA	Artistic-2.0	NA	NA	NA	NA	yes	4.2.0
+NbClust	C:/Users/ajsik/AppData/Local/R/win-library/4.2	3.0.1	NA	R (>= 3.1.0)	NA	NA	NA	NA	GPL-2	NA	NA	NA	NA	no	4.2.0
+ncdf4	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.19	NA	NA	NA	NA	NA	NA	GPL (>= 3)	NA	NA	NA	NA	yes	4.2.0
+ncdfFlow	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.42.1	NA	R (>= 2.14.0), flowCore(>= 1.51.7), RcppArmadillo, methods, BH	Biobase,BiocGenerics,flowCore,zlibbioc	Rcpp,RcppArmadillo,BH, Rhdf5lib	testthat,parallel,flowStats,knitr	NA	file LICENSE	NA	NA	NA	NA	yes	4.2.0
+network	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.17.2	NA	R (>= 2.10), utils	tibble, magrittr, statnet.common (>= 4.5), stats	NA	sna, testthat, covr	NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.1
+nlme	C:/Users/ajsik/AppData/Local/R/win-library/4.2	3.1-162	recommended	R (>= 3.5.0)	graphics, stats, utils, lattice	NA	Hmisc, MASS, SASmixed	NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.2
+nlmeU	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.70-9	NA	R (>= 2.14.2)	nlme	NA	reshape, WWGbook, lattice, ellipse, roxygen2, testthat	NA	GPL (>= 2)	NA	NA	NA	NA	no	4.2.2
+nloptr	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.0.3	NA	NA	NA	testthat	knitr, rmarkdown, xml2, testthat (>= 3.0.0), covr	NA	LGPL (>= 3)	NA	NA	NA	NA	yes	4.2.0
+NMF	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.24.0	NA	R (>= 3.0.0), methods, utils, pkgmaker (>= 0.20), registry,
+rngtools (>= 1.2.3), cluster	graphics, stats, stringr (>= 1.0.0), digest, grid, grDevices,
+gridBase, colorspace, RColorBrewer, foreach, doParallel,
+ggplot2, reshape2, BiocManager, Biobase	NA	fastICA, doMPI, bigmemory (>= 4.2), synchronicity(>= 1.3.2),
+corpcor, xtable, devtools, knitr, RUnit, mail	NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.1
+nortest	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.0-4	NA	NA	stats	NA	NA	NA	GPL (>= 2)	NA	NA	NA	NA	no	4.2.0
+numDeriv	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2016.8-1.1	NA	R (>= 2.11.1)	NA	NA	NA	NA	GPL-2	NA	NA	NA	NA	no	4.2.0
+openssl	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.0.4	NA	NA	askpass	NA	curl, testthat (>= 2.1.0), digest, knitr, rmarkdown,
+jsonlite, jose, sodium	NA	MIT + file LICENSE	NA	NA	NA	NA	yes	4.2.2
+openxlsx	C:/Users/ajsik/AppData/Local/R/win-library/4.2	4.2.5	NA	R (>= 3.3.0)	grDevices, methods, Rcpp, stats, stringi, utils, zip	Rcpp	knitr, rmarkdown, roxygen2, testthat	NA	MIT + file LICENSE	NA	NA	NA	NA	yes	4.2.1
+org.Mm.eg.db	C:/Users/ajsik/AppData/Local/R/win-library/4.2	3.15.0	NA	R (>= 2.7.0), methods, AnnotationDbi (>= 1.57.1)	NA	NA	DBI, annotate, RUnit	NA	Artistic-2.0	NA	NA	NA	NA	no	4.2.0
+OrganismDbi	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.38.1	NA	R (>= 2.14.0), methods, BiocGenerics (>= 0.15.10),
+AnnotationDbi (>= 1.33.15), GenomicFeatures (>= 1.39.4)	Biobase, BiocManager, GenomicRanges (>= 1.31.13), graph,
+IRanges, RBGL, DBI, S4Vectors (>= 0.9.25), stats	NA	Homo.sapiens, Rattus.norvegicus, BSgenome.Hsapiens.UCSC.hg19,
+AnnotationHub, FDb.UCSC.tRNAs, mirbase.db, rtracklayer,
+biomaRt, RUnit, RMariaDB	NA	Artistic-2.0	NA	NA	NA	NA	no	4.2.0
+packcircles	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.3.4	NA	R (>= 3.2)	Rcpp (>= 1.0.0)	Rcpp (>= 1.0.0)	ggiraph, ggplot2, knitr, rmarkdown, lpSolve	NA	MIT + file LICENSE	NA	NA	NA	NA	yes	4.2.0
+pacman	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.5.1	NA	R (>= 3.5.0)	remotes, methods, stats, utils	NA	BiocManager, knitr, lattice, testthat (>= 0.9.0), XML	NA	GPL-2	NA	NA	NA	NA	no	4.2.2
+paletteer	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.4.1	NA	R (>= 2.10)	prismatic, rematch2, rlang, rstudioapi	NA	covr, gameofthrones (>= 1.0.0), ggplot2 (>= 3.3.0), ggthemes
+(>= 4.0.0), harrypotter (>= 2.1.0), knitr, oompaBase, palr,
+pals, rmarkdown, scico, testthat (>= 2.1.0), vdiffr,
+viridisLite	NA	GPL-3	NA	NA	NA	NA	no	4.2.1
+pander	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.6.5	NA	R (>= 2.15.0)	grDevices, graphics, methods, utils, stats, digest, tools,
+Rcpp	Rcpp	grid, lattice, ggplot2 (>= 0.9.2), sylly, sylly.en, logger,
+survival, microbenchmark, zoo, nlme, descr, MASS, knitr,
+rmarkdown, tables, reshape, memisc, Epi, randomForest, tseries,
+gtable, rms, forecast, data.table	NA	AGPL-3 | file LICENSE	NA	NA	NA	NA	yes	4.2.1
+parallelly	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.32.1	NA	NA	parallel, tools, utils	NA	NA	NA	LGPL (>= 2.1)	NA	NA	NA	NA	no	4.2.1
+parameters	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.18.2	NA	R (>= 3.5)	bayestestR (>= 0.12.1), datawizard (>= 0.5.0), insight (>=
+0.18.0), graphics, methods, stats, utils	NA	AER, afex, aod, BayesFactor, BayesFM, bbmle, betareg, biglm,
+blme, boot, brglm2, brms, broom, cAIC4, car, cgam,
+ClassDiscovery, clubSandwich, cluster, cplm, dbscan, domir (>=
+0.2.0), drc, DRR, effectsize (>= 0.6.0), EGAnet (>= 0.7),
+emmeans (>= 1.7.0), factoextra, FactoMineR, fastICA, fixest,
+fpc, gam, gamlss, gee, geepack, ggplot2, GLMMadaptive, glmmTMB,
+GPArotation, gt, httr, Hmisc, ivprobit, ivreg, knitr, lavaan,
+lavaSearch2, lfe, lm.beta, lme4, lmerTest, lmtest, logspline,
+lqmm, M3C, magrittr, marginaleffects, MASS, Matrix, mclust,
+MCMCglmm, mediation, merDeriv, metaBMA, metafor, mfx, mgcv,
+mice, multcomp, MuMIn, NbClust, nFactors, nlme, nnet, openxlsx,
+ordinal, panelr, pbkrtest, PCDimension, performance (>= 0.8.0),
+plm, PMCMRplus, poorman, posterior, PROreg, pscl, psych,
+pvclust, quantreg, randomForest, rmarkdown, rms, rstanarm,
+sandwich, see (>= 0.6.9), sjstats, survey, survival, testthat,
+TMB, truncreg, VGAM, WRS2	NA	GPL-3	NA	NA	NA	NA	no	4.2.1
+pasilla	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.24.0	NA	R (>= 3.5.0), DEXSeq	NA	NA	rmarkdown, BiocStyle, knitr	NA	LGPL	NA	NA	NA	NA	no	4.2.0
+pastecs	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.3.21	NA	NA	boot, stats, graphics, utils, grDevices	NA	svUnit, covr	NA	GPL-2	NA	NA	NA	NA	no	4.2.0
+patchwork	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.1.2	NA	NA	ggplot2 (>= 3.0.0), gtable, grid, stats, grDevices, utils,
+graphics	NA	knitr, rmarkdown, gridGraphics, gridExtra, ragg, testthat (>=
+2.1.0), vdiffr, covr, png	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.1
+pbapply	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.5-0	NA	R (>= 3.2.0)	parallel	NA	shiny	NA	GPL-2	NA	NA	NA	NA	no	4.2.0
+pbkrtest	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.5.1	NA	R (>= 3.5.0), lme4 (>= 1.1.10)	broom, dplyr, magrittr, MASS, Matrix (>= 1.2.3), methods,
+numDeriv, parallel, knitr	NA	NA	NA	GPL (>= 2)	NA	NA	NA	NA	no	4.2.0
+pcaMethods	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.88.0	NA	Biobase, methods	BiocGenerics, Rcpp (>= 0.11.3), MASS	Rcpp	matrixStats, lattice, ggplot2	NA	GPL (>= 3)	NA	NA	NA	NA	yes	4.2.0
+pec	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2022.05.04	NA	R (>= 2.9.0), prodlim (>= 1.4.9)	foreach (>= 1.4.2), rms (>= 4.2-0), survival (>= 2.37-7),
+riskRegression (>= 2020.02.05), lava (>= 1.4.1), timereg (>=
+1.8.9),	NA	party, cmprsk (>= 2.2-7), rpart, Hmisc (>= 3.14-4)	crrstep, randomForestSRC	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.0
+performance	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.9.2	NA	R (>= 3.5)	bayestestR (>= 0.11.5), insight (>= 0.18.0), datawizard (>=
+0.4.1.10), methods, stats, utils	NA	AER, afex, BayesFactor, bayesplot, betareg, bigutilsr,
+blavaan, brms, car, CompQuadForm, correlation, cplm, dbscan,
+estimatr, fixest, forecast, gamm4, ggplot2, glmmTMB, httr, ICS,
+ICSOutlier, ISLR, lavaan, lme4, lmtest, loo, magrittr, MASS,
+Matrix, mclust, metafor, mgcv, mlogit, multimode, nlme,
+nonnest2, ordinal, parallel, parameters, patchwork, poorman,
+pscl, psych, randomForest, rmarkdown, rstanarm, rstantools,
+sandwich, see, survey, survival, testthat, tweedie, VGAM	NA	GPL-3	NA	NA	NA	NA	no	4.2.1
+PerformanceAnalytics	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.0.4	NA	R (>= 3.5.0), xts (>= 0.10.0)	methods, quadprog, zoo	NA	dygraphs, Hmisc, MASS, quantmod, gamlss, gamlss.dist,
+robustbase, quantreg, tinytest, ggplot2, RColorBrewer,
+googleVis, plotly, gridExtra, ggpubr, RPESE, R.rsp, RobStatTM	NA	GPL-2 | GPL-3	NA	NA	NA	NA	yes	4.2.1
+permute	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.9-7	NA	R (>= 2.14.0)	stats	NA	vegan (>= 2.0-0), testthat (>= 0.5), parallel, knitr,
+rmarkdown, bookdown, sessioninfo	NA	GPL-2	NA	NA	NA	NA	no	4.2.1
+phangorn	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.9.0	NA	ape (>= 5.5), R (>= 4.1.0)	fastmatch, generics, graphics, grDevices, igraph (>= 1.0),
+Matrix, methods, parallel, quadprog, Rcpp, stats, utils	Rcpp	Biostrings, knitr, magick, prettydoc, rgl, rmarkdown, seqinr,
+seqLogo, tinytest, xtable	NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.1
+pheatmap	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.0.12	NA	R (>= 2.0)	grid, RColorBrewer, scales, gtable, stats, grDevices, graphics	NA	NA	NA	GPL-2	NA	NA	NA	NA	no	4.2.1
+photobiology	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.10.12	NA	R (>= 3.6.0)	stats, grDevices, polynom (>= 1.4-1), tibble (>= 3.1.0),
+stringr (>= 1.4.0), lubridate (>= 1.7.8), plyr (>= 1.8.7),
+dplyr (>= 1.0.9), tidyr (>= 1.2.0), splus2R (>= 1.3-3), zoo (>=
+1.8-8), rlang (>= 0.4.8)	NA	knitr (>= 1.30), rmarkdown (>= 2.4), testthat (>= 2.3.2),
+roxygen2 (>= 7.1.1), lutz (>= 0.3.1)	NA	GPL (>= 2)	NA	NA	NA	NA	no	4.2.1
+phylobase	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.8.10	NA	NA	ade4, ape (>= 3.0), Rcpp (>= 0.11.0), rncl (>= 0.6.0), grid,
+methods, stats, RNeXML	Rcpp	MASS, testthat (>= 0.8.1), knitr	NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.1
+phyloseq	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.40.0	NA	R (>= 3.3.0)	ade4 (>= 1.7-4), ape (>= 5.0), Biobase (>= 2.36.2),
+BiocGenerics (>= 0.22.0), biomformat (>= 1.0.0), Biostrings (>=
+2.40.0), cluster (>= 2.0.4), data.table (>= 1.10.4), foreach
+(>= 1.4.3), ggplot2 (>= 2.1.0), igraph (>= 1.0.1), methods (>=
+3.3.0), multtest (>= 2.28.0), plyr (>= 1.8.3), reshape2 (>=
+1.4.1), scales (>= 0.4.0), vegan (>= 2.5)	NA	BiocStyle (>= 2.4), DESeq2 (>= 1.16.1), genefilter (>= 1.58),
+knitr (>= 1.16), magrittr (>= 1.5), metagenomeSeq (>= 1.14),
+rmarkdown (>= 1.6), testthat (>= 1.0.2)	doParallel (>= 1.0.10)	AGPL-3	NA	NA	NA	NA	no	4.2.0
+phyloseqGraphTest	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.1.0	NA	R (>= 3.5.0), ggplot2 (>= 2.2.1), phyloseq (>= 1.24.0)	ggnetwork (>= 0.5.1), igraph (>= 1.1.2), intergraph (>= 2.0.2)	NA	knitr, rmarkdown	NA	CC0	NA	NA	NA	NA	no	4.2.1
+pillar	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.8.1	NA	NA	cli (>= 2.3.0), fansi, glue, lifecycle, rlang (>= 1.0.2), utf8
+(>= 1.1.0), utils, vctrs (>= 0.3.8)	NA	bit64, debugme, DiagrammeR, dplyr, formattable, ggplot2,
+knitr, lubridate, nanotime, nycflights13, palmerpenguins,
+rmarkdown, scales, stringi, survival, testthat (>= 3.1.1),
+tibble, units (>= 0.7.2), vdiffr, withr	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.1
+pixmap	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.4-12	NA	NA	methods, graphics, grDevices	NA	NA	NA	GPL-2	NA	NA	NA	NA	no	4.2.0
+pkgbuild	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.3.1	NA	R (>= 3.1)	callr (>= 3.2.0), cli, crayon, desc, prettyunits, R6,
+rprojroot, withr (>= 2.3.0)	NA	Rcpp, cpp11, testthat, covr	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.2
+pkgconfig	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.0.3	NA	NA	utils	NA	covr, testthat, disposables (>= 1.0.3)	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.0
+pkgdown	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.0.6	NA	R (>= 3.1.0)	bslib (>= 0.3.1), callr (>= 2.0.2), cli, desc, digest, downlit
+(>= 0.4.0), fs (>= 1.4.0), httr (>= 1.4.2), jsonlite, magrittr,
+memoise, purrr, ragg, rlang (>= 1.0.0), rmarkdown (>=
+1.1.9007), tibble, whisker, withr (>= 2.4.3), xml2 (>= 1.3.1),
+yaml	NA	covr, diffviewer, evaluate, htmltools, htmlwidgets, knitr,
+lifecycle, methods, openssl, pkgload (>= 1.0.2), rsconnect,
+rstudioapi, rticles, sass, testthat (>= 3.1.3), tools	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.2
+pkgload	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.3.0	NA	R (>= 3.4.0)	cli (>= 3.3.0), crayon, desc, fs, glue, methods, rlang (>=
+1.0.3), rprojroot, utils, withr (>= 2.4.3)	NA	bitops, covr, mathjaxr, pak, pkgbuild, Rcpp, remotes,
+rstudioapi, testthat (>= 3.1.0)	NA	GPL-3	NA	NA	NA	NA	no	4.2.1
+pkgmaker	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.32.2	NA	R (>= 3.0.0), methods, stats, registry	tools, grDevices, utils, graphics, codetools, digest, stringr,
+xtable, withr, assertthat	NA	devtools (>= 0.8), roxygen2, RUnit, testthat, knitr,
+rmarkdown, markdown, yaml, Biobase, datasets, rbibutils (>=
+1.3)	NA	GPL (>= 2)	NA	NA	NA	NA	no	4.2.1
+plogr	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.2.0	NA	NA	NA	NA	Rcpp	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.1
+plot3D	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.4	NA	R (>= 2.15)	misc3d, stats, graphics, grDevices, methods	NA	NA	NA	GPL (>= 3.0)	NA	NA	NA	NA	no	4.2.0
+plotly	C:/Users/ajsik/AppData/Local/R/win-library/4.2	4.10.0	NA	R (>= 3.2.0), ggplot2 (>= 3.0.0)	tools, scales, httr (>= 1.3.0), jsonlite (>= 1.6), magrittr,
+digest, viridisLite, base64enc, htmltools (>= 0.3.6),
+htmlwidgets (>= 1.5.2.9001), tidyr (>= 1.0.0), RColorBrewer,
+dplyr, vctrs, tibble, lazyeval (>= 0.2.0), rlang (>= 0.4.10),
+crosstalk, purrr, data.table, promises	NA	MASS, maps, hexbin, ggthemes, GGally, testthat, knitr,
+devtools, shiny (>= 1.1.0), shinytest (>= 1.3.0), curl,
+rmarkdown, Cairo, broom, webshot, listviewer, dendextend,
+maptools, rgeos, sf, png, IRdisplay, processx, plotlyGeoAssets,
+forcats, palmerpenguins, rversions, reticulate	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.0
+plotrix	C:/Users/ajsik/AppData/Local/R/win-library/4.2	3.8-2	NA	R (>= 3.5.0)	grDevices, graphics, stats, utils	NA	NA	NA	GPL (>= 2)	NA	NA	NA	NA	no	4.2.0
+plyr	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.8.8	NA	R (>= 3.1.0)	Rcpp (>= 0.11.0)	Rcpp	abind, covr, doParallel, foreach, iterators, itertools,
+tcltk, testthat	NA	MIT + file LICENSE	NA	NA	NA	NA	yes	4.2.2
+PMA	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.2.1	NA	R (>= 2.10)	NA	NA	NA	NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.0
+PMCMRplus	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.9.6	NA	R (>= 3.5.0)	mvtnorm (>= 1.0), multcompView, gmp, Rmpfr, SuppDists,
+kSamples (>= 1.2.7), BWStest (>= 0.2.1), MASS, stats	NA	xtable, graphics, knitr, rmarkdown, car, e1071, multcomp,
+pwr, NSM3	NA	GPL (>= 3)	NA	NA	NA	NA	yes	4.2.1
+png	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.1-7	NA	R (>= 2.9.0)	NA	NA	NA	NA	GPL-2 | GPL-3	NA	NA	NA	NA	yes	4.2.0
+polspline	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.1.20	NA	NA	stats, graphics	NA	NA	NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.0
+polyclip	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.10-0	NA	R (>= 3.0.0)	NA	NA	NA	NA	BSL	NA	NA	NA	NA	yes	4.2.0
+polyCub	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.8.1	NA	R (>= 2.15.0), methods	grDevices, graphics, stats, sp (>= 1.0-11)	NA	spatstat.geom, lattice, mvtnorm, statmod, rgeos, gpclib, sf,
+cubature, knitr, rmarkdown, microbenchmark	NA	GPL-2	NA	NA	NA	NA	yes	4.2.3
+polynom	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.4-1	NA	NA	stats, graphics	NA	knitr, rmarkdown	NA	GPL-2	NA	NA	NA	NA	no	4.2.0
+posterior	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.4.1	NA	R (>= 3.2.0)	methods, abind, checkmate, rlang (>= 1.0.6), stats, tibble (>=
+3.1.0), vctrs (>= 0.5.0), tensorA, pillar, distributional,
+parallel, matrixStats	NA	testthat (>= 2.1.0), caret (>= 6.0.84), gbm (>= 2.1.8),
+randomForest (>= 4.6.14), e1071 (>= 1.7.3), dplyr, tidyr,
+knitr, ggplot2, rmarkdown	NA	BSD_3_clause + file LICENSE	NA	NA	NA	NA	no	4.2.3
+prabclus	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.3-2	NA	R (>= 2.10), MASS, mclust	NA	NA	spdep, spatialreg, bootstrap, maptools, foreign, mvtnorm	NA	GPL	NA	NA	NA	NA	no	4.2.1
+pracma	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.3.8	NA	R (>= 3.1.0)	graphics, grDevices, stats, utils	NA	NlcOptim, quadprog	NA	GPL (>= 3)	NA	NA	NA	NA	no	4.2.0
+praise	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.0.0	NA	NA	NA	NA	testthat	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.0
+preprocessCore	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.58.0	NA	NA	stats	NA	NA	NA	LGPL (>= 2)	NA	NA	NA	NA	yes	4.2.0
+prettyunits	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.1.1	NA	NA	NA	NA	codetools, covr, testthat	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.0
+prismatic	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.1.1	NA	R (>= 3.2)	graphics, farver (>= 2.0.1), grDevices	NA	covr, crayon, testthat (>= 3.0.0)	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.1
+pROC	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.18.0	NA	R (>= 2.14)	methods, plyr, Rcpp (>= 0.11.1)	Rcpp	microbenchmark, tcltk, MASS, logcondens, doParallel,
+testthat, vdiffr, ggplot2	NA	GPL (>= 3)	NA	NA	NA	NA	yes	4.2.0
+processx	C:/Users/ajsik/AppData/Local/R/win-library/4.2	3.7.0	NA	R (>= 3.4.0)	ps (>= 1.2.0), R6, utils	NA	callr (>= 3.7.0), cli (>= 3.3.0), codetools, covr, curl,
+debugme, parallel, rlang (>= 1.0.2), testthat (>= 3.0.0), withr	NA	MIT + file LICENSE	NA	NA	NA	NA	yes	4.2.1
+prodlim	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2019.11.13	NA	R (>= 2.9.0)	Rcpp (>= 0.11.5), stats, grDevices, graphics, survival,
+KernSmooth, lava	Rcpp	NA	NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.0
+profvis	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.3.7	NA	R (>= 3.0)	htmlwidgets (>= 0.3.2), stringr	NA	knitr, ggplot2, rmarkdown, testthat, devtools, shiny,
+htmltools	NA	GPL-3 | file LICENSE	NA	NA	NA	NA	yes	4.2.2
+progress	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.2.2	NA	NA	hms, prettyunits, R6, crayon	NA	Rcpp, testthat, withr	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.0
+progressr	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.10.1	NA	R (>= 3.5.0)	digest, utils	NA	graphics, tcltk, beepr, crayon, pbmcapply, progress, purrr,
+foreach, plyr, doFuture, future, future.apply, furrr,
+rstudioapi, shiny, commonmark, base64enc, tools	NA	GPL (>= 3)	NA	NA	NA	NA	no	4.2.0
+promises	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.2.0.1	NA	NA	R6, Rcpp, later, rlang, stats, magrittr	later, Rcpp	testthat, future (>= 1.21.0), fastmap (>= 1.1.0), purrr,
+knitr, rmarkdown, vembedr, spelling	NA	MIT + file LICENSE	NA	NA	NA	NA	yes	4.2.0
+ProtGenerics	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.28.0	NA	methods	NA	NA	testthat	NA	Artistic-2.0	NA	NA	NA	NA	no	4.2.0
+proxy	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.4-27	NA	R (>= 3.4.0)	stats, utils	NA	cba	NA	GPL-2	NA	NA	NA	NA	yes	4.2.0
+proxyC	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.3.3	NA	R (>= 3.1.0), methods	Matrix (>= 1.2), Rcpp (>= 0.12.12), RcppParallel	Rcpp, RcppParallel, RcppArmadillo (>= 0.7.600.1.0)	testthat, entropy, proxy, knitr, rmarkdown	NA	GPL-3	NA	NA	NA	NA	yes	4.2.2
+ps	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.7.1	NA	R (>= 3.4)	utils	NA	callr, covr, curl, pillar, pingr, processx (>= 3.1.0), R6,
+rlang, testthat (>= 3.0.0),	NA	MIT + file LICENSE	NA	NA	NA	NA	yes	4.2.1
+psych	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.2.5	NA	NA	mnormt,parallel,stats,graphics,grDevices,methods,lattice,nlme	NA	psychTools, GPArotation, lavaan, lme4, Rcsdp, graph, knitr,
+Rgraphviz	NA	GPL (>= 2)	NA	NA	NA	NA	no	4.2.0
+Publish	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2020.12.23	NA	prodlim (>= 1.5.4)	survival (>= 2.38), data.table (>= 1.10.4), lava (>= 1.5.1),
+multcomp (>= 1.4)	NA	riskRegression (>= 2020.09.07), testthat, smcfcs (>= 1.4.1),
+rms (>= 6.1.0), mitools (>= 2.4), nlme (>= 3.1-131)	NA	GPL (>= 2)	NA	NA	NA	NA	no	4.2.0
+purrr	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.0.1	NA	R (>= 3.4.0)	cli (>= 3.4.0), lifecycle (>= 1.0.3), magrittr (>= 1.5.0),
+rlang (>= 0.4.10), vctrs (>= 0.5.0)	cli	covr, dplyr (>= 0.7.8), httr, knitr, lubridate, rmarkdown,
+testthat (>= 3.0.0), tibble, tidyselect	NA	MIT + file LICENSE	NA	NA	NA	NA	yes	4.2.2
+pwr	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.3-0	NA	NA	stats, graphics	NA	ggplot2, scales, knitr, rmarkdown	NA	GPL (>= 3)	NA	NA	NA	NA	no	4.2.1
+qap	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.1-2	NA	NA	NA	NA	testthat	NA	GPL-3	NA	NA	NA	NA	yes	4.2.1
+qlcMatrix	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.9.7	NA	Matrix (>= 1.1-0), R (>= 3.2), slam (>= 0.1-32), sparsesvd	methods, docopt	NA	MASS, knitr	NA	GPL-3	NA	NA	NA	NA	no	4.2.1
+quadprog	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.5-8	NA	R (>= 3.1.0)	NA	NA	NA	NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.0
+quantmod	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.4.20	NA	R (>= 3.2.0), xts(>= 0.9-0), zoo, TTR(>= 0.2), methods	curl	NA	DBI,RMySQL,RSQLite,timeSeries,xml2,downloader,jsonlite(>=
+1.1)	NA	GPL-3	NA	NA	NA	NA	no	4.2.2
+quantreg	C:/Users/ajsik/AppData/Local/R/win-library/4.2	5.94	NA	R (>= 3.5), stats, SparseM	methods, graphics, Matrix, MatrixModels, survival, MASS	NA	tripack, interp, rgl, logspline, nor1mix, Formula, zoo,
+R.rsp, conquer	NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.1
+questionr	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.7.7	NA	R (>= 3.5.0)	shiny (>= 1.0.5), miniUI, rstudioapi, highr, styler, classInt,
+htmltools, graphics, stats, utils, labelled (>= 2.6.0)	NA	testthat, roxygen2, dplyr, ggplot2, tidyr, janitor, forcats,
+knitr, rmarkdown, survey, Hmisc	NA	GPL (>= 2)	NA	NA	NA	NA	no	4.2.1
+R.cache	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.16.0	NA	R (>= 2.14.0)	utils, R.methodsS3 (>= 1.8.1), R.oo (>= 1.24.0), R.utils (>=
+2.10.1), digest (>= 0.6.13)	NA	NA	NA	LGPL (>= 2.1)	NA	NA	NA	NA	no	4.2.1
+R.methodsS3	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.8.2	NA	R (>= 2.13.0)	utils	NA	codetools	NA	LGPL (>= 2.1)	NA	NA	NA	NA	no	4.2.0
+R.oo	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.25.0	NA	R (>= 2.13.0), R.methodsS3 (>= 1.8.1)	methods, utils	NA	tools	NA	LGPL (>= 2.1)	NA	NA	NA	NA	no	4.2.0
+R.utils	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.12.0	NA	R (>= 2.14.0), R.oo (>= 1.24.0)	methods, utils, tools, R.methodsS3 (>= 1.8.1)	NA	datasets, digest (>= 0.6.10)	NA	LGPL (>= 2.1)	NA	NA	NA	NA	no	4.2.1
+R2OpenBUGS	C:/Users/ajsik/AppData/Local/R/win-library/4.2	3.2-3.2.1	NA	R (>= 2.13.0)	coda (>= 0.11-0), boot	NA	NA	NA	GPL-2	NA	NA	NA	NA	no	4.2.3
+R6	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.5.1	NA	R (>= 3.0)	NA	NA	testthat, pryr	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.0
+ragg	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.2.4	NA	NA	systemfonts (>= 1.0.3), textshaping (>= 0.3.0)	systemfonts, textshaping	covr, graphics, grid, testthat	NA	MIT + file LICENSE	NA	NA	NA	NA	yes	4.2.2
+randomForest	C:/Users/ajsik/AppData/Local/R/win-library/4.2	4.7-1.1	NA	R (>= 4.1.0), stats	NA	NA	RColorBrewer, MASS	NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.2
+randomizr	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.24.0	NA	R (>= 3.5.0)	NA	NA	knitr, dplyr, testthat, rmarkdown	NA	MIT + file LICENSE	NA	NA	NA	NA	yes	4.2.2
+ranger	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.14.1	NA	R (>= 3.1)	Rcpp (>= 0.11.2), Matrix	Rcpp, RcppEigen	survival, testthat	NA	GPL-3	NA	NA	NA	NA	yes	4.2.1
+RANN	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.6.1	NA	NA	NA	NA	testthat	NA	GPL (>= 3)	NA	NA	NA	NA	yes	4.2.0
+rappdirs	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.3.3	NA	R (>= 3.2)	NA	NA	roxygen2, testthat (>= 3.0.0), covr, withr	NA	MIT + file LICENSE	NA	NA	NA	NA	yes	4.2.0
+RBGL	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.72.0	NA	graph, methods	methods	BH	Rgraphviz, XML, RUnit, BiocGenerics	NA	Artistic-2.0	NA	NA	NA	NA	yes	4.2.0
+rbibutils	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.2.9	NA	R (>= 2.10)	utils, tools	NA	testthat	NA	GPL-2	NA	NA	NA	NA	yes	4.2.1
+rbmi	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.2.3	NA	R (>= 3.4.0)	mmrm, pkgload, Matrix, methods, Rcpp (>= 0.12.0), RcppParallel
+(>= 5.0.1), rstan (>= 2.18.1), rstantools (>= 2.1.1), R6,
+assertthat	BH (>= 1.66.0), Rcpp (>= 0.12.0), RcppEigen (>= 0.3.3.3.0),
+RcppParallel (>= 5.0.1), rstan (>= 2.18.1), StanHeaders (>=
+2.18.0)	dplyr, tidyr, nlme, testthat, emmeans, tibble, mvtnorm,
+knitr, rmarkdown, bookdown, lubridate, purrr, ggplot2, R.rsp	NA	Apache License (>= 2)	NA	NA	NA	NA	yes	4.2.3
+rcmdcheck	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.4.0	NA	NA	callr (>= 3.1.1.9000), cli (>= 3.0.0), curl, desc (>= 1.2.0),
+digest, pkgbuild, prettyunits, R6, rprojroot, sessioninfo (>=
+1.1.1), utils, withr, xopen	NA	covr, knitr, mockery, processx, ps, rmarkdown, svglite,
+testthat, webfakes	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.2
+RColorBrewer	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.1-3	NA	R (>= 2.0.0)	NA	NA	NA	NA	Apache License 2.0	NA	NA	NA	NA	no	4.2.0
+rcompanion	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.4.18	NA	R (>= 4.1.0)	stats (>= 4.1.0), graphics (>= 4.1.0), boot (>= 1.3-28),
+DescTools (>= 0.99.43), multcompView (>= 0.1-8), plyr (>=
+1.8.6), coin (>= 1.4-2), lmtest (>= 0.9-38), nortest (>= 1.0-4)	NA	NA	NA	GPL-3	NA	NA	NA	NA	no	4.2.1
+Rcpp	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.0.9	NA	NA	methods, utils	NA	tinytest, inline, rbenchmark, pkgKitten (>= 0.1.2)	NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.1
+RcppArmadillo	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.11.2.3.1	NA	R (>= 3.3.0)	Rcpp (>= 0.11.0), stats, utils, methods	Rcpp	tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam	NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.1
+RcppDist	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.1.1	NA	R (>= 3.0.0)	Rcpp	Rcpp, RcppArmadillo	testthat, knitr, rmarkdown	NA	GPL (>= 2.0)	NA	NA	NA	NA	yes	4.2.0
+RcppEigen	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.3.3.9.2	NA	NA	Matrix (>= 1.1-0), Rcpp (>= 0.11.0), stats, utils	Rcpp	inline, tinytest, pkgKitten, microbenchmark	NA	GPL (>= 2) | file LICENSE	NA	NA	NA	NA	yes	4.2.0
+RcppNumerical	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.4-0	NA	NA	Rcpp	Rcpp, RcppEigen	knitr, rmarkdown, prettydoc, mvtnorm, RcppEigen	NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.1
+RcppParallel	C:/Users/ajsik/AppData/Local/R/win-library/4.2	5.1.5	NA	R (>= 3.0.2)	NA	NA	Rcpp, RUnit, knitr, rmarkdown	NA	GPL (>= 3)	NA	NA	NA	NA	yes	4.2.1
+RcppProgress	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.4.2	NA	NA	NA	NA	RcppArmadillo, devtools, roxygen2, testthat	NA	GPL (>= 3)	NA	NA	NA	NA	no	4.2.1
+RcppTOML	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.1.7	NA	R (>= 3.3.0)	Rcpp (>= 0.11.5)	Rcpp	tinytest	NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.1
+RCurl	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.98-1.8	NA	R (>= 3.4.0), methods	bitops	NA	XML	NA	BSD_3_clause + file LICENSE	NA	NA	NA	NA	yes	4.2.1
+Rdpack	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.4	NA	R (>= 2.15.0), methods	tools, utils, rbibutils (>= 1.3)	NA	grDevices, testthat, rstudioapi, rprojroot, gbRd	NA	GPL (>= 2)	NA	NA	NA	NA	no	4.2.1
+readr	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.1.2	NA	R (>= 3.1)	cli (>= 3.0.0), clipr, crayon, hms (>= 0.4.1), lifecycle (>=
+0.2.0), methods, R6, rlang, tibble, utils, vroom (>= 1.5.6)	cpp11, tzdb (>= 0.1.1)	covr, curl, datasets, knitr, rmarkdown, spelling, stringi,
+testthat (>= 3.1.2), tzdb (>= 0.1.1), waldo, withr, xml2	NA	MIT + file LICENSE	NA	NA	NA	NA	yes	4.2.0
+readxl	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.4.1	NA	R (>= 3.4)	cellranger, tibble (>= 2.0.1), utils	cpp11 (>= 0.4.0), progress	knitr, rmarkdown, testthat (>= 3.0.0)	NA	MIT + file LICENSE	NA	NA	NA	NA	yes	4.2.1
+recipes	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.0.1	NA	dplyr, R (>= 3.4)	cli, ellipsis, generics (>= 0.1.2), glue, gower, hardhat (>=
+1.2.0), ipred (>= 0.9-12), lifecycle, lubridate (>= 1.8.0),
+magrittr, Matrix, purrr (>= 0.2.3), rlang (>= 1.0.3), stats,
+tibble, tidyr (>= 1.0.0), tidyselect (>= 1.1.2), timeDate,
+utils, vctrs, withr	NA	covr, ddalpha, dials (>= 1.0.0), ggplot2, igraph, kernlab,
+knitr, modeldata (>= 0.1.1), parsnip (>= 0.1.7), RANN,
+RcppRoll, rmarkdown, rpart, rsample, RSpectra, testthat (>=
+3.0.0), workflows, xml2	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.1
+registry	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.5-1	NA	R (>= 2.6.0)	utils	NA	NA	NA	GPL-2	NA	NA	NA	NA	no	4.2.0
+rematch	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.0.1	NA	NA	NA	NA	covr, testthat	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.0
+rematch2	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.1.2	NA	NA	tibble	NA	covr, testthat	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.0
+remotes	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.4.2	NA	R (>= 3.0.0)	methods, stats, tools, utils	NA	brew, callr, codetools, curl, covr, git2r (>= 0.23.0), knitr,
+mockery, pkgbuild (>= 1.0.1), pingr, rmarkdown, rprojroot,
+testthat, webfakes, withr	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.2
+Renext	C:/Users/ajsik/AppData/Local/R/win-library/4.2	3.1-0	NA	R (>= 2.8.0), stats, graphics, evd	numDeriv, splines, methods	NA	MASS, ismev, XML	NA	GPL (>= 2)	NA	NA	NA	NA	no	4.2.1
+repr	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.1.6	NA	R (>= 3.0.1)	utils, grDevices, htmltools, jsonlite, pillar (>= 1.4.0),
+base64enc	NA	methods, highr, Cairo, stringr, testthat (>= 3.0.0), leaflet	data.table, tibble, htmlwidgets, vegalite, plotly, geojsonio	GPL (>= 3)	NA	NA	NA	NA	no	4.2.3
+reprex	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.0.2	NA	R (>= 3.4)	callr (>= 3.6.0), cli (>= 3.2.0), clipr (>= 0.4.0), fs, glue,
+knitr (>= 1.23), lifecycle, rlang (>= 1.0.0), rmarkdown,
+rstudioapi, utils, withr (>= 2.3.0)	NA	covr, fortunes, miniUI, mockr, rprojroot, sessioninfo, shiny,
+spelling, styler (>= 1.2.0), testthat (>= 3.0.2)	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.1
+reshape	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.8.9	NA	R (>= 2.6.1)	plyr	NA	NA	NA	MIT + file LICENSE	NA	NA	NA	NA	yes	4.2.2
+reshape2	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.4.4	NA	R (>= 3.1)	plyr (>= 1.8.1), Rcpp, stringr	Rcpp	covr, lattice, testthat (>= 0.8.0)	NA	MIT + file LICENSE	NA	NA	NA	NA	yes	4.2.0
+restfulr	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.0.15	NA	R (>= 3.4.0), methods	XML, RCurl, rjson, S4Vectors (>= 0.13.15), yaml	NA	getPass, rsolr, RUnit	NA	Artistic-2.0	NA	NA	NA	NA	yes	4.2.1
+rethinking	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.13.2	NA	R (>= 3.5.0), parallel, methods, stats, graphics	coda, MASS, mvtnorm, loo, shape	NA	testthat, dagitty	NA	GPL (>= 3)	NA	NA	NA	NA	no	4.2.1
+reticulate	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.26	NA	R (>= 3.0)	Matrix, Rcpp (>= 0.12.7), RcppTOML, graphics, here, jsonlite,
+methods, png, rappdirs, utils, withr	Rcpp	callr, knitr, rlang, rmarkdown, testthat	NA	Apache License 2.0	NA	NA	NA	NA	yes	4.2.1
+rgl	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.109.6	NA	R (>= 3.3.0)	graphics, grDevices, stats, utils, htmlwidgets, htmltools,
+knitr (>= 1.33), jsonlite (>= 0.9.20), magrittr, R6, base64enc,
+mime	NA	MASS, rmarkdown, deldir (>= 1.0-4), orientlib, lattice,
+misc3d, magick, plotrix (>= 3.7-3), tripack, interp,
+alphashape3d, tcltk, js (>= 1.2), webshot2 (>= 0.1.0), downlit
+(>= 0.4.0), pkgdown (>= 2.0.0), extrafont, shiny,
+manipulateWidget (>= 0.9.0), testthat, markdown, crosstalk, V8,
+chromote	waldo	GPL	NA	NA	NA	NA	yes	4.2.1
+Rgraphviz	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.40.0	NA	R (>= 2.6.0), methods, utils, graph, grid	stats4, graphics, grDevices	NA	RUnit, BiocGenerics, XML	NA	EPL	NA	NA	NA	NA	yes	4.2.0
+rhdf5	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.40.0	NA	R (>= 4.0.0), methods	Rhdf5lib (>= 1.13.4), rhdf5filters	Rhdf5lib	bit64, BiocStyle, knitr, rmarkdown, testthat, microbenchmark,
+dplyr, ggplot2, mockery	NA	Artistic-2.0	NA	NA	NA	NA	yes	4.2.0
+rhdf5filters	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.8.0	NA	NA	NA	Rhdf5lib	BiocStyle, knitr, rmarkdown, testthat (>= 2.1.0), rhdf5 (>=
+2.34.0)	NA	BSD_2_clause + file LICENSE	NA	NA	NA	NA	yes	4.2.0
+Rhdf5lib	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.18.2	NA	R (>= 4.0.0)	NA	NA	BiocStyle, knitr, rmarkdown, tinytest, mockery	NA	Artistic-2.0	NA	NA	NA	NA	yes	4.2.0
+Rhtslib	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.28.0	NA	NA	zlibbioc	zlibbioc	knitr, rmarkdown, BiocStyle	NA	LGPL (>= 2)	NA	NA	NA	NA	yes	4.2.0
+rio	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.5.29	NA	R (>= 2.15.0)	tools, stats, utils, foreign, haven (>= 1.1.2), curl (>= 0.6),
+data.table (>= 1.9.8), readxl (>= 0.1.1), openxlsx, tibble	NA	datasets, bit64, testthat, knitr, magrittr, arrow, clipr,
+feather, fst, hexView, jsonlite, pzfx, readODS (>= 1.6.4),
+readr, rmarkdown, rmatio, xml2 (>= 1.2.0), yaml	NA	GPL-2	NA	NA	NA	NA	no	4.2.1
+riskRegression	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2022.03.22	NA	R (>= 3.5.0),	cmprsk, data.table (>= 1.12.2), doParallel, foreach, ggplot2
+(>= 3.1.0), graphics, lattice, lava (>= 1.6.5), mets, mvtnorm,
+parallel, plotrix, prodlim (>= 2018.4.18), Publish, ranger,
+Rcpp, rms (>= 5.1.3), stats, survival (>= 2.44.1), timereg (>=
+1.9.3)	Rcpp, RcppArmadillo	boot, smcfcs, casebase, ipw, gbm, flexsurv, mgcv, mstate,
+nnls, numDeriv, party, pec, penalized, pROC, randomForest,
+randomForestSRC, rpart, scam, SuperLearner, testthat, R.rsp	NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.0
+rJava	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.0-6	NA	R (>= 3.6.0), methods	NA	NA	NA	NA	LGPL-2.1	NA	NA	NA	NA	yes	4.2.0
+rjson	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.2.21	NA	R (>= 4.0.0)	NA	NA	NA	NA	GPL-2	NA	NA	NA	NA	yes	4.2.0
+rlang	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.0.6	NA	R (>= 3.4.0)	utils	NA	cli (>= 3.1.0), covr, crayon, fs, glue, knitr, magrittr,
+methods, pillar, rmarkdown, stats, testthat (>= 3.0.0), tibble,
+usethis, vctrs (>= 0.2.3), withr	winch	MIT + file LICENSE	NA	NA	NA	NA	yes	4.2.2
+RLRsim	C:/Users/ajsik/AppData/Local/R/win-library/4.2	3.1-8	NA	R (>= 2.14.0)	Rcpp (>= 0.11.1), lme4 (>= 1.1), mgcv, nlme	Rcpp	NA	SemiPar, lmerTest	GPL	NA	NA	NA	NA	yes	4.2.2
+rmarkdown	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.16	NA	R (>= 3.0)	bslib (>= 0.2.5.1), evaluate (>= 0.13), htmltools (>= 0.5.1),
+jquerylib, jsonlite, knitr (>= 1.22), methods, stringr (>=
+1.2.0), tinytex (>= 0.31), tools, utils, xfun (>= 0.30), yaml
+(>= 2.1.19)	NA	digest, dygraphs, fs, rsconnect, downlit (>= 0.4.0), katex
+(>= 1.4.0), sass (>= 0.4.0), shiny (>= 1.6.0), testthat (>=
+3.0.3), tibble, tufte, vctrs, withr (>= 2.4.2)	NA	GPL-3	NA	NA	NA	NA	no	4.2.1
+Rmpfr	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.8-9	NA	gmp (>= 0.6-1), R (>= 3.5.0)	stats, utils, methods	NA	MASS, Bessel, polynom, sfsmisc (>= 1.0-20), Matrix	dfoptim, pracma	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.0
+rms	C:/Users/ajsik/AppData/Local/R/win-library/4.2	6.3-0	NA	R (>= 3.5.0), Hmisc (>= 4.7-0), survival (>= 3.1-12), lattice,
+ggplot2 (>= 2.2), SparseM	methods, quantreg, rpart, nlme (>= 3.1-123), polspline,
+multcomp, htmlTable (>= 1.11.0), htmltools, MASS, cluster,
+digest	NA	boot, tcltk, plotly (>= 4.5.6), knitr, mice, rmsb, nnet, VGAM	NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.2
+rncl	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.8.6	NA	R (>= 3.1.1)	Rcpp (>= 0.11.0), progress (>= 1.1.2), stats	Rcpp, progress	testthat, ape	NA	BSD_2_clause + file LICENSE	NA	NA	NA	NA	yes	4.2.1
+RNeXML	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.4.7	NA	R (>= 3.0.0), ape (>= 3.1), methods (>= 3.0.0)	XML (>= 3.95), plyr (>= 1.8), reshape2 (>= 1.2.2), httr (>=
+0.3), uuid (>= 0.1-1), dplyr (>= 0.5.0), lazyeval (>= 0.1.0),
+tidyr (>= 0.3.1), stringr (>= 1.0), stringi, xml2, rlang	NA	spelling, rdflib, geiger (>= 2.0), phytools (>= 0.3.93),
+knitr (>= 1.5), rfigshare (>= 0.3.0), knitcitations (>= 1.0.1),
+testthat (>= 0.10.0), rmarkdown (>= 0.3.3), xslt, covr,
+taxalight	NA	BSD_3_clause + file LICENSE	NA	NA	NA	NA	no	4.2.1
+rngtools	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.5.2	NA	R (>= 3.2.0), methods	digest, utils, stats, parallel	NA	covr, RUnit, testthat	NA	GPL-3	NA	NA	NA	NA	no	4.2.1
+robustbase	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.95-0	NA	R (>= 3.5.0)	stats, graphics, utils, methods, DEoptimR	NA	grid, MASS, lattice, boot, cluster, Matrix, robust,
+fit.models, MPV, xtable, ggplot2, GGally, RColorBrewer,
+reshape2, sfsmisc, catdata, doParallel, foreach, skewt	robustX, rrcov, matrixStats, quantreg, Hmisc	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.1
+ROCit	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.1.1	NA	NA	stats, graphics, utils, methods	NA	testthat, knitr, rmarkdown	NA	GPL-3	NA	NA	NA	NA	no	4.2.0
+ROCR	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.0-11	NA	R (>= 3.6)	methods, graphics, grDevices, gplots, stats	NA	testthat, knitr, rmarkdown	NA	GPL (>= 2)	NA	NA	NA	NA	no	4.2.0
+RODBC	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.3-19	NA	R (>= 4.0.0)	stats	NA	NA	NA	GPL-2 | GPL-3	NA	NA	NA	NA	yes	4.2.0
+rootSolve	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.8.2.3	NA	R (>= 2.01)	stats, graphics, grDevices	NA	NA	NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.0
+roxygen2	C:/Users/ajsik/AppData/Local/R/win-library/4.2	7.2.1	NA	R (>= 3.3)	brew, cli (>= 3.3.0), commonmark, desc (>= 1.2.0), digest,
+knitr, methods, pkgload (>= 1.0.2), purrr (>= 0.3.3), R6 (>=
+2.1.2), rlang (>= 1.0.0), stringi, stringr (>= 1.0.0), utils,
+withr, xml2	cpp11	covr, R.methodsS3, R.oo, rmarkdown, testthat (>= 3.1.2), yaml	NA	MIT + file LICENSE	NA	NA	NA	NA	yes	4.2.2
+rpact	C:/Users/ajsik/AppData/Local/R/win-library/4.2	3.3.4	NA	R (>= 3.6.0)	methods, stats, utils, graphics, tools, rlang, Rcpp (>= 1.0.3)	Rcpp	parallel, ggplot2 (>= 2.2.0), testthat (>= 3.0.0), mnormt (>=
+1.5-7), knitr (>= 1.19), rmarkdown (>= 1.10)	NA	LGPL-3	NA	NA	NA	NA	yes	4.2.3
+rprojroot	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.0.3	NA	R (>= 3.0.0)	NA	NA	covr, knitr, lifecycle, mockr, rmarkdown, testthat (>=
+3.0.0), withr	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.0
+RProtoBufLib	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.8.0	NA	NA	NA	NA	knitr, rmarkdown	NA	BSD_3_clause	NA	NA	NA	NA	yes	4.2.0
+Rsamtools	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.12.0	NA	methods, GenomeInfoDb (>= 1.1.3), GenomicRanges (>= 1.31.8),
+Biostrings (>= 2.47.6), R (>= 3.5.0)	utils, BiocGenerics (>= 0.25.1), S4Vectors (>= 0.17.25),
+IRanges (>= 2.13.12), XVector (>= 0.19.7), zlibbioc, bitops,
+BiocParallel, stats	Rhtslib (>= 1.17.7), S4Vectors, IRanges, XVector, Biostrings	GenomicAlignments, ShortRead (>= 1.19.10), GenomicFeatures,
+TxDb.Dmelanogaster.UCSC.dm3.ensGene,
+TxDb.Hsapiens.UCSC.hg18.knownGene, RNAseqData.HNRNPC.bam.chr14,
+BSgenome.Hsapiens.UCSC.hg19, RUnit, BiocStyle	NA	Artistic-2.0 | file LICENSE	NA	NA	NA	NA	yes	4.2.0
+Rsolnp	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.16	NA	R (>= 2.10.0)	truncnorm, parallel, stats	NA	NA	NA	GPL	NA	NA	NA	NA	no	4.2.1
+RSpectra	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.16-1	NA	R (>= 3.0.2)	Matrix (>= 1.1-0), Rcpp (>= 0.11.5)	Rcpp, RcppEigen (>= 0.3.3.3.0)	knitr, rmarkdown, prettydoc	NA	MPL (>= 2)	NA	NA	NA	NA	yes	4.2.0
+RSQLite	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.2.16	NA	R (>= 3.1.0)	bit64, blob (>= 1.2.0), DBI (>= 1.1.0), memoise, methods,
+pkgconfig, Rcpp (>= 1.0.7)	plogr (>= 0.2.0), Rcpp	callr, DBItest (>= 1.7.0), gert, gh, knitr, rmarkdown, hms,
+rvest, testthat, xml2	NA	LGPL (>= 2.1)	NA	NA	NA	NA	yes	4.2.1
+Rssa	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.0.5	NA	R (>= 3.1), svd (>= 0.4), forecast	lattice, methods	NA	testthat (>= 0.7), RSpectra, PRIMME	NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.2
+rstan	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.26.22	NA	R (>= 3.4.0), StanHeaders (>= 2.26.22)	methods, stats4, inline (>= 0.3.19), gridExtra (>= 2.3), Rcpp
+(>= 1.0.7), RcppParallel (>= 5.1.4), loo (>= 2.4.1), pkgbuild
+(>= 1.2.0), V8 (>= 3.6.0), ggplot2 (>= 3.3.5)	Rcpp (>= 1.0.7), RcppEigen (>= 0.3.3.9.1), BH (>= 1.75.0-0),
+StanHeaders (>= 2.26.22), RcppParallel (>= 5.1.4)	testthat (>= 3.0.4), parallel, KernSmooth, shinystan,
+bayesplot, rmarkdown, rstantools, rstudioapi, Matrix, knitr	NA	GPL (>=3)	NA	NA	NA	NA	yes	4.2.3
+rstantools	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.3.0	NA	NA	desc, stats, utils, Rcpp (>= 0.12.16), RcppParallel (>= 5.0.1)	NA	rstan (>= 2.17.2), usethis (>= 1.5.1), testthat (>= 2.0.0),
+knitr, pkgbuild, pkgload, roxygen2 (>= 6.0.1), rmarkdown,
+rstudioapi	NA	GPL (>= 3)	NA	NA	NA	NA	no	4.2.3
+rstatix	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.7.0	NA	R (>= 3.3.0)	stats, utils, tidyr (>= 1.0.0), purrr, broom (>= 0.7.4), rlang
+(>= 0.3.1), tibble (>= 2.1.3), dplyr (>= 0.7.1), magrittr,
+corrplot, tidyselect (>= 1.0.0), car, generics (>= 0.0.2)	NA	knitr, rmarkdown, ggpubr, graphics, emmeans, coin, boot,
+testthat, spelling	NA	GPL-2	NA	NA	NA	NA	no	4.2.0
+rstpm2	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.6.2	NA	R (>= 3.0.2), methods, survival, splines	graphics, Rcpp (>= 0.10.2), stats, mgcv, bbmle (>= 1.0.20),
+fastGHQuad, deSolve, utils, parallel	Rcpp,RcppArmadillo,BH	eha, testthat, ggplot2, lattice, readstata13, mstate, scales,
+survPen, flexsurv, timereg	NA	GPL-2 | GPL-3	NA	NA	NA	NA	yes	4.2.3
+rstudioapi	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.14	NA	NA	NA	NA	testthat, knitr, rmarkdown, clipr, covr	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.1
+rsvd	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.0.5	NA	R (>= 4.0.0)	Matrix	NA	ggplot2, testthat	NA	GPL (>= 3)	NA	NA	NA	NA	no	4.2.1
+rtracklayer	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.56.1	NA	R (>= 3.5.0), methods, GenomicRanges (>= 1.37.2)	XML (>= 1.98-0), BiocGenerics (>= 0.35.3), S4Vectors (>=
+0.23.18), IRanges (>= 2.13.13), XVector (>= 0.19.7),
+GenomeInfoDb (>= 1.15.2), Biostrings (>= 2.47.6), zlibbioc,
+RCurl (>= 1.4-2), Rsamtools (>= 1.31.2), GenomicAlignments (>=
+1.15.6), BiocIO, tools, restfulr (>= 0.0.13)	S4Vectors, IRanges, XVector	BSgenome (>= 1.33.4), humanStemCell, microRNA (>= 1.1.1),
+genefilter, limma, org.Hs.eg.db, hgu133plus2.db,
+GenomicFeatures, BSgenome.Hsapiens.UCSC.hg19,
+TxDb.Hsapiens.UCSC.hg19.knownGene, RUnit	NA	Artistic-2.0 + file LICENSE	NA	NA	NA	NA	yes	4.2.0
+Rtsne	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.16	NA	NA	Rcpp (>= 0.11.0), stats	Rcpp	irlba, testthat	NA	file LICENSE	yes	NA	NA	NA	yes	4.2.0
+Rttf2pt1	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.3.10	NA	R (>= 2.15)	NA	NA	NA	NA	file LICENSE	yes	NA	NA	NA	yes	4.2.0
+RUnit	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.4.32	NA	R (>= 2.5.0), utils (>= 2.5.0), methods (>= 2.5.0), graphics
+(>= 2.5.0)	NA	NA	XML (>= 3.1.0)	NA	GPL-2	NA	NA	NA	NA	no	4.2.0
+RVenn	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.1.0	NA	NA	ggforce (>= 0.2.1), ggplot2 (>= 3.0.0), magrittr (>= 1.5),
+purrr (>= 0.2.5), methods (>= 3.5.1), rlang (>= 0.2.2), vegan
+(>= 2.5.2), pheatmap (>= 1.0.10)	NA	testthat, knitr, rmarkdown	NA	GPL-3	NA	NA	NA	NA	no	4.2.3
+rversions	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.1.2	NA	NA	curl, utils, xml2 (>= 1.0.0)	NA	covr, mockery, testthat	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.2
+rvest	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.0.3	NA	R (>= 3.2)	glue, cli, httr (>= 0.5), lifecycle (>= 1.0.0), magrittr,
+rlang (>= 1.0.0), selectr, tibble, xml2 (>= 1.3), withr	NA	covr, knitr, readr, repurrrsive, rmarkdown, spelling, stringi
+(>= 0.3.1), testthat (>= 3.0.2), webfakes	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.1
+rworldmap	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.3-6	NA	R (>= 2.10.0), sp	maptools, fields, methods	NA	rgdal, rworldxtra, RColorBrewer, classInt	NA	GPL (>= 2)	NA	NA	NA	NA	no	4.2.1
+S4Vectors	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.34.0	NA	R (>= 4.0.0), methods, utils, stats, stats4, BiocGenerics (>=
+0.37.0)	NA	NA	IRanges, GenomicRanges, SummarizedExperiment, Matrix,
+DelayedArray, ShortRead, graph, data.table, RUnit, BiocStyle	NA	Artistic-2.0	NA	NA	NA	NA	yes	4.2.0
+SamSPECTRAL	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.50.0	NA	R (>= 3.3.3)	methods	NA	NA	NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.0
+sandwich	C:/Users/ajsik/AppData/Local/R/win-library/4.2	3.0-2	NA	R (>= 3.0.0)	stats, utils, zoo	NA	AER, car, geepack, lattice, lme4, lmtest, MASS, multiwayvcov,
+parallel, pcse, plm, pscl, scatterplot3d, stats4, strucchange,
+survival	NA	GPL-2 | GPL-3	NA	NA	NA	NA	no	4.2.1
+sass	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.4.2	NA	NA	fs, rlang (>= 0.4.10), htmltools (>= 0.5.1), R6, rappdirs	NA	testthat, knitr, rmarkdown, withr, shiny, curl	NA	MIT + file LICENSE	NA	NA	NA	NA	yes	4.2.1
+ScaledMatrix	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.4.0	NA	NA	methods, Matrix, S4Vectors, DelayedArray	NA	testthat, BiocStyle, knitr, rmarkdown, BiocSingular	NA	GPL-3	NA	NA	NA	NA	no	4.2.0
+scales	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.2.1	NA	R (>= 3.2)	farver (>= 2.0.3), labeling, lifecycle, munsell (>= 0.5), R6,
+RColorBrewer, rlang (>= 1.0.0), viridisLite	NA	bit64, covr, dichromat, ggplot2, hms (>= 0.5.0), stringi,
+testthat (>= 3.0.0), waldo (>= 0.4.0)	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.1
+scatterplot3d	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.3-41	NA	R (>= 2.7.0)	grDevices, graphics, stats	NA	NA	NA	GPL-2	NA	NA	NA	NA	no	4.2.0
+scRNAseq	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.10.0	NA	SingleCellExperiment	utils, methods, BiocGenerics, S4Vectors, GenomicRanges,
+SummarizedExperiment, ExperimentHub (>= 2.3.4), AnnotationHub
+(>= 3.3.6), AnnotationDbi, ensembldb, GenomicFeatures	NA	BiocStyle, knitr, rmarkdown, BiocFileCache, testthat,
+rappdirs, tools	NA	CC0	NA	NA	NA	NA	no	4.2.0
+segmented	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.6-0	NA	MASS, nlme	NA	NA	NA	NA	GPL	NA	NA	NA	NA	no	4.2.1
+selectr	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.4-2	NA	R (>= 3.0)	methods, stringr, R6	NA	testthat, XML, xml2	NA	BSD_3_clause + file LICENCE	NA	NA	NA	NA	no	4.2.0
+seqLogo	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.62.0	NA	R (>= 4.2), methods, grid	stats4, grDevices	NA	knitr, BiocStyle, rmarkdown, testthat	NA	LGPL (>= 2)	NA	NA	NA	NA	no	4.2.0
+seriation	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.3.6	NA	R (>= 2.14.0)	stats, grDevices, grid, TSP, qap, cluster, gclus, colorspace,
+MASS, registry	NA	DendSer, GA, Rtsne, dbscan, umap, testthat, dendextend,
+ggplot2, scales	NA	GPL-3	NA	NA	NA	NA	yes	4.2.1
+sessioninfo	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.2.2	NA	R (>= 2.10)	cli (>= 3.1.0), tools, utils	NA	callr, covr, mockery, reticulate, rmarkdown, testthat, withr	NA	GPL-2	NA	NA	NA	NA	no	4.2.2
+shadowtext	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.1.2	NA	R (>= 3.4.0)	ggplot2, grid, scales	NA	knitr, rmarkdown, prettydoc	NA	Artistic-2.0	NA	NA	NA	NA	no	4.2.0
+shape	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.4.6	NA	R (>= 2.01)	stats, graphics, grDevices	NA	NA	NA	GPL (>= 3)	NA	NA	NA	NA	no	4.2.0
+shapefiles	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.7.2	NA	R (>= 1.6.0), foreign	NA	NA	NA	NA	GPL	NA	NA	NA	NA	no	4.2.2
+shapes	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.2.6	NA	R (>= 2.10)	minpack.lm, scatterplot3d, rgl, MASS	NA	NA	NA	GPL-2	NA	NA	NA	NA	no	4.2.0
+shiny	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.7.2	NA	R (>= 3.0.2), methods	utils, grDevices, httpuv (>= 1.5.2), mime (>= 0.3), jsonlite
+(>= 0.9.16), xtable, fontawesome (>= 0.2.1), htmltools (>=
+0.5.2), R6 (>= 2.0), sourcetools, later (>= 1.0.0), promises
+(>= 1.1.0), tools, crayon, rlang (>= 0.4.10), fastmap (>=
+1.1.0), withr, commonmark (>= 1.7), glue (>= 1.3.2), bslib (>=
+0.3.0), cachem, ellipsis, lifecycle (>= 0.2.0)	NA	datasets, Cairo (>= 1.5-5), testthat (>= 3.0.0), knitr (>=
+1.6), markdown, rmarkdown, ggplot2, reactlog (>= 1.0.0),
+magrittr, yaml, future, dygraphs, ragg, showtext, sass	NA	GPL-3 | file LICENSE	NA	NA	NA	NA	no	4.2.1
+shinyjs	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.1.0	NA	R (>= 3.1.0)	digest (>= 0.6.8), jsonlite, shiny (>= 1.0.0)	NA	htmltools (>= 0.2.9), knitr (>= 1.7), rmarkdown, shinyAce,
+shinydisconnect, testthat (>= 0.9.1)	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.3
+shinystan	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.6.0	NA	R (>= 3.1.0), shiny (>= 1.0.3)	bayesplot (>= 1.5.0), colourpicker, DT (>= 0.2), dygraphs (>=
+1.1.1.2), ggplot2 (>= 2.1.1), gridExtra, gtools, markdown (>=
+0.7.4), methods, reshape2, rstan (>= 2.17.1), stats, shinyjs
+(>= 0.6.0), shinythemes (>= 1.0.1), threejs (>= 0.2.1), utils,
+xtable, xts (>= 0.9-7)	NA	cmdstanr (>= 0.4.0), coda, knitr (>= 1.9), posterior (>=
+1.0.0), rmarkdown (>= 0.8.1), rsconnect (>= 0.4.2), rstanarm
+(>= 2.17.4), testthat	NA	GPL (>= 3)	NA	NA	NA	NA	no	4.2.3
+shinythemes	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.2.0	NA	R (>= 3.0.0)	shiny (>= 0.11)	NA	NA	NA	GPL-3 | file LICENSE	NA	NA	NA	NA	no	4.2.3
+ShortRead	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.54.0	NA	BiocGenerics (>= 0.23.3), BiocParallel, Biostrings (>=
+2.47.6), Rsamtools (>= 1.31.2), GenomicAlignments (>= 1.15.6)	Biobase, S4Vectors (>= 0.17.25), IRanges (>= 2.13.12),
+GenomeInfoDb (>= 1.15.2), GenomicRanges (>= 1.31.8), hwriter,
+methods, zlibbioc, lattice, latticeExtra,	S4Vectors, IRanges, XVector, Biostrings, Rhtslib, zlibbioc	BiocStyle, RUnit, biomaRt, GenomicFeatures, yeastNagalakshmi	NA	Artistic-2.0	NA	NA	NA	NA	yes	4.2.0
+showtext	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.9-5	NA	sysfonts (>= 0.7.1), showtextdb (>= 2.0)	grDevices	NA	knitr, rmarkdown, prettydoc, curl, jsonlite	NA	Apache License (>= 2.0)	NA	NA	NA	NA	yes	4.2.1
+showtextdb	C:/Users/ajsik/AppData/Local/R/win-library/4.2	3.0	NA	NA	sysfonts (>= 0.7), utils	NA	curl	NA	Apache License (>= 2.0)	NA	NA	NA	NA	no	4.2.1
+SingleCellExperiment	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.18.0	NA	SummarizedExperiment	methods, utils, stats, S4Vectors, BiocGenerics, GenomicRanges,
+DelayedArray	NA	testthat, BiocStyle, knitr, rmarkdown, Matrix, scRNAseq (>=
+2.9.1), Rtsne	NA	GPL-3	NA	NA	NA	NA	no	4.2.0
+sjlabelled	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.2.0	NA	R (>= 3.4)	insight, datawizard, stats, tools, utils	NA	dplyr, haven (>= 1.1.2), magrittr, sjmisc, sjPlot, knitr,
+rlang, rmarkdown, snakecase, testthat	NA	GPL-3	NA	NA	NA	NA	no	4.2.0
+sjmisc	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.8.9	NA	R (>= 3.4)	dplyr, insight, magrittr, methods, purrr, rlang, sjlabelled
+(>= 1.1.1), stats, tidyselect, utils	NA	ggplot2, graphics, haven (>= 2.0.0), mice, nnet, sjPlot,
+sjstats, knitr, rmarkdown, stringdist, testthat, tidyr	NA	GPL-3	NA	NA	NA	NA	no	4.2.0
+sjPlot	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.8.11	NA	R (>= 3.6)	graphics, grDevices, stats, utils, bayestestR, datawizard,
+dplyr, effectsize, ggeffects, ggplot2 (>= 3.2.0), knitr,
+insight, MASS, parameters, performance, purrr, rlang, scales,
+sjlabelled (>= 1.1.2), sjmisc (>= 2.8.2), sjstats (>= 0.17.8),
+tidyr (>= 1.0.0)	NA	brms, car, clubSandwich, cluster, cowplot, haven,
+GPArotation, ggrepel, glmmTMB, gridExtra, ggridges, httr, lme4,
+nFactors, pscl, psych, rmarkdown, rstanarm, sandwich, splines,
+survey, TMB, testthat	NA	GPL-3	NA	NA	NA	NA	no	4.2.1
+sjstats	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.18.1	NA	R (>= 3.5), utils	bayestestR, broom, dplyr, effectsize, emmeans, insight, lme4,
+magrittr, MASS, modelr, parameters, performance, purrr, rlang,
+sjlabelled, sjmisc, stats, tidyr	NA	brms, car, coin, ggplot2, graphics, pscl, pwr, sjPlot,
+survey, rstan, testthat	NA	GPL-3	NA	NA	NA	NA	no	4.2.0
+skimr	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.1.5	NA	R (>= 3.1.2)	cli, dplyr (>= 0.8.0), knitr (>= 1.2), magrittr (>= 1.5),
+pillar (>= 1.6.4), purrr, repr, rlang (>= 0.3.1), stats,
+stringr (>= 1.1), tibble (>= 2.0.0), tidyr (>= 1.0), tidyselect
+(>= 1.0.0), vctrs	NA	covr, crayon, data.table, dtplyr, extrafont, haven,
+lubridate, rmarkdown, testthat (>= 2.0.0), withr	NA	GPL-3	NA	NA	NA	NA	no	4.2.3
+slam	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.1-50	NA	R (>= 3.4.0)	stats	NA	NA	Matrix, SparseM, spam	GPL-2	NA	NA	NA	NA	yes	4.2.0
+sna	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.7	NA	R (>= 2.0.0), utils, statnet.common, network	NA	NA	rgl, numDeriv, SparseM	NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.1
+snow	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.4-4	NA	R (>= 2.13.1), utils	NA	NA	rlecuyer	Rmpi	GPL	NA	NA	NA	NA	no	4.2.0
+softImpute	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.4-1	NA	Matrix, methods	NA	NA	knitr, rmarkdown	NA	GPL-2	NA	NA	NA	NA	yes	4.2.1
+sourcetools	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.1.7	NA	R (>= 3.0.2)	NA	NA	testthat	NA	MIT + file LICENSE	NA	NA	NA	NA	yes	4.2.1
+sp	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.5-0	NA	R (>= 3.0.0), methods	utils, stats, graphics, grDevices, lattice, grid	NA	RColorBrewer, rgdal (>= 1.2-3), rgeos (>= 0.3-13), gstat,
+maptools, deldir, knitr, rmarkdown, sf	NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.0
+spam	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.9-1	NA	R (>= 3.5)	dotCall64, grid, methods	NA	spam64, fields, Matrix, testthat, R.rsp, truncdist, knitr,
+rmarkdown	NA	LGPL-2 | BSD_3_clause + file LICENSE	NA	NA	NA	NA	yes	4.2.1
+SparseM	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.81	NA	R (>= 2.15), methods	graphics, stats, utils	NA	NA	NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.0
+sparsesvd	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.2-1	NA	R (>= 3.0)	Matrix (>= 1.3), methods	NA	NA	NA	BSD_3_clause + file LICENSE	NA	NA	NA	NA	yes	4.2.1
+spatstat	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.3-4	NA	R (>= 3.5.0), spatstat.data (>= 2.1-2), spatstat.geom (>=
+2.4-0), spatstat.random (>= 2.2-0), spatstat.core (>= 2.4-1),
+spatstat.linnet (>= 2.3-2), utils	spatstat.utils (>= 2.3-0)	NA		NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.1
+spatstat.core	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.4-4	NA	R (>= 3.5.0), spatstat.data (>= 2.1-0), spatstat.geom (>=
+2.4-0), spatstat.random (>= 2.2-0), stats, graphics, grDevices,
+utils, methods, nlme, rpart	spatstat.utils (>= 2.3-1), spatstat.sparse (>= 2.0-0), mgcv,
+Matrix, abind, tensor, goftest (>= 1.2-2)	NA	sm, maptools (>= 0.9-9), gsl, locfit, spatial, RandomFields
+(>= 3.1.24.1), RandomFieldsUtils(>= 0.3.3.1), fftwtools (>=
+0.9-8), nleqslv, spatstat.linnet (>= 2.0-0), spatstat (>=
+2.3-3)	NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.1
+spatstat.data	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.2-0	NA	R (>= 3.5.0)	spatstat.utils (>= 2.1-0), Matrix	NA	spatstat.geom, spatstat.random, spatstat.core,
+spatstat.linnet	NA	GPL (>= 2)	NA	NA	NA	NA	no	4.2.1
+spatstat.geom	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.4-0	NA	R (>= 3.5.0), spatstat.data (>= 2.0-0), stats, graphics,
+grDevices, utils, methods	spatstat.utils (>= 2.2-0), deldir (>= 1.0-2), polyclip (>=
+1.10-0)	NA	spatstat.core, spatstat.random, spatstat.linnet, maptools (>=
+0.9-9), spatial, fftwtools (>= 0.9-8), spatstat (>= 2.0-0)	NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.1
+spatstat.linnet	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.3-2	NA	R (>= 3.5.0), spatstat.data (>= 2.1-0), spatstat.geom (>=
+2.3-0), spatstat.random (>= 2.0), spatstat.core (>= 2.3-2),
+stats, graphics, grDevices, methods, utils	spatstat.utils (>= 2.2-0), Matrix, spatstat.sparse (>= 2.0)	NA	goftest, locfit, spatstat (>= 2.0-0)	NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.1
+spatstat.random	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.2-0	NA	R (>= 3.5.0), spatstat.data (>= 2.1-0), spatstat.geom (>=
+2.4-0), stats, utils, methods, grDevices	spatstat.utils (>= 2.2-0)	NA	spatial, RandomFields (>= 3.1.24.1), RandomFieldsUtils(>=
+0.3.3.1), spatstat.linnet (>= 2.0-0), spatstat.core (>= 2.4-0),
+spatstat (>= 2.3-3)	NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.1
+spatstat.sparse	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.1-1	NA	R (>= 3.5.0), stats, utils, methods, Matrix, abind, tensor	spatstat.utils (>= 2.1-0)	NA	NA	NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.1
+spatstat.utils	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.3-1	NA	R (>= 3.3.0), stats, graphics, grDevices, utils, methods	NA	NA	spatstat.core	NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.1
+splus2R	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.3-3	NA	R (>= 2.7.2)	methods	NA	NA	NA	GPL-2	NA	NA	NA	NA	yes	4.2.0
+SQUAREM	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2021.1	NA	R (>= 3.0)	NA	NA	setRNG	NA	GPL (>= 2)	NA	NA	NA	NA	no	4.2.0
+ssanv	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.1	NA	R (>= 2.1.1), stats	NA	NA	NA	NA	GPL-3	NA	NA	NA	NA	no	4.2.0
+StanHeaders	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.26.25	NA	R (>= 3.4.0)	RcppParallel (>= 5.1.4)	RcppEigen, RcppParallel (>= 5.1.4)	Rcpp, BH (>= 1.75.0-0), knitr (>= 1.36), rmarkdown, Matrix,
+methods, rstan, withr	NA	BSD_3_clause + file LICENSE	NA	NA	NA	NA	yes	4.2.1
+stargazer	C:/Users/ajsik/AppData/Local/R/win-library/4.2	5.2.3	NA	NA	stats, utils	NA	NA	AER, betareg, brglm, censReg, dynlm, eha, erer, ergm, fGarch,
+gee, glmx, gmm, lfe, lme4, lmtest, MASS, mclogit, mgcv, mlogit,
+nlme, nnet, ordinal, plm, pscl, quantreg, rms, relevent,
+robustbase, sampleSelection, spdep, survey, survival	GPL (>= 2)	NA	NA	NA	NA	no	4.2.0
+statmod	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.4.37	NA	R (>= 3.0.0)	stats, graphics	NA	MASS, tweedie	NA	GPL-2 | GPL-3	NA	NA	NA	NA	yes	4.2.1
+statnet.common	C:/Users/ajsik/AppData/Local/R/win-library/4.2	4.6.0	NA	R (>= 3.5)	utils, methods, coda, parallel, tools	NA	covr	NA	GPL-3 + file LICENSE	NA	NA	NA	NA	yes	4.2.1
+statsExpressions	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.3.3	NA	R (>= 4.0.0)	BayesFactor (>= 0.9.12-4.4), correlation (>= 0.8.2),
+datawizard (>= 0.5.0), dplyr, effectsize (>= 0.7.0.5), glue,
+insight (>= 0.18.2), magrittr, parameters (>= 0.18.2),
+performance (>= 0.9.2), rlang, stats, tibble, tidyr, WRS2 (>=
+1.1-3), zeallot	NA	afex, ggplot2, knitr, metaBMA, metafor, metaplus, PMCMRplus,
+purrr, rmarkdown, spelling, survival, testthat (>= 3.1.4),
+utils, withr	NA	GPL-3 | file LICENSE	NA	NA	NA	NA	no	4.2.1
+stringi	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.7.8	NA	R (>= 3.1)	tools, utils, stats	NA	NA	NA	file LICENSE	NA	NA	NA	NA	yes	4.2.1
+stringr	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.5.0	NA	R (>= 3.3)	cli, glue (>= 1.6.1), lifecycle (>= 1.0.3), magrittr, rlang
+(>= 1.0.0), stringi (>= 1.5.3), vctrs	NA	covr, htmltools, htmlwidgets, knitr, rmarkdown, testthat (>=
+3.0.0)	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.2
+structSSI	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.2.0	NA	R (>= 2.10)	methods, multtest, igraph, jsonlite, ggplot2, reshape2	NA	ape, phyloseq, testthat	NA	GPL-2	NA	NA	NA	NA	no	4.2.0
+styler	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.7.0	NA	R (>= 3.4.0)	cli (>= 3.1.1), magrittr (>= 2.0.0), purrr (>= 0.2.3), R.cache
+(>= 0.15.0), rematch2 (>= 2.0.1), rlang (>= 0.1.1), rprojroot
+(>= 1.1), tibble (>= 1.4.2), tools, withr (>= 1.0.0),	NA	data.tree (>= 0.1.6), digest, dplyr, here, knitr, prettycode,
+rmarkdown, roxygen2, rstudioapi (>= 0.7), testthat (>= 2.1.0)	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.1
+SummarizedExperiment	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.26.1	NA	R (>= 4.0.0), methods, MatrixGenerics (>= 1.1.3),
+GenomicRanges (>= 1.41.5), Biobase	utils, stats, tools, Matrix, BiocGenerics (>= 0.37.0),
+S4Vectors (>= 0.33.7), IRanges (>= 2.23.9), GenomeInfoDb (>=
+1.13.1), DelayedArray (>= 0.15.10)	NA	HDF5Array (>= 1.7.5), annotate, AnnotationDbi, hgu95av2.db,
+GenomicFeatures, TxDb.Hsapiens.UCSC.hg19.knownGene, jsonlite,
+rhdf5, airway (>= 1.15.1), BiocStyle, knitr, rmarkdown, RUnit,
+testthat, digest	NA	Artistic-2.0	NA	NA	NA	NA	no	4.2.0
+SuppDists	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.1-9.7	NA	R (>= 3.3.0)	NA	NA	RcppZiggurat	NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.0
+surveillance	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.21.0	NA	R (>= 3.6.0), methods, grDevices, graphics, stats, utils, sp
+(>= 1.0-15), xtable (>= 1.7-0)	Rcpp (>= 0.11.1), polyCub (>= 0.8.0), MASS, Matrix, nlme,
+spatstat.geom	Rcpp, polyCub	parallel, grid, gridExtra (>= 2.0.0), lattice, sf,
+colorspace, scales, animation, msm, spc, quadprog, memoise,
+polyclip, rgeos, gpclib, intervals, spdep, numDeriv, maxLik,
+gsl, fanplot, hhh4contacts, tinytest (>= 1.2.4), coda, splancs,
+gamlss, INLA, runjags, MGLM (>= 0.1.0), knitr	xts, ggplot2	GPL-2	NA	NA	NA	NA	yes	4.2.3
+survey	C:/Users/ajsik/AppData/Local/R/win-library/4.2	4.1-1	NA	R (>= 3.5.0), grid, methods, Matrix, survival	stats, graphics, splines, lattice, minqa, numDeriv, mitools
+(>= 2.4)	NA	foreign, MASS, KernSmooth, hexbin, RSQLite, quantreg,
+parallel, CompQuadForm, DBI, AER	NA	GPL-2 | GPL-3	NA	NA	NA	NA	no	4.2.1
+survival	C:/Users/ajsik/AppData/Local/R/win-library/4.2	3.4-0	recommended	R (>= 3.5.0)	graphics, Matrix, methods, splines, stats, utils	NA	NA	NA	LGPL (>= 2)	NA	NA	NA	NA	yes	4.2.1
+survivalROC	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.0.3	NA	R (>= 1.6.1)	NA	NA	NA	NA	GPL (>= 2)	NA	NA	NA	NA	NA	4.2.0
+survminer	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.4.9	NA	ggplot2, ggpubr(>= 0.1.6)	grid, gridExtra (>= 2.0), magrittr, maxstat, methods, scales,
+survival, stats, broom, dplyr, tidyr, survMisc, purrr, tibble,
+rlang, ggtext (>= 0.1.0)	NA	knitr, flexsurv, cmprsk, markdown, testthat, rmarkdown	NA	GPL-2	NA	NA	NA	NA	no	4.2.0
+survMisc	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.5.6	NA	survival	graphics, grDevices, stats, utils, knitr, KMsurv, ggplot2,
+data.table, zoo, grid, gridExtra, km.ci, xtable	NA	NA	NA	GPL-2	NA	NA	NA	NA	no	4.2.0
+sva	C:/Users/ajsik/AppData/Local/R/win-library/4.2	3.44.0	NA	R (>= 3.2), mgcv, genefilter, BiocParallel	matrixStats, stats, graphics, utils, limma, edgeR	NA	pamr, bladderbatch, BiocStyle, zebrafishRNASeq, testthat	NA	Artistic-2.0	NA	NA	NA	NA	yes	4.2.0
+svd	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.5.3	NA	NA	methods	NA	testthat (>= 0.7)	NA	BSD_3_clause + file LICENSE	NA	NA	NA	NA	yes	4.2.2
+svglite	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.1.0	NA	R (>= 3.0.0)	systemfonts (>= 1.0.0)	cpp11, systemfonts	htmltools, testthat, xml2 (>= 1.0.0), covr, fontquiver (>=
+0.2.0), knitr, rmarkdown	NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.1
+sys	C:/Users/ajsik/AppData/Local/R/win-library/4.2	3.4	NA	NA	NA	NA	unix (>= 1.4), spelling, testthat	NA	MIT + file LICENSE	NA	NA	NA	NA	yes	4.2.0
+sysfonts	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.8.8	NA	NA	NA	NA	curl, jsonlite	NA	GPL-2	NA	NA	NA	NA	yes	4.2.1
+systemfonts	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.0.4	NA	R (>= 3.2.0)	NA	cpp11 (>= 0.2.1)	testthat (>= 2.1.0), covr, knitr, rmarkdown, tools	NA	MIT + file LICENSE	NA	NA	NA	NA	yes	4.2.1
+tableone	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.13.2	NA	NA	survey, MASS, e1071, zoo, gmodels, nlme, labelled	NA	survival, testthat, Matrix, Matching, reshape2, ggplot2,
+knitr, geepack, lme4, lmerTest, rmarkdown	NA	GPL-2	NA	NA	NA	NA	no	4.2.2
+tastypie	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.1.0	NA	R (>= 2.10)	ggplot2, dplyr, scales, RColorBrewer, shadowtext, tibble,
+packcircles, fmsb	NA	knitr, markdown, rmarkdown, testthat (>= 3.0.0), jpeg,
+patternplot	NA	GPL-3	NA	NA	NA	NA	no	4.2.0
+tensor	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.5	NA	NA	NA	NA	NA	NA	GPL (>= 2)	NA	NA	NA	NA	NA	4.2.0
+tensorA	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.36.2	NA	R (>= 2.2.0), stats	NA	NA	NA	NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.0
+testthat	C:/Users/ajsik/AppData/Local/R/win-library/4.2	3.1.5	NA	R (>= 3.1)	brio, callr (>= 3.5.1), cli (>= 3.4.0), desc, digest, ellipsis
+(>= 0.2.0), evaluate, jsonlite, lifecycle, magrittr, methods,
+pkgload, praise, processx, ps (>= 1.3.4), R6 (>= 2.2.0), rlang
+(>= 1.0.1), utils, waldo (>= 0.4.0), withr (>= 2.4.3)	NA	covr, curl (>= 0.9.5), diffviewer (>= 0.1.0), knitr, mockery,
+rmarkdown, rstudioapi, shiny, usethis, vctrs (>= 0.1.0), xml2	NA	MIT + file LICENSE	NA	NA	NA	NA	yes	4.2.2
+textshaping	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.3.6	NA	R (>= 3.2.0)	systemfonts (>= 1.0.0)	cpp11 (>= 0.2.1), systemfonts (>= 1.0.0)	covr, knitr, rmarkdown	NA	MIT + file LICENSE	NA	NA	NA	NA	yes	4.2.2
+TH.data	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.1-1	NA	R (>= 3.5.0), survival, MASS	NA	NA	dplyr, gdata, plyr, trtf, tram, rms, coin, ATR, multcomp,
+gridExtra, vcd, colorspace, lattice, knitr	NA	GPL-3	NA	NA	NA	NA	no	4.2.0
+threejs	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.3.3	NA	R (>= 3.0.0), igraph (>= 1.0.0)	htmlwidgets (>= 0.3.2), base64enc, crosstalk, methods, stats	NA	maps	knitr, shiny	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.3
+tibble	C:/Users/ajsik/AppData/Local/R/win-library/4.2	3.1.8	NA	R (>= 3.1.0)	fansi (>= 0.4.0), lifecycle (>= 1.0.0), magrittr, methods,
+pillar (>= 1.7.0), pkgconfig, rlang (>= 1.0.2), utils, vctrs
+(>= 0.3.8)	NA	bench, bit64, blob, brio, callr, cli, covr, crayon (>=
+1.3.4), DiagrammeR, dplyr, evaluate, formattable, ggplot2, hms,
+htmltools, knitr, lubridate, mockr, nycflights13, pkgbuild,
+pkgload, purrr, rmarkdown, stringi, testthat (>= 3.0.2), tidyr,
+withr	NA	MIT + file LICENSE	NA	NA	NA	NA	yes	4.2.1
+tidyr	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.3.0	NA	R (>= 3.4.0)	cli (>= 3.4.1), dplyr (>= 1.0.10), glue, lifecycle (>= 1.0.3),
+magrittr, purrr (>= 1.0.1), rlang (>= 1.0.4), stringr (>=
+1.5.0), tibble (>= 2.1.1), tidyselect (>= 1.2.0), utils, vctrs
+(>= 0.5.2)	cpp11 (>= 0.4.0)	covr, data.table, knitr, readr, repurrrsive (>= 1.1.0),
+rmarkdown, testthat (>= 3.0.0)	NA	MIT + file LICENSE	NA	NA	NA	NA	yes	4.2.2
+tidyselect	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.2.0	NA	R (>= 3.4)	cli (>= 3.3.0), glue (>= 1.3.0), lifecycle (>= 1.0.3), rlang
+(>= 1.0.4), vctrs (>= 0.4.1), withr	NA	covr, crayon, dplyr, knitr, magrittr, rmarkdown, stringr,
+testthat (>= 3.1.1), tibble (>= 2.1.3)	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.2
+tidytree	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.4.0	NA	R (>= 3.4.0)	ape, dplyr, lazyeval, magrittr, methods, rlang, tibble, tidyr,
+tidyselect, yulab.utils (>= 0.0.4), pillar	NA	knitr, rmarkdown, prettydoc, testthat, utils	NA	Artistic-2.0	NA	NA	NA	NA	no	4.2.1
+tidyverse	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.3.2	NA	R (>= 3.3)	broom (>= 0.7.10), cli (>= 3.1.0), crayon (>= 1.4.2), dbplyr
+(>= 2.1.1), dplyr (>= 1.0.7), dtplyr (>= 1.2.0), forcats (>=
+0.5.1), ggplot2 (>= 3.3.5), googledrive (>= 2.0.0),
+googlesheets4 (>= 1.0.0), haven (>= 2.4.3), hms (>= 1.1.1),
+httr (>= 1.4.2), jsonlite (>= 1.7.2), lubridate (>= 1.8.0),
+magrittr (>= 2.0.1), modelr (>= 0.1.8), pillar (>= 1.6.4),
+purrr (>= 0.3.4), readr (>= 2.1.1), readxl (>= 1.3.1), reprex
+(>= 2.0.1), rlang (>= 0.4.12), rstudioapi (>= 0.13), rvest (>=
+1.0.2), stringr (>= 1.4.0), tibble (>= 3.1.6), tidyr (>=
+1.1.4), xml2 (>= 1.3.3)	NA	covr, feather, glue, knitr, rmarkdown, testthat	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.1
+tiff	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.1-11	NA	R (>= 2.9.0)	NA	NA	NA	NA	GPL-2 | GPL-3	NA	NA	NA	NA	yes	4.2.0
+timeDate	C:/Users/ajsik/AppData/Local/R/win-library/4.2	4021.104	NA	R (>= 2.15.1)	graphics, utils, stats, methods	NA	date, RUnit	NA	GPL (>= 2)	NA	NA	NA	NA	no	4.2.1
+timereg	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.0.2	NA	R (>= 2.15), survival	lava, numDeriv, stats, graphics, grDevices, utils, methods	NA	mets,	NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.0
+timeROC	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.4	NA	R (>= 2.9.1)	pec (>= 2.4.4), mvtnorm (>= 1.0-1)	NA	survival, timereg	NA	GPL (>= 2)	NA	NA	NA	NA	no	4.2.0
+tinytex	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.41	NA	NA	xfun (>= 0.29)	NA	testit, rstudioapi	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.1
+TMB	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.9.2	NA	R (>= 3.0.0)	graphics, methods, stats, utils, Matrix (>= 1.0-12)	Matrix, RcppEigen	numDeriv, parallel	NA	GPL-2	NA	NA	NA	NA	yes	4.2.3
+treeio	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.20.0	NA	R (>= 3.6.0)	ape, dplyr, jsonlite, magrittr, methods, rlang, tibble,
+tidytree (>= 0.3.9), utils	NA	Biostrings, ggplot2, ggtree, igraph, knitr, rmarkdown,
+phangorn, prettydoc, testthat, tidyr, vroom, xml2, yaml	NA	Artistic-2.0	NA	NA	NA	NA	no	4.2.0
+TrialSize	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.4	NA	NA	NA	NA	NA	NA	GPL (>= 2.15.1)	NA	NA	NA	NA	yes	4.2.0
+truncnorm	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.0-8	NA	R (>= 3.4.0)	NA	NA	testthat	NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.1
+tseries	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.10-53	NA	R (>= 2.10.0)	graphics, stats, utils, quadprog, zoo, quantmod (>= 0.4-9)	NA	NA	NA	GPL-2	NA	NA	NA	NA	yes	4.2.1
+TSP	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.2-1	NA	R (>= 3.5.0)	graphics, foreach, utils, stats, grDevices	NA	sp, maps, maptools, doParallel, testthat	NA	GPL-3	NA	NA	NA	NA	yes	4.2.1
+TTR	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.24.3	NA	NA	xts (>= 0.10-0), zoo, curl	xts	RUnit	quantmod	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.2
+twang	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.5	NA	R (>= 2.10)	gbm (>= 1.5-3), survey, xtable, lattice, latticeExtra,
+MatrixModels, data.table, ggplot2, xgboost	NA	knitr	NA	GPL-3 | file LICENSE	NA	NA	NA	NA	yes	4.2.2
+twangContinuous	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.0.0	NA	R (>= 3.5.0)	Rcpp (>= 0.12.19), lattice (>= 0.20-35), gbm (>= 2.1.3),
+survey, xtable	NA	knitr, rmarkdown	NA	GPL (>= 2)	NA	NA	NA	NA	no	4.2.1
+tweenr	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.0.2	NA	R (>= 3.2.0)	farver, magrittr, rlang, vctrs	cpp11 (>= 0.4.2)	testthat, covr	NA	MIT + file LICENSE	NA	NA	NA	NA	yes	4.2.3
+tzdb	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.3.0	NA	R (>= 3.4.0)	NA	cpp11 (>= 0.4.2)	covr, testthat (>= 3.0.0)	NA	MIT + file LICENSE	NA	NA	NA	NA	yes	4.2.0
+umap	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.2.9.0	NA	R (>= 3.6.0)	Matrix, methods, openssl, reticulate, Rcpp (>= 0.12.6),
+RSpectra, stats	Rcpp	knitr, rmarkdown, testthat	NA	MIT + file LICENSE	NA	NA	NA	NA	yes	4.2.1
+urca	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.3-3	NA	R (>= 2.0.0), methods	nlme, graphics, stats	NA	NA	NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.2
+urlchecker	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.0.1	NA	R (>= 3.3)	cli, curl, tools, xml2	NA	covr	NA	GPL-3	NA	NA	NA	NA	no	4.2.2
+usethis	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.1.6	NA	R (>= 3.4)	cli (>= 3.0.1), clipr (>= 0.3.0), crayon, curl (>= 2.7), desc
+(>= 1.4.0), fs (>= 1.3.0), gert (>= 1.4.1), gh (>= 1.2.1), glue
+(>= 1.3.0), jsonlite, lifecycle (>= 1.0.0), purrr, rappdirs,
+rlang (>= 1.0.0), rprojroot (>= 1.2), rstudioapi, stats, utils,
+whisker, withr (>= 2.3.0), yaml	NA	covr, knitr, magick, mockr, pkgload, rmarkdown, roxygen2 (>=
+7.1.2), spelling (>= 1.2), styler (>= 1.2.0), testthat (>=
+3.1.0)	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.2
+utf8	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.2.2	NA	R (>= 2.10)	NA	NA	cli, covr, knitr, rlang, rmarkdown, testthat (>= 3.0.0),
+withr	NA	Apache License (== 2.0) | file LICENSE	NA	NA	NA	NA	yes	4.2.0
+uuid	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.1-0	NA	R (>= 2.9.0)	NA	NA	NA	NA	MIT + file LICENSE	NA	NA	NA	NA	yes	4.2.0
+V8	C:/Users/ajsik/AppData/Local/R/win-library/4.2	4.3.0	NA	NA	Rcpp (>= 0.12.12), jsonlite (>= 1.0), curl (>= 1.0), utils	Rcpp	testthat, knitr, rmarkdown	NA	MIT + file LICENSE	NA	NA	NA	NA	yes	4.2.3
+VariantAnnotation	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.42.1	NA	R (>= 4.0.0), methods, BiocGenerics (>= 0.37.0),
+MatrixGenerics, GenomeInfoDb (>= 1.15.2), GenomicRanges (>=
+1.41.5), SummarizedExperiment (>= 1.19.5), Rsamtools (>=
+1.99.0)	utils, DBI, zlibbioc, Biobase, S4Vectors (>= 0.27.12), IRanges
+(>= 2.23.9), XVector (>= 0.29.2), Biostrings (>= 2.57.2),
+AnnotationDbi (>= 1.27.9), rtracklayer (>= 1.39.7), BSgenome
+(>= 1.47.3), GenomicFeatures (>= 1.31.3)	S4Vectors, IRanges, XVector, Biostrings, Rhtslib	RUnit, AnnotationHub, BSgenome.Hsapiens.UCSC.hg19,
+TxDb.Hsapiens.UCSC.hg19.knownGene,
+SNPlocs.Hsapiens.dbSNP.20101109, SIFT.Hsapiens.dbSNP132,
+SIFT.Hsapiens.dbSNP137, PolyPhen.Hsapiens.dbSNP131, snpStats,
+ggplot2, BiocStyle	NA	Artistic-2.0	NA	NA	NA	NA	yes	4.2.0
+vcd	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.4-10	NA	R (>= 2.4.0), grid	stats, utils, MASS, grDevices, colorspace, lmtest	NA	KernSmooth, mvtnorm, kernlab, HSAUR3, coin	NA	GPL-2	NA	NA	NA	NA	no	4.2.1
+vctrs	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.5.2	NA	R (>= 3.3)	cli (>= 3.4.0), glue, lifecycle (>= 1.0.3), rlang (>= 1.0.6)	NA	bit64, covr, crayon, dplyr (>= 0.8.5), generics, knitr,
+pillar (>= 1.4.4), pkgdown (>= 2.0.1), rmarkdown, testthat (>=
+3.0.0), tibble (>= 3.1.3), withr, xml2, waldo (>= 0.2.0),
+zeallot	NA	MIT + file LICENSE	NA	NA	NA	NA	yes	4.2.2
+vegan	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.6-2	NA	permute (>= 0.9-0), lattice, R (>= 3.4.0)	MASS, cluster, mgcv	NA	parallel, tcltk, knitr, markdown	NA	GPL-2	NA	NA	NA	NA	yes	4.2.1
+versions	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.3	NA	NA	NA	NA	NA	NA	BSD_3_clause + file LICENSE	NA	NA	NA	NA	no	4.2.0
+VGAM	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.1-7	NA	R (>= 3.5.0), methods, stats, stats4, splines	NA	NA	VGAMextra, MASS, mgcv	VGAMdata	GPL-3	NA	NA	NA	NA	yes	4.2.1
+vipor	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.4.5	NA	R (>= 3.0.0)	stats, graphics	NA	testthat, beeswarm, lattice, ggplot2, beanplot, vioplot,
+ggbeeswarm,	NA	GPL (>= 2)	NA	NA	NA	NA	no	4.2.1
+viridis	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.6.2	NA	R (>= 2.10), viridisLite (>= 0.4.0)	stats, ggplot2 (>= 1.0.1), gridExtra	NA	hexbin (>= 1.27.0), scales, MASS, knitr, dichromat,
+colorspace, raster, rasterVis, httr, mapproj, vdiffr, svglite
+(>= 1.2.0), testthat, covr, rmarkdown, rgdal, maps	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.0
+viridisLite	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.4.1	NA	R (>= 2.10)	NA	NA	hexbin (>= 1.27.0), ggplot2 (>= 1.0.1), testthat, covr	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.1
+vroom	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.5.7	NA	R (>= 3.1)	bit64, crayon, cli, glue, hms, lifecycle, methods, rlang (>=
+0.4.2), stats, tibble (>= 2.0.0), tzdb (>= 0.1.1), vctrs (>=
+0.2.0), tidyselect, withr	progress (>= 1.2.1), cpp11 (>= 0.2.0), tzdb (>= 0.1.1)	archive, bench (>= 1.1.0), covr, curl, dplyr, forcats, fs,
+ggplot2, knitr, patchwork, prettyunits, purrr, rmarkdown,
+rstudioapi, scales, spelling, testthat (>= 2.1.0), tidyr,
+utils, waldo, xml2	NA	MIT + file LICENSE	NA	NA	NA	NA	yes	4.2.0
+vsn	C:/Users/ajsik/AppData/Local/R/win-library/4.2	3.64.0	NA	R (>= 4.0.0), methods, Biobase	affy, limma, lattice, ggplot2	NA	affydata, hgu95av2cdf, BiocStyle, knitr, rmarkdown, dplyr,
+testthat	NA	Artistic-2.0	NA	NA	NA	NA	yes	4.2.0
+waldo	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.4.0	NA	NA	cli, diffobj (>= 0.3.4), fansi, glue, methods, rematch2, rlang
+(>= 1.0.0), tibble	NA	covr, R6, testthat (>= 3.0.0), withr, xml2	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.0
+webshot	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.5.3	NA	R (>= 3.0)	magrittr, jsonlite, callr	NA	httpuv, knitr, rmarkdown, shiny	NA	GPL-2	NA	NA	NA	NA	no	4.2.1
+WeightIt	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.12.0	NA	R (>= 3.3.0)	cobalt (>= 4.3.0), ggplot2 (>= 3.3.0), crayon, backports (>=
+1.2.0)	NA	twang (>= 1.5), CBPS (>= 0.18), ATE (>= 0.2.0), optweight (>=
+0.2.4), SuperLearner (>= 2.0-25), mlogit (>= 1.1.0), mclogit,
+MNP (>= 3.1-0), brglm2 (>= 0.5.2), osqp (>= 0.6.0.3), survey,
+boot, MASS, gbm (>= 2.1.3), dbarts (>= 0.9-19), knitr,
+rmarkdown	NA	GPL (>= 2)	NA	NA	NA	NA	no	4.2.1
+whisker	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.4	NA	NA	NA	NA	markdown	NA	GPL-3	NA	NA	NA	NA	no	4.2.2
+withr	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.5.0	NA	R (>= 3.2.0)	graphics, grDevices, stats	NA	callr, covr, DBI, knitr, lattice, methods, rlang, rmarkdown
+(>= 2.12), RSQLite, testthat (>= 3.0.0)	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.0
+writexl	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.4.1	NA	NA	NA	NA	spelling, readxl, nycflights13, testthat, bit64	NA	BSD_2_clause + file LICENSE	NA	NA	NA	NA	yes	4.2.2
+WRS2	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.1-4	NA	R (>= 3.2.0)	MASS, reshape, plyr, stats, graphics, grDevices, utils, mc2d	NA	knitr, car, ggplot2, colorspace, mediation, GGally, codetools	NA	GPL-3	NA	NA	NA	NA	yes	4.2.0
+WWGbook	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.0.2	NA	R (>= 1.4.1)	NA	NA	NA	NA	GPL (>= 2)	NA	NA	NA	NA	no	4.2.0
+xcms	C:/Users/ajsik/AppData/Local/R/win-library/4.2	3.18.0	NA	R (>= 4.0.0), BiocParallel (>= 1.8.0), MSnbase (>= 2.21.4)	mzR (>= 2.25.3), methods, Biobase, BiocGenerics, ProtGenerics
+(>= 1.25.1), lattice, RColorBrewer, plyr, RANN, MassSpecWavelet
+(>= 1.5.2), S4Vectors, robustbase, IRanges,
+SummarizedExperiment, MsCoreUtils, MsFeatures	NA	BiocStyle, caTools, knitr (>= 1.1.0), faahKO, msdata (>=
+0.25.1), ncdf4, testthat, pander, magrittr, rmarkdown,
+multtest, MALDIquant, pheatmap, Spectra (>= 1.1.17),
+MsBackendMgf, progress, signal	Rgraphviz, rgl, XML	GPL (>= 2) + file LICENSE	NA	NA	NA	NA	yes	4.2.0
+xfun	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.32	NA	NA	stats, tools	NA	testit, parallel, codetools, rstudioapi, tinytex (>= 0.30),
+mime, markdown, knitr, htmltools, remotes, pak, rhub, renv,
+curl, jsonlite, magick, rmarkdown	NA	MIT + file LICENSE	NA	NA	NA	NA	yes	4.2.1
+xgboost	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.6.0.1	NA	R (>= 3.3.0)	Matrix (>= 1.1-0), methods, data.table (>= 1.9.6), jsonlite
+(>= 1.0),	NA	knitr, rmarkdown, ggplot2 (>= 1.0.1), DiagrammeR (>= 0.9.0),
+Ckmeans.1d.dp (>= 3.3.1), vcd (>= 1.3), testthat, lintr, igraph
+(>= 1.0.1), float, crayon, titanic	NA	Apache License (== 2.0) | file LICENSE	NA	NA	NA	NA	yes	4.2.1
+xkcd	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.0.6	NA	ggplot2 (>= 3.0), extrafont	Hmisc, stats	NA	NA	NA	GPL-3	NA	NA	NA	NA	no	4.2.1
+xlsx	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.6.5	NA	NA	rJava, xlsxjars, grDevices, utils	NA	rprojroot, testthat, covr, tibble, knitr, rmarkdown	NA	GPL-3	NA	NA	NA	NA	no	4.2.2
+xlsxjars	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.6.1	NA	rJava	NA	NA	NA	NA	GPL-3	NA	NA	NA	NA	no	4.2.0
+XML	C:/Users/ajsik/AppData/Local/R/win-library/4.2	3.99-0.10	NA	R (>= 4.0.0), methods, utils	NA	NA	bitops, RCurl	NA	BSD_3_clause + file LICENSE	NA	NA	NA	NA	yes	4.2.0
+xml2	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.3.3	NA	R (>= 3.1.0)	methods	NA	covr, curl, httr, knitr, magrittr, mockery, rmarkdown,
+testthat (>= 2.1.0)	NA	MIT + file LICENSE	NA	NA	NA	NA	yes	4.2.0
+xopen	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.0.0	NA	R (>= 3.1)	processx	NA	ps, testthat	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.2
+xtable	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.8-4	NA	R (>= 2.10.0)	stats, utils	NA	knitr, plm, zoo, survival	NA	GPL (>= 2)	NA	NA	NA	NA	no	4.2.0
+xts	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.12.1	NA	zoo (>= 1.7-12)	methods	zoo	timeSeries, timeDate, tseries, chron, fts, tis, RUnit	NA	GPL (>= 2)	NA	NA	NA	NA	yes	4.2.1
+XVector	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.36.0	NA	R (>= 4.0.0), methods, BiocGenerics (>= 0.37.0), S4Vectors (>=
+0.27.12), IRanges (>= 2.23.9)	methods, utils, tools, zlibbioc, BiocGenerics, S4Vectors,
+IRanges	S4Vectors, IRanges	Biostrings, drosophila2probe, RUnit	NA	Artistic-2.0	NA	NA	NA	NA	yes	4.2.0
+yaml	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.3.5	NA	NA	NA	NA	RUnit	NA	BSD_3_clause + file LICENSE	NA	NA	NA	NA	yes	4.2.0
+yulab.utils	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.0.5	NA	NA	utils	NA	NA	NA	Artistic-2.0	NA	NA	NA	NA	no	4.2.1
+zeallot	C:/Users/ajsik/AppData/Local/R/win-library/4.2	0.1.0	NA	NA	NA	NA	testthat, knitr, rmarkdown, purrr, magrittr	NA	MIT + file LICENSE	NA	NA	NA	NA	no	4.2.0
+zinbwave	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.18.0	NA	R (>= 3.4), methods, SummarizedExperiment,
+SingleCellExperiment	BiocParallel, softImpute, stats, genefilter, edgeR, Matrix	NA	knitr, rmarkdown, testthat, matrixStats, magrittr, scRNAseq,
+ggplot2, biomaRt, BiocStyle, Rtsne, DESeq2	NA	Artistic-2.0	NA	NA	NA	NA	no	4.2.0
+zip	C:/Users/ajsik/AppData/Local/R/win-library/4.2	2.2.0	NA	NA	NA	NA	covr, processx, R6, testthat, withr	NA	MIT + file LICENSE	NA	NA	NA	NA	yes	4.2.1
+zlibbioc	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.42.0	NA	NA	NA	NA	NA	NA	Artistic-2.0 + file LICENSE	NA	NA	NA	NA	yes	4.2.0
+zoo	C:/Users/ajsik/AppData/Local/R/win-library/4.2	1.8-10	NA	R (>= 3.1.0), stats	utils, graphics, grDevices, lattice (>= 0.20-27)	NA	AER, coda, chron, fts, ggplot2 (>= 3.0.0), mondate, scales,
+stinepack, strucchange, timeDate, timeSeries, tis, tseries, xts	NA	GPL-2 | GPL-3	NA	NA	NA	NA	yes	4.2.0

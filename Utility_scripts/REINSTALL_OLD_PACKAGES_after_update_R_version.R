@@ -2,11 +2,11 @@
 .libPaths()
 
 # grab old packages names
-old_packages <- installed.packages(lib.loc = "/Users/andre/Documents/R/win-library/4.0/")
+old_packages <- installed.packages(lib.loc = "C:/Users/ajsik/AppData/Local/R/win-library/4.2")
 old_packages <- as.data.frame(old_packages)
 list.of.packages <- unlist(old_packages$Package)
 
-readr::write_tsv(old_packages, "workfiles/package_list_old.txt")
+readr::write_tsv(old_packages, "workfiles/package_list_old_ajsi.txt")
 
 # remove old packages 
 # remove.packages( installed.packages( priority = "NA" )[,1] )
