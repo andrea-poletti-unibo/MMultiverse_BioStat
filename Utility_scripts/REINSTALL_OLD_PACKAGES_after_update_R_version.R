@@ -7,6 +7,7 @@ old_packages <- as.data.frame(old_packages)
 list.of.packages <- unlist(old_packages$Package)
 
 readr::write_tsv(old_packages, "workfiles/package_list_old_ajsi.txt")
+save(old_packages, file="workfiles/package_list_old_ajsi.Rda")
 
 # remove old packages 
 # remove.packages( installed.packages( priority = "NA" )[,1] )
