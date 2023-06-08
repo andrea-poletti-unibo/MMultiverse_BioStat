@@ -17,7 +17,7 @@ save(old_packages, file="workfiles/package_list_andrea_24-05-23.Rda")
 library(dplyr)
 
 # carica il file
-load("workfiles/package_list_andrea_24-05-23.Rda")
+load("workfiles/package_list_old_ajsi.Rda")
 
 list.of.packages <- unlist(old_packages$Package)
 
@@ -58,8 +58,8 @@ devtools::install_bitbucket('n0s3n/rawcopy/rawcopyPackage')
 # check dei pacchetti mancanti
 #############################################
 
-actual_packages <- installed.packages(lib.loc = "C:/Users/andre/AppData/Local/R/win-library/4.2")
+actual_packages <- installed.packages(lib.loc = "C:/Users/vincenza.solli2//AppData/Local/R/win-library/4.2")
 actual_packages <- actual_packages %>% as.data.frame()
 
 list.of.packages2 <- actual_packages$Package
-list.of.packages[!(list.of.packages %in% list.of.packages2)]
+list.of.packages[(list.of.packages %in% list.of.packages2)==F]
