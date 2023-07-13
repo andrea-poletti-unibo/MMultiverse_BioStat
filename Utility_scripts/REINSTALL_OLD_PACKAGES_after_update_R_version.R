@@ -2,13 +2,13 @@
 .libPaths()
 
 # grab old packages names
-old_packages <- installed.packages(lib.loc = "C:/Users/andre/AppData/Local/R/win-library/4.2/")
+old_packages <- installed.packages(lib.loc = "C:/Users/andre/AppData/Local/R/win-library/4.3/")
 
 old_packages <- as.data.frame(old_packages)
 
 list.of.packages <- unlist(old_packages$Package)
 
-save(old_packages, file="workfiles/package_list_andrea_24-05-23.Rda")
+save(old_packages, file="workfiles/package_list_andrea_13-07-23.Rda")
 
 
 # install necessary packages
