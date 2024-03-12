@@ -14,10 +14,10 @@ save(old_packages, file="workfiles/package_list_andrea_13-07-23.Rda")
 # install necessary packages
 # install.packages("dplyr")
 
-library(dplyr)
+library(tidyverse)
 
 # carica il file
-load("workfiles/package_list_old_ajsi.Rda")
+load("workfiles/package_list_andrea_13-07-23.Rda")
 
 list.of.packages <- unlist(old_packages$Package)
 
@@ -29,7 +29,10 @@ if(length(new.packages)) install.packages(new.packages)
 # Reinstallzione pacchetti da BIOCONDUCTOR
 
 list.of.packages.biocond <- old_packages %>% filter(grepl("Artistic", old_packages$License)) %>% .$Package
+
+
 BiocManager::install(list.of.packages.biocond)
+
 
 installed.bicond <- installed.packages() %>% as.data.frame() %>% filter(grepl("Artistic", .$License)) %>% .$Package
 
@@ -51,6 +54,11 @@ devtools::install_github('VanLoo-lab/ascat/ASCAT')
 devtools::install_github("Wedge-Oxford/dpclust")
 
 devtools::install_github("andrea-poletti-unibo/BioNerds")
+devtools::install_bitbucket('n0s3n/rawcopy/rawcopyPackage')
+
+install.packages("C:/Users/andre/Alma Mater Studiorum Università di Bologna/Bioinformatics Seràgnoli - Documenti/EVERGREEN_Bioinformatica/BioNerds-0.2.tar.gz", repos = NULL, type="source")
+
+
 devtools::install_bitbucket('n0s3n/rawcopy/rawcopyPackage')
 
 
